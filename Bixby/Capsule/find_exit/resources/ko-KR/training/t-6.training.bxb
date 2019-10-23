@@ -1,0 +1,5 @@
+train (t-6k5dkoc0qy6mz6cot0jy0h0q4) {
+  utterance ("[g:Results] (수도권)[v:REGION:수도권] (강남)[v:STATIONNAME] 출구 찾아줘, (다이소)[v:DESTINATIONNAME]")
+  plan (Y2BlEEkpii8uTkyr1MtOztULSi0uzSkpZpBHEU1PLXFJLS7JzEssyczP88ksLmGQQVHg4hoc4unnGOLp7+fn6OvKIIxqqKs7UIJBAkUwOAShnIWBkYGJgRlIMwBZEAgDIDGoHAA=)
+  last-modified (1571847786715)
+}

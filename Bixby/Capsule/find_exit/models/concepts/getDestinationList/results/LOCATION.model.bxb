@@ -1,0 +1,4 @@
+structure (LOCATION) {
+  description (37~ Latitude, 126~ Longitude)
+  role-of (geo.GeoPoint)
+}

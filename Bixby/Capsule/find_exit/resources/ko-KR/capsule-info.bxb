@@ -1,0 +1,19 @@
+capsule-info {
+  display-name (__DISPLAY_NAME__)
+  developer-name (__COMPANY_NAME__)
+  icon-asset (/images/icons/subway-exit.png)
+  description ("__DESCRIPTION__")
+  website-url (https://example.com/)
+  terms-url (https://example.com/terms-of-use/)
+  dispatch-name (출구찾기)
+  dispatch-aliases {
+    alias (출구)
+    alias (출구 찾기)
+  }
+  search-keywords {
+    keyword (지하철)
+    keyword (출구)
+    keyword (출구찾기)
+    keyword (출구 찾기)
+  }
+}

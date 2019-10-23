@@ -1,0 +1,8 @@
+enum (REGION) {
+  description (5개의 지역)
+  symbol (수도권)
+  symbol (부산)
+  symbol (대구)
+  symbol (광주)
+  symbol (대전)
+}

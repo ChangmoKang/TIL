@@ -1,0 +1,19 @@
+action (getDestinationList) {
+  description (입력받은 목적지에 대한 결과(들))
+  collect {
+    input (region) {
+      type (REGION)
+      min (Required) max (One)
+    }
+    input (stationName) {
+      type (STATIONNAME)
+      min (Required) max (One)
+    }
+    input (destinationName) {
+      type (DESTINATIONNAME)
+      min (Required) max (One)
+    }
+  }
+  type(Search)
+  output (Results)
+}

@@ -1,0 +1,19 @@
+structure (StationData) {
+  description (__DESCRIPTION__)
+  property (region) {
+    type (REGION)
+    min (Required) max (One)
+  }
+  property (name) {
+    type (STATIONNAME)
+    min (Required) max (One)
+  }
+  property (location) {
+    type (LOCATION)
+    min (Required) max (One)
+  }
+  property (exits) {
+    type (Exits)
+    min (Required) max (Many)
+  }
+}

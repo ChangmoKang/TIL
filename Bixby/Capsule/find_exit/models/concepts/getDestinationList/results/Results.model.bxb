@@ -1,0 +1,11 @@
+structure (Results) {
+  description (__DESCRIPTION__)
+  property (stationData) {
+    type (StationData)
+    min (Required) max (One)
+  }
+  property (destinationData) {
+    type (DestinationData)
+    min (Required) max (Many)
+  }
+}
