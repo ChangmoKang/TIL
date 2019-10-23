@@ -1,0 +1,5 @@
+hints {
+  uncategorized {
+    hint (__UTTERANCE__)
+  }
+}
