@@ -1,5 +1,0 @@
-train (t-thlgq4otyfdt0hyyr9jluhp8o) {
-  utterance ("[g:FindExit] (수도권)[v:REGIONNAME:수도권] (수원)[v:STATIONNAME]에서 (스타벅스)[v:DESTINATIONNAME]")
-  plan (Y2BnkEgpii8uTkyr1MtOztVzSS1OLsosKMnMz2MQRZFxy8xLca3ILGEQRhEOSi0uzSlhkEcRdE8tARpUkpmXCDLIJ7O4hEEG1RrX4BBPP8cQT38/P0dfVwZxVDNd3WESqK4LDkFoYWNgZGBiYGZgYWAFshmgPBBkBPNggAXIhqoBAA==)
-  last-modified (1571912534609)
-}

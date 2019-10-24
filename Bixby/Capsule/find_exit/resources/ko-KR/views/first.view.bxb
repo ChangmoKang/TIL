@@ -11,9 +11,12 @@ input-view {
         map-card {
           zoom(16)
           title-area {
+            halign (End)
             slot1 {
               single-line {
                 text {
+                  color (Red)
+                  style (Title_M)
                   value ("#{value(one.destination.name)}")
                 }
               }
@@ -21,6 +24,7 @@ input-view {
             slot2 {
               single-line {
                 text {
+                  color (Blue)
                   value ("거리 : #{value(one.straightDistance)}m")
                 }
               }

@@ -5,6 +5,10 @@ structure (Description) {
     type (EXITNUM)
     min (Required) max (One)
   }
+  property (exitLocation) {
+    type (LOCATION)
+    min (Required) max (One)
+  }
   property (pedestrianDistance) {
     type (PEDESTRIANDISTANCE)
     min (Required) max (One)

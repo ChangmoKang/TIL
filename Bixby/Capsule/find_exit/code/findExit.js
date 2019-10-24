@@ -33,8 +33,7 @@ module.exports.function = function findExit (result) {
 
   let minDistance = Infinity
   let exitNum = null
-  let pedestrianDistance
-  let requiredTime
+  let pathDetail = null
   Object.keys(rawExits).forEach(function(one) {
     oneLocation = rawExits[one]
     flag = true
@@ -51,22 +50,35 @@ module.exports.function = function findExit (result) {
     if (flag) {
       tmapParams['startX'] = oneLocation[0]
       tmapParams['startY'] = oneLocation[1]
-      response = http.postUrl(tmapUrl, tmapParams, tmapHeaders).features[0]['properties']
-      if (response['totalDistance'] < minDistance) {
-        pedestrianDistance = response['totalDistance']
-        requiredTime = response['totalTime']
+      response = http.postUrl(tmapUrl, tmapParams, tmapHeaders).features
+      if (response[0]['properties']['totalDistance'] < minDistance) {
+        pedestrianDistance = response[0]['properties']['totalDistance']
+        requiredTime = response[0]['properties']['totalTime']
         minDistance = pedestrianDistance
         exitNum = one
+        pathDetail = response
+        exitLocation = {
+          'longitude': oneLocation[0],
+          'latitude': oneLocation[1]
+        }
       }
     }
   })
+
+  pathDetail = pathDetail.filter(e => {
+    return e['properties']['index'] % 2 == 0
+  }).map(e => {
+      return e['properties']['description']
+    })
 
   const description = {
     'station': result['station'],
     'destination': result['destination'],
     'exitNum': exitNum,
+    'exitLocation': exitLocation,
     'pedestrianDistance': pedestrianDistance,
     'requiredTime': Math.ceil(requiredTime/60)
   }
+  console.log(pathDetail)
   return description
 }
