@@ -13,8 +13,8 @@ var nationalStation = require('./data/nationalStation.js')
 var tmapAPI = secret.get('tmapAPI')
 
 module.exports.function = function findExit (result) {
-  const singleStation = nationalStation[result['regionName']][result['stationName']]
-  const destinationLocation = result['destination']['destinationLocation']
+  const singleStation = nationalStation[result['station']['regionName']][result['station']['name']]
+  const destinationLocation = result['destination']['location']
   const rawExits = singleStation['exits']
 
   const tmapUrl = 'https://apis.openapi.sk.com/tmap/routes/pedestrian?version=1&appKey=' + tmapAPI
@@ -27,8 +27,8 @@ module.exports.function = function findExit (result) {
   const tmapParams = {
     'endX': destinationLocation['longitude'],
     'endY': destinationLocation['latitude'],
-    'startName': result['stationName']+'역',
-    'endName': result['destination']['destinationName']
+    'startName': result['station']['name']+'역',
+    'endName': result['destination']['name']
   }
 
   let minDistance = Infinity
@@ -62,12 +62,11 @@ module.exports.function = function findExit (result) {
   })
 
   const description = {
-    'regionName': result['regionName'],
-    'stationName': result['stationName'],
+    'station': result['station'],
     'destination': result['destination'],
     'exitNum': exitNum,
     'pedestrianDistance': pedestrianDistance,
-    'requiredTime': requiredTime
+    'requiredTime': Math.ceil(requiredTime/60)
   }
   return description
 }

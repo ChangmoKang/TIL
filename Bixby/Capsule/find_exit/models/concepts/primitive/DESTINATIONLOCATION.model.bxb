@@ -1,4 +1,0 @@
-structure (DESTINATIONLOCATION) {
-  description (목적지의 위치 // 37~ Latitude, 126~ Longitude)
-  role-of (geo.GeoPoint)
-}

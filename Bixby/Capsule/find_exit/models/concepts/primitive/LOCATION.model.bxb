@@ -1,0 +1,4 @@
+structure (LOCATION) {
+  description (지하철과 목적지의 위치를 담는 Model)
+  role-of (geo.GeoPoint)
+}

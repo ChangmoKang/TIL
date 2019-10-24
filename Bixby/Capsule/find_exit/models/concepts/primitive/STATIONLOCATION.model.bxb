@@ -1,4 +1,0 @@
-structure (STATIONLOCATION) {
-  description (지하철 위치)
-  role-of (geo.GeoPoint)
-}

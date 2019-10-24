@@ -50,11 +50,17 @@ module.exports.function = function getDestinationList (regionName, stationName, 
   let index = 0
   response['documents'].forEach(function(each) {
     results[index] = {
-      'regionName': regionName,
-      'stationName': stationName,
+      'station': {
+        'regionName': regionName,
+        'name': stationName,
+        'location': {
+          'longitude': singleStation['location'][0],
+          'latitude': singleStation['location'][1]
+        }
+      },
       'destination': {
-        'destinationName': each.place_name,
-        'destinationLocation': {
+        'name': each.place_name,
+        'location': {
           'longitude': each.x,
           'latitude': each.y
         },

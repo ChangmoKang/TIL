@@ -1,11 +1,11 @@
 structure (Destination) {
   description (목적지 이름과 목적지 위치)
-  property (destinationName) {
-    type (DESTINATIONNAME)
+  property (name) {
+    type (NAME)
     min (Required) max (One)
   }
-  property (destinationLocation) {
-    type (DESTINATIONLOCATION)
+  property (location) {
+    type (LOCATION)
     min (Required) max (One)
   }
 }

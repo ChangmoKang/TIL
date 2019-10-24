@@ -14,7 +14,7 @@ input-view {
             slot1 {
               single-line {
                 text {
-                  value ("#{value(one.destination.destinationName)}")
+                  value ("#{value(one.destination.name)}")
                 }
               }
             }
@@ -28,7 +28,7 @@ input-view {
           }
           markers {
             marker {
-              geo (one.destination.destinationLocation)
+              geo (one.destination.location)
               icon ("/images/icons/red-map-marker.png")
               width (20)
               height (20)

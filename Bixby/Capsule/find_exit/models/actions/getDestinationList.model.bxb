@@ -3,15 +3,15 @@ action (GetDestinationList) {
   collect {
     input (regionName) {
       type (REGIONNAME)
-      min (Optional) max (One)
+      min (Required) max (One)
     }
     input (stationName) {
       type (STATIONNAME)
-      min (Optional) max (One)
+      min (Required) max (One)
     }
     input (destinationName) {
       type (DESTINATIONNAME)
-      min (Optional) max (One)
+      min (Required) max (One)
     }
   }
   type(Search)

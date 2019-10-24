@@ -1,0 +1,15 @@
+structure (Station) {
+  description (지역이름, 지하철이름, 지하철위치)
+  property (regionName) {
+    type (REGIONNAME)
+    min (Required) max (One)
+  }
+  property (name) {
+    type (NAME)
+    min (Required) max (One)
+  }
+  property (location) {
+    type (LOCATION)
+    min (Required) max (One)
+  }
+}
