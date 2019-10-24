@@ -11,13 +11,13 @@ var console = require('console');
 var kakaoKeywordSearch = require('./function/kakaoKeywordSearch.js')
 
 
-module.exports.function = function getDestinationList (region, stationName, destinationName) {
+module.exports.function = function getDestinationList (regionName, stationName, destinationName) {
   // region이 있는지 확인
   const nationalStation = require('./data/nationalStation.js')
 
   let isRegionCorrect = false;
-  Object.keys(nationalStation).forEach(function(name) {
-    if (name == region) { isRegionCorrect = true; }
+  Object.keys(nationalStation).forEach(function(region) {
+    if (region == regionName) { isRegionCorrect = true; }
   })
   if (!isRegionCorrect) {
     throw fail.checkedError('지역명 오류','NotFoundRegion', {})
@@ -25,11 +25,11 @@ module.exports.function = function getDestinationList (region, stationName, dest
 
 
   // stationName이 있는지 확인
-  const regionalStation = nationalStation[region]
+  const regionalStation = nationalStation[regionName]
 
   let isStationNameCorrect = false;
-  Object.keys(regionalStation).forEach(function(name) {
-    if (name == stationName) { isStationNameCorrect = true; }
+  Object.keys(regionalStation).forEach(function(station) {
+    if (station == stationName) { isStationNameCorrect = true; }
   })
   if (!isStationNameCorrect) {
     throw fail.checkedError('지하철명 오류','NotFoundStationName', {})
@@ -46,37 +46,23 @@ module.exports.function = function getDestinationList (region, stationName, dest
 
 
   // results 만들기
-  const results = {}
-
-  const stationData = {
-    'region': region,
-    'name': stationName,
-    'location': {
-      'longitude': singleStation['location'][0],
-      'latitude': singleStation['location'][1]
-    },
-    'exits': singleStation['exits']
-  }
-
-  const destiantionData = []
+  const results = []
   let index = 0
   response['documents'].forEach(function(each) {
-    destiantionData[index] = {
-      'name': each.place_name,
-      'location': {
-        'longitude': each.x,
-        'latitude': each.y
+    results[index] = {
+      'regionName': regionName,
+      'stationName': stationName,
+      'destination': {
+        'destinationName': each.place_name,
+        'destinationLocation': {
+          'longitude': each.x,
+          'latitude': each.y
+        },
       },
-      'distance': each.distance
+      'straightDistance': each.distance
     }
-    index++
+    index += 1
   })
 
-  results = {
-    'stationData': stationData,
-    'destiantionData': destiantionData
-  }
-
-  console.log(results)
   return results
 }

@@ -1,0 +1,11 @@
+action (UpdateRegionName) {
+  type(Constructor)
+  description (__DESCRIPTION__)
+  collect {
+    input (regionName) {
+      type (REGIONNAME)
+      min (Required) max (One)
+    }
+  }
+  output (REGIONNAME)
+}

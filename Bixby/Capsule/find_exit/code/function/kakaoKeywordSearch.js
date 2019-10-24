@@ -7,8 +7,8 @@ var secret = require('secret');
 var console = require('console');
 
 // kakao
-var kakaoApi = secret.get('kakaoApi');
-var headers = {'Authorization': kakaoApi}
+var kakaoAPI = secret.get('kakaoAPI');
+var headers = {'Authorization': kakaoAPI}
 
 // https://developers.kakao.com/docs/restapi/local#키워드로-장소-검색
 module.exports = function kakaoKeywordSearch (query, location) {

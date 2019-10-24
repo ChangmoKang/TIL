@@ -1,0 +1,16 @@
+structure (Description) {
+  description (출구번호, 걷는거리, 예상시간 추가)
+  extends (BaseStructure)
+  property (exitNum) {
+    type (EXITNUM)
+    min (Required) max (One)
+  }
+  property (pedestrianDistance) {
+    type (PEDESTRIANDISTANCE)
+    min (Required) max (One)
+  }
+  property (requiredTime) {
+    type (REQUIREDTIME)
+    min (Required) max (One)
+  }
+}

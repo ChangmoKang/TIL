@@ -1,0 +1,15 @@
+structure (BaseStructure) {
+  description (지역, 지하철명, 목적지 정보를 상속할 수 있다.)
+  property (regionName) {
+    type (REGIONNAME)
+    min (Required) max (One)
+  }
+  property (stationName) {
+    type (STATIONNAME)
+    min (Required) max (One)
+  }
+  property (destination) {
+    type (Destination)
+    min (Required) max (One)
+  }
+}

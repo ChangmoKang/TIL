@@ -1,0 +1,5 @@
+train (t-bxlr0t05b9nzn1u4hgoa4red4) {
+  utterance ("[g:Description] (수도권)[v:REGIONNAME:수도권] (강남)[v:STATIONNAME]에서 (바나프레소)[v:DESTINATIONNAME]")
+  plan (Y2BnkEgpii8uTkyr1MtOztVzSS1OLsosKMnMz2MQRZFxy8xLca3ILGEQRhEOSi0uzSlhkEcRdE8tARpUkpmXCDLIJ7O4hEEG1RrX4BBPP8cQT38/P0dfVwZxVDNd3WESqK4LDkFoYWNgZGBiYGZgYWAFshmgPBBkBPNggAWMwWoA)
+  last-modified (1571912528709)
+}

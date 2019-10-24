@@ -1,0 +1,3 @@
+integer (EXITNUM) {
+  description (가장 적절한 출구)
+}

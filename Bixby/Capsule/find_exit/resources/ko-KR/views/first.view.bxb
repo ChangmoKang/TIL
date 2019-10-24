@@ -1,0 +1,45 @@
+input-view {
+  match: Result (this) {
+    to-input: FindExit
+  }
+
+  message ("가시려는 곳이 정확히 어디인가요?")
+
+  render {
+    selection-of (this) {
+      where-each (one) {
+        map-card {
+          zoom(16)
+          title-area {
+            slot1 {
+              single-line {
+                text {
+                  value ("#{value(one.destination.destinationName)}")
+                }
+              }
+            }
+            slot2 {
+              single-line {
+                text {
+                  value ("거리 : #{value(one.straightDistance)}m")
+                }
+              }
+            }
+          }
+          markers {
+            marker {
+              geo (one.destination.destinationLocation)
+              icon ("/images/icons/red-map-marker.png")
+              width (20)
+              height (20)
+              anchor-x (5)
+              anchor-y (15)
+              rotation (0)
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

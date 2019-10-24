@@ -1,4 +1,4 @@
-enum (REGION) {
+enum (REGIONNAME) {
   description (5개의 지역)
   symbol (수도권)
   symbol (부산)

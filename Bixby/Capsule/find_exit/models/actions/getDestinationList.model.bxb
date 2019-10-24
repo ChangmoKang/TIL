@@ -1,19 +1,49 @@
-action (getDestinationList) {
+action (GetDestinationList) {
   description (입력받은 목적지에 대한 결과(들))
   collect {
-    input (region) {
-      type (REGION)
-      min (Required) max (One)
+    input (regionName) {
+      type (REGIONNAME)
+      min (Optional) max (One)
     }
     input (stationName) {
       type (STATIONNAME)
-      min (Required) max (One)
+      min (Optional) max (One)
     }
     input (destinationName) {
       type (DESTINATIONNAME)
-      min (Required) max (One)
+      min (Optional) max (One)
     }
   }
   type(Search)
-  output (Results)
+  output (Result) {
+    throws {
+      error (NotFoundRegion) {
+        on-catch {
+          replace (regionName) {
+            intent {
+              goal: UpdateRegionName
+            }
+          }
+        }
+      }
+      error (NotFoundStationName) {
+        on-catch {
+          replace (stationName) {
+            intent {
+              goal: UpdateStationName
+            }
+          }
+        }
+      }
+      error (NotFoundDestinationName) {
+        on-catch {
+          replace (destinationName) {
+            intent {
+              goal: UpdateDestinationName
+            }
+          }
+        }
+      }
+    }
+  }
 }

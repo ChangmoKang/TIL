@@ -1,0 +1,17 @@
+action (FindExit) {
+  description (__DESCRIPTION__)
+  collect {
+    input (result) {
+      type (Result)
+      min (Required) max (One)
+      prompt-behavior (AlwaysSelection)
+      default-init {
+        intent {
+          goal: GetDestinationList
+        }
+      }
+    }
+  }
+  type (Search)
+  output (Description) // 임시로
+}

@@ -1,0 +1,3 @@
+text (DESTINATIONNAME) {
+  description (목적지의 이름)
+}

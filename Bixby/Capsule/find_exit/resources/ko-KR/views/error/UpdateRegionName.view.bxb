@@ -1,0 +1,24 @@
+input-view{
+  match: REGIONNAME(this){
+    to-input: UpdateRegionName
+  }
+  message{
+    template ("존재하지 않는 지역 이름입니다. \n 지역 이름을 다시 말해주세요.")
+  }
+  
+  render{
+    form{
+      elements{
+        text-input{
+          id(regionName)
+          type(REGIONNAME)
+          max-length (50)
+        }
+      }
+      on-submit{
+        goal: REGIONNAME
+        value: viv.core.FormElement(regionName)
+      }
+    }
+  }
+}

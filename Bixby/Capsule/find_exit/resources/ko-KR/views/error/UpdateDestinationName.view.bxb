@@ -1,0 +1,24 @@
+input-view{
+  match: DESTINATIONNAME(this){
+    to-input: UpdateDestinationName
+  }
+  message{
+    template ("목적지를 찾을 수 없습니다. 목적지를 다시 말해주세요.")
+  }
+  
+  render{
+    form{
+      elements{
+        text-input{
+          id(destinationName)
+          type(DESTINATIONNAME)
+          max-length (50)
+        }
+      }
+      on-submit{
+        goal: DESTINATIONNAME
+        value: viv.core.FormElement(destinationName)
+      }
+    }
+  }
+}

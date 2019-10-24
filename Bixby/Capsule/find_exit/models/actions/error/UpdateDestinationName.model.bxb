@@ -1,0 +1,11 @@
+action (UpdateDestinationName) {
+  type(Constructor)
+  description (__DESCRIPTION__)
+  collect {
+    input (destinationName) {
+      type (DESTINATIONNAME)
+      min (Required) max (One)
+    }
+  }
+  output (DESTINATIONNAME)
+}

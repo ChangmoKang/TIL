@@ -1,16 +1,28 @@
 endpoints {
   action-endpoints {
-    // Uncomment the lines below and enter the information for actions, inputs, and the appropriate local or remote endpoints
-    action-endpoint (getDestinationList) {
-      accepted-inputs (region, stationName, destinationName)
+    action-endpoint (GetDestinationList) {
+      accepted-inputs (regionName, stationName, destinationName)
       local-endpoint (getDestinationList.js)
     }
 
-    // action-endpoint (__ACTION_NAME__) {
-    //   accepted-inputs (__LIST_OF_ACTION_INPUTS__)
-    //   remote-endpoint (__ENDPOINT_URL__) {
-    //     method (__HTTP_METHOD_USED__)
-    //   }
-    // }
+    action-endpoint (FindExit) {
+      accepted-inputs (result)
+      local-endpoint (findExit.js)
+    }
+
+    action-endpoint (UpdateRegionName) {
+      accepted-inputs (regionName)
+      local-endpoint (error/updateRegionName.js)
+    }
+
+    action-endpoint (UpdateStationName) {
+      accepted-inputs (stationName)
+      local-endpoint (error/updateStationName.js)
+    }
+
+    action-endpoint (UpdateDestinationName) {
+      accepted-inputs (destinationName)
+      local-endpoint (error/updateDestinationName.js)
+    }
   }
 }

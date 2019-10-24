@@ -23,6 +23,7 @@ capsule {
     import (viv.geo) {as (geo) version (9.21.0)}
   }
   store-sections {
+    section (Local)
     section (TravelAndTransportation)
   }
 }

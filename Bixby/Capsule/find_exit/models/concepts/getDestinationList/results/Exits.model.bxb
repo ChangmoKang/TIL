@@ -1,3 +1,0 @@
-structure (Exits) {
-  role-of (geo.GeoPoint)
-}

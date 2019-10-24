@@ -1,0 +1,3 @@
+text (STRAIGHTDISTANCE) {
+  description (지하철 출구와 목적지 사이의 직선거리)
+}
