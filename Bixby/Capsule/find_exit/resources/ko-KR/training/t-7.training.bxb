@@ -1,5 +1,0 @@
-train (t-7mau3iz0cuqubg9l6u6lh9na2) {
-  utterance ("[g:Description] (수도권)[v:REGIONNAME] (강동역)[v:STATIONNAME]에서 (스타벅스)[v:DESTINATIONNAME]로 가는 출구 알려줘")
-  plan (Y2BnkEwpii8uTkyr1EutyCzRc0ktTi7KLCjJzM9jEEOVcsvMS3EFMhhEUMWDUotLc0oYFFBF3VNLgGaVZOYlgszyySwuYZBFs8o1OMTTzzHE09/Pz9HXlUECzVhXd5gMmhuDQxCa2BgYGZgYmBlYGFiBbAYoDwQZwTwYYAFjsBoA)
-  last-modified (1571971444139)
-}

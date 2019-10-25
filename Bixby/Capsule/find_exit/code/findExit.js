@@ -66,11 +66,11 @@ module.exports.function = function findExit (result) {
     }
   })
 
-  pathDetail = pathDetail.filter(e => {
-    return e['properties']['index'] % 2 == 0
-  }).map(e => {
-      return e['properties']['description']
-    })
+  // pathDetail = pathDetail.filter(e => {
+  //   return e['properties']['index'] % 2 == 0
+  // }).map(e => {
+  //     return e['properties']['description']
+  //   })
 
   // for bixby speech
   const exitNumKr = exitNum.split("").map(e => {
@@ -89,7 +89,7 @@ module.exports.function = function findExit (result) {
   const description = {
     'station': result['station'],
     'destination': result['destination'],
-    'exitNum': [exitNum, exitNumKr],
+    'exitNum': exitNum,
     'exitLocation': exitLocation,
     'pedestrianDistance': pedestrianDistance,
     'requiredTime': Math.ceil(requiredTime/60),

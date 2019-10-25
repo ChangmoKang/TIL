@@ -1,0 +1,46 @@
+input-view {
+  match: Station(this) {
+    to-input: GetDestinationList
+  }
+
+  render {
+    selection-of (this) {
+      where-each (one) {
+        map-card {
+          zoom(16)
+          title-area {
+            halign (End)
+            slot1 {
+              single-line {
+                text {
+                  color (Red)
+                  style (Title_M)
+                  value ("#{value(one.regionName)}")
+                }
+              }
+            }
+            slot2 {
+              single-line {
+                text {
+                  color (Blue)
+                  value ("역이름 : #{value(one.name)}m")
+                }
+              }
+            }
+          }
+          markers {
+            marker {
+              geo (one.location)
+              icon ("/images/icons/red-map-marker.png")
+              width (20)
+              height (20)
+              anchor-x (5)
+              anchor-y (15)
+              rotation (0)
+            }
+          }
+        }
+      }
+    }
+  }
+}

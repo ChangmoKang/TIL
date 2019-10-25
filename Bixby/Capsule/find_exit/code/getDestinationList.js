@@ -11,33 +11,10 @@ var console = require('console');
 var kakaoKeywordSearch = require('./function/kakaoKeywordSearch.js')
 
 
-module.exports.function = function getDestinationList (regionName, stationName, destinationName) {
-  // region이 있는지 확인
+// module.exports.function = function getDestinationList (regionName, stationName, destinationName) {
+module.exports.function = function getDestinationList (station, destinationName) {
   const nationalStation = require('./data/nationalStation.js')
-
-  let isRegionCorrect = false;
-  Object.keys(nationalStation).forEach(region => {
-    if (region == regionName) { isRegionCorrect = true; }
-  })
-  if (!isRegionCorrect) {
-    throw fail.checkedError('지역명 오류','NotFoundRegion', {})
-  }
-
-
-  // stationName이 있는지 확인
-  const regionalStation = nationalStation[regionName]
-
-  let isStationNameCorrect = false;
-  Object.keys(regionalStation).forEach(station => {
-    if (station == stationName) { isStationNameCorrect = true; }
-  })
-  if (!isStationNameCorrect) {
-    throw fail.checkedError('지하철명 오류','NotFoundStationName', {})
-  }
-
-
-  // destinationName이 있는지 확인
-  const singleStation = regionalStation[stationName]
+  const singleStation = nationalStation[station['regionName']][station['name']]
   
   const response = kakaoKeywordSearch(destinationName, singleStation['location'])
   if (!response['documents'].length) {
@@ -51,8 +28,8 @@ module.exports.function = function getDestinationList (regionName, stationName, 
   response['documents'].forEach(each => {
     results[index] = {
       'station': {
-        'regionName': regionName,
-        'name': stationName,
+        'regionName': station['regionName'],
+        'name': station['name'],
         'location': {
           'longitude': singleStation['location'][0],
           'latitude': singleStation['location'][1]
@@ -71,4 +48,63 @@ module.exports.function = function getDestinationList (regionName, stationName, 
   })
 
   return results
+  // // region이 있는지 확인
+  // const nationalStation = require('./data/nationalStation.js')
+
+  // let isRegionCorrect = false;
+  // Object.keys(nationalStation).forEach(region => {
+  //   if (region == regionName) { isRegionCorrect = true; }
+  // })
+  // if (!isRegionCorrect) {
+  //   throw fail.checkedError('지역명 오류','NotFoundRegion', {})
+  // }
+
+
+  // // stationName이 있는지 확인
+  // const regionalStation = nationalStation[regionName]
+
+  // let isStationNameCorrect = false;
+  // Object.keys(regionalStation).forEach(station => {
+  //   if (station == stationName) { isStationNameCorrect = true; }
+  // })
+  // if (!isStationNameCorrect) {
+  //   throw fail.checkedError('지하철명 오류','NotFoundStationName', {})
+  // }
+
+
+  // // destinationName이 있는지 확인
+  // const singleStation = regionalStation[stationName]
+  
+  // const response = kakaoKeywordSearch(destinationName, singleStation['location'])
+  // if (!response['documents'].length) {
+  //   throw fail.checkedError('목적지명 오류', 'NotFoundDestinationName', {})
+  // }
+
+
+  // // results 만들기
+  // const results = []
+  // let index = 0
+  // response['documents'].forEach(each => {
+  //   results[index] = {
+  //     'station': {
+  //       'regionName': regionName,
+  //       'name': stationName,
+  //       'location': {
+  //         'longitude': singleStation['location'][0],
+  //         'latitude': singleStation['location'][1]
+  //       }
+  //     },
+  //     'destination': {
+  //       'name': each.place_name,
+  //       'location': {
+  //         'longitude': each.x,
+  //         'latitude': each.y
+  //       },
+  //     },
+  //     'straightDistance': each.distance
+  //   }
+  //   index += 1
+  // })
+
+  // return results
 }

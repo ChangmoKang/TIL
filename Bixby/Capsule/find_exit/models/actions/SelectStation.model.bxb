@@ -1,0 +1,21 @@
+action (SelectStation) {
+  description (사용자가 원하는 역을 특정하는 Action)
+  collect {
+    input (stationName) {
+      type (STATIONNAME)
+      min (Required) max (One)
+    }
+  }
+  type (Search)
+  output (Station) {
+    on-empty {
+      halt {
+        dialog {
+          template ("#{value(stationName)}을 찾지 못하였습니다.") {
+            speech ("#{value(stationName)}과 이름이 일치하거나 포함된 역을 찾지 못하였습니다. 다시 시도해주세요.")
+          }
+        }
+      }
+    }
+  }
+}

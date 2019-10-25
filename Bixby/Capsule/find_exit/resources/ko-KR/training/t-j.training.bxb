@@ -1,5 +1,0 @@
-train (t-jqcgso50zs9wzbcbcmt3yoxrw) {
-  utterance ("[g:Description] (수도권)[v:REGIONNAME] (강남역)[v:STATIONNAME]에서 (바나프레소)[v:DESTINATIONNAME]로 가는 출구 알려줘")
-  plan (Y2BnkEwpii8uTkyr1EutyCzRc0ktTi7KLCjJzM9jEEOVcsvMS3EFMhhEUMWDUotLc0oYFFBF3VNLgGaVZOYlgszyySwuYZBFs8o1OMTTzzHE09/Pz9HXlUECzVhXd5gMmhuDQxCa2BgYGZgYmBlYGFiBbAYoDwQZwTwYYAFjsBoA)
-  last-modified (1571969803197)
-}
