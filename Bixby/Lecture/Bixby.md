@@ -283,3 +283,91 @@ action(1) {
 ![Bixby Capsule 개요](./asset/5-1/4.png)
 
 * Dialog는 message와 // Layout은 render와 // Follow-Up은 Conversation-driver와 관련있다.
+
+
+
+## 문자열 컨셉의 종류와 구분과 vocab 사용하기
+
+문자열 컨셉의 종류는 Enum, Name, Text가 있다.
+
+
+
+### 문자열의 종류와 구분
+
+#### Enum
+
+![enum](./asset/7-2/1.png)
+
+* 범위가 한정된 closed type의 컨셉
+* 반드시 Vocab이 필요
+
+
+
+#### Name
+
+![name](./asset/7-2/2.png)
+
+
+
+#### Text
+
+![text](./asset/7-2/3.png)
+
+
+
+#### 정리
+
+![type](./asset/7-2/4.png)
+
+
+
+### Vocab이란
+
+![vocab](./asset/7-2/5.png)
+
+
+
+![how_to_create_vocab](./asset/7-2/6.png)
+
+* enum의 경우 vocab이 필수!
+
+
+
+![boolean](./asset/7-2/7.png)
+
+
+
+![name](./asset/7-2/8.png)
+
+
+
+![etc](./asset/7-2/9.png)
+
+
+
+### 제약사항
+
+![](./asset/7-2/10.png)
+
+
+
+## 자연어 학습하기
+
+![basic](./asset/7-3/1.png)
+
+
+
+![](./asset/7-3/2.png)
+
+
+
+![](./asset/7-3/3.png)
+
+
+
+![](./asset/7-3/4.png)
+
+
+
+![](./asset/7-3/5.png)
+
