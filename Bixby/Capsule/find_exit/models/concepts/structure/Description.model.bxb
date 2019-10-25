@@ -17,4 +17,8 @@ structure (Description) {
     type (REQUIREDTIME)
     min (Required) max (One)
   }
+  property (speech) {
+    type (Speech)
+    min (Required) max (One)
+  }
 }

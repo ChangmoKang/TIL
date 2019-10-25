@@ -13,7 +13,7 @@ var headers = {'Authorization': kakaoAPI}
 // https://developers.kakao.com/docs/restapi/local#키워드로-장소-검색
 module.exports = function kakaoKeywordSearch (query, location) {
   const radius = 10000
-
+  console.log(kakaoAPI)
   const baseUrl = 'https://dapi.kakao.com/v2/local/search/keyword.json'
   const extend = '?y=' + location[1] + '&x=' + location[0] + '&radius=' + radius + '&query=' + encodeURI(query)
   const url = baseUrl + extend

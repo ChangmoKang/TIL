@@ -16,7 +16,7 @@ module.exports.function = function getDestinationList (regionName, stationName, 
   const nationalStation = require('./data/nationalStation.js')
 
   let isRegionCorrect = false;
-  Object.keys(nationalStation).forEach(function(region) {
+  Object.keys(nationalStation).forEach(region => {
     if (region == regionName) { isRegionCorrect = true; }
   })
   if (!isRegionCorrect) {
@@ -28,7 +28,7 @@ module.exports.function = function getDestinationList (regionName, stationName, 
   const regionalStation = nationalStation[regionName]
 
   let isStationNameCorrect = false;
-  Object.keys(regionalStation).forEach(function(station) {
+  Object.keys(regionalStation).forEach(station => {
     if (station == stationName) { isStationNameCorrect = true; }
   })
   if (!isStationNameCorrect) {
@@ -48,7 +48,7 @@ module.exports.function = function getDestinationList (regionName, stationName, 
   // results 만들기
   const results = []
   let index = 0
-  response['documents'].forEach(function(each) {
+  response['documents'].forEach(each => {
     results[index] = {
       'station': {
         'regionName': regionName,

@@ -8,6 +8,7 @@ var console = require('console');
 
 // DB
 var nationalStation = require('./data/nationalStation.js')
+var numToKr = {'1': '일', '2': '이', '3': '삼', '4': '사', '5': '오', '6': '육', '7': '칠', '8': '팔', '9': '구', '-': '다시'}
 
 // tmap
 var tmapAPI = secret.get('tmapAPI')
@@ -27,7 +28,7 @@ module.exports.function = function findExit (result) {
   const tmapParams = {
     'endX': destinationLocation['longitude'],
     'endY': destinationLocation['latitude'],
-    'startName': result['station']['name']+'역',
+    'startName': result['station']['name'],
     'endName': result['destination']['name']
   }
 
@@ -71,13 +72,31 @@ module.exports.function = function findExit (result) {
       return e['properties']['description']
     })
 
+  // for bixby speech
+  const exitNumKr = exitNum.split("").map(e => {
+    return numToKr[e]
+  }).join("")
+  
+  const stationNameKr = result['station']['name'].split("").filter(e => {
+    if (e == '.') return false
+    return true
+  }).map(e => {
+    if (e in numToKr) return numToKr[e]
+    return e
+  }).join("")
+
+
   const description = {
     'station': result['station'],
     'destination': result['destination'],
-    'exitNum': exitNum,
+    'exitNum': [exitNum, exitNumKr],
     'exitLocation': exitLocation,
     'pedestrianDistance': pedestrianDistance,
-    'requiredTime': Math.ceil(requiredTime/60)
+    'requiredTime': Math.ceil(requiredTime/60),
+    'speech': {
+      'stationName': stationNameKr,
+      'exitNum': exitNumKr
+    }
   }
   console.log(pathDetail)
   return description

@@ -3,11 +3,13 @@ result-view {
   
   message {
     if (this.pedestrianDistance > 2000) {
-      template ("#{value(this.station.name)}역 #{value(this.exitNum)}번 출구로 가세요.") {
-        speech ("걸어가기엔 먼 거리 같아요.")
+      template ("#{value(this.station.name)} #{value(this.exitNum)}번 출구로 가세요.") {
+        speech ("#{value(this.speech.stationName)}에서 걸어가기엔 먼 거리 같아요.")
       }
     } else {
-      template ("#{value(this.station.name)}역 #{value(this.exitNum)}번 출구로 가세요.")
+      template ("#{value(this.station.name)} #{value(this.exitNum)}번 출구로 가세요.") {
+        speech ("#{value(this.speech.stationName)} #{value(this.speech.exitNum)}번 출구로 가세요.")
+      }
     }
   }
   

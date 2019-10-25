@@ -1,0 +1,11 @@
+structure (Speech) {
+  description (출구와 지하철명을 bixby가 읽기 쉽도록 정제한 name과 exitNum)
+  property (stationName) {
+    type (NAME)
+    min (Required) max (One)
+  }
+  property (exitNum) {
+    type (EXITNUM)
+    min (Required) max (One)
+  }
+}
