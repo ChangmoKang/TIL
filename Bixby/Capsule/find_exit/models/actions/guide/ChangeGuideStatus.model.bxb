@@ -1,0 +1,15 @@
+action (ChangeGuideStatus) {
+  description (__DESCRIPTION__)
+  collect {
+    input (method) {
+      type (GUIDEMETHOD)
+      min (Required) max (One)
+    }
+    input (step) {
+      type (GUIDESTEP)
+      min (Required) max (One)
+    }
+  }
+  type (Search)
+  output (GUIDESTEP)
+}

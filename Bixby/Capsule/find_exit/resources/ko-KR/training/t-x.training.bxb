@@ -1,5 +1,5 @@
 train (t-xms8zyovmxh24y94ybu4pklui) {
-  utterance ([g:Guide] 사용법 알려줘)
-  plan (Y2BmEE4pii8uTkyr1EutyCzRcw/1dHHFECzNTEnFrpKJgRGIGYAkIwMDjAYA)
-  last-modified (1572177580474)
+  utterance ([g:Guide:continue] 사용법 알려줘)
+  plan (Y2BmEE8pii8uTkyr1EutyCzRcw/1dHENDnENYBBGkyjNTEnFrZqJgRGIGYAkIwMDjAYA)
+  last-modified (1572185968759)
 }

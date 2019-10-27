@@ -1,0 +1,5 @@
+train (t-l659wrz2cntlf0c99rre4om0i) {
+  utterance ("[g:Guide:continue,r:ChangeGuideStatus] (이전)[v:GUIDEMETHOD]")
+  plan (Y2BjEE8pii8uTkyr1EutyCzRcw/1dHENDnENYBBGkyjNTEnFrVoeVcI5IzEvPRWsJ7gksaS0mEESi05f1xAPfxfchrIyMDIwMTAzsABZDFA2M5BmAGMQAPFYgCQDAA==)
+  last-modified (1572186621202)
+}

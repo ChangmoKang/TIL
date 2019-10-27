@@ -1,5 +1,10 @@
 endpoints {
   action-endpoints {
+    action-endpoint (ChangeGuideStatus) {
+      accepted-inputs (method, step)
+      local-endpoint (changeGuideStatus.js)
+    }
+
     action-endpoint (SelectStation) {
       accepted-inputs (stationName, userLocation)
       local-endpoint (selectStation.js)

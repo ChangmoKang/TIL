@@ -1,11 +1,38 @@
 result-view {
-  match: GUIDE (this)
+  match: GUIDESTEP (this)
   
   message {
-    template-macro (T-guide)
+    template-macro (T-guide) {
+      param (step) {
+        expression (this)
+      }
+    }
   }
   
   render {
-    layout-macro (L-guide)
+    layout-macro (L-guide) {
+      param (step) {
+        expression (this)
+      }
+    }
+  }
+
+  conversation-drivers {
+    if (this == 0) {
+      conversation-driver {
+        template ("다음")
+      }
+    } else-if (this == 4) {
+      conversation-driver {
+        template ("이전")
+      }
+    } else {
+      conversation-driver {
+        template ("이전")
+      }
+      conversation-driver {
+        template ("다음")
+      }
+    }
   }
 }

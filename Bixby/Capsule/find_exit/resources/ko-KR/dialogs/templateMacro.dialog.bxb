@@ -1,9 +1,25 @@
 template-macro-def (T-guide) {
+  params {
+    param (step) {
+      type (GUIDESTEP)
+      min (Required) max (One)
+    }
+  }
   content {
-    choose (Random) {
-      template ("출구찾기 사용법을 알려드릴게요")
-      template ("교대역과 스타벅스로 예를 들어 설명해드릴게요")
-      template ("출구찾기는 아래와 같이 사용하실 수 있습니다.")
+    if (step == 0) {
+      template ("교대역과 스타벅스로\n예를 들어 설명해드릴게요")
+    } else-if (step == 1) {
+      template ("출발지(교대역)를 고르는 화면입니다.") {
+        speech ("출발지를 고르는 화면입니다.")
+      }
+    } else-if (step == 2) {
+      template ("목적지(스타벅스)를 고르는 화면입니다.") {
+        speech ("목적지를 고르는 화면입니다.")
+      }
+    } else-if (step == 3) {
+      template ("결과 예시 화면입니다.")
+    } else-if (step == 4) {
+      template ("요약 화면입니다.")
     }
   }
 }

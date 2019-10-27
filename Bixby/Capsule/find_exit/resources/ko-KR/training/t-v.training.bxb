@@ -3,3 +3,8 @@ train (t-vuky1mounh1uuyojgd7d1apyo) {
   plan (Y+BgkEwpii8uTkyr1EutyCzRc0ktTi7KLCjJzM9jEEOVcsvMS3EFMhhEUMWDUotLc0oYFFBF3VNLgGaVZOYlgszyySwuYZBFs8o1OMTTzzHE09/Pz9HXlUEUVTq4BKyTQRpNODUnNbkEJonm+uAQhHHsDIwMTAzMDCwMrAxsQB4DlM8M5jOC+QxwkhmIWUCqAA==)
   last-modified (1572162343368)
 }
+train (t-vzic1lcmc1cjwglgmqdbwjf8m) {
+  utterance ("[g:Guide:continue,r:ChangeGuideStatus] (다음)[v:GUIDEMETHOD]")
+  plan (Y2BjEE8pii8uTkyr1EutyCzRcw/1dHENDnENYBBGkyjNTEnFrVoeVcI5IzEvPRWsJ7gksaS0mEESi05f1xAPfxfchrIyMDIwMTAzsABZDFA2M5BmAGMQAPFYgCQDAA==)
+  last-modified (1572186596087)
+}
