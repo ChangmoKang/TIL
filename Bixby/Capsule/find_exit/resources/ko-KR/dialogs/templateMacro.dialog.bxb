@@ -1,0 +1,50 @@
+template-macro-def (T-guide) {
+  content {
+    choose (Random) {
+      template ("출구찾기 사용법을 알려드릴게요")
+      template ("교대역과 스타벅스로 예를 들어 설명해드릴게요")
+      template ("출구찾기는 아래와 같이 사용하실 수 있습니다.")
+    }
+  }
+}
+
+template-macro-def (T-selectStation) {
+  content {
+    choose (Random) {
+      template ("정확한 지하철 역사 위치를 선택해주세요")
+      template ("지하철 역사이름을 선택해주세요")
+      template ("다수의 지하철 역사가 검색되었습니다.")
+    }
+  }
+}
+
+template-macro-def (T-selectDestination) {
+  content {
+    choose (Random) {
+      template ("목적지가 정확히 어디인가요?")
+      template ("목적지를 선택해주세요")
+    }
+  }
+}
+
+template-macro-def (T-showResult) {
+  params {
+    param (description) { // template-macro에서 넘겨준 변수 이름
+      type (Description)
+      min (Required) max (One)
+    }
+  }
+  content {
+    choose (Random) {
+      if (description.wayTooFar == 2) {
+        template ("#{value(description.station.name)} #{value(description.exitNum)}번 출구로 가세요.") {
+          speech ("#{value(description.speech.stationName)} #{value(description.speech.exitNum)}번 출구로 가세요. 예상 소요시간은 #{value(description.requiredTime)}분 입니다. #{value(description.speech.stationName)}에서 걸어가기엔 먼 거리 같아요.")
+        }
+      } else {
+        template ("#{value(description.station.name)} #{value(description.exitNum)}번 출구로 가세요.") {
+          speech ("#{value(description.speech.stationName)} #{value(description.speech.exitNum)}번 출구로 가세요. 예상 소요시간은 #{value(description.requiredTime)}분 입니다.")
+        }
+      }
+    }
+  }
+}

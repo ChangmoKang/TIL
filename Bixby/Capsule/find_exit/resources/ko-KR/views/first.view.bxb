@@ -3,43 +3,16 @@ input-view {
     to-input: FindExit
   }
 
-  message ("가시려는 곳이 정확히 어디인가요?")
+  message {
+    template-macro (T-selectDestination)
+  }
 
   render {
     selection-of (this) {
       where-each (one) {
-        map-card {
-          zoom(16)
-          title-area {
-            halign (End)
-            slot1 {
-              single-line {
-                text {
-                  color (Red)
-                  style (Title_M)
-                  value ("#{value(one.destination.name)}")
-                }
-              }
-            }
-            slot2 {
-              single-line {
-                text {
-                  color (Blue)
-                  value ("거리 : #{value(one.straightDistance)}m")
-                }
-              }
-            }
-          }
-          markers {
-            marker {
-              geo (one.destination.location)
-              icon ("/images/icons/red-map-marker.png")
-              width (20)
-              height (20)
-              anchor-x (5)
-              anchor-y (15)
-              rotation (0)
-            }
+        layout-macro (L-selectDestination) {
+          param (result) {
+            expression (one)
           }
         }
       }

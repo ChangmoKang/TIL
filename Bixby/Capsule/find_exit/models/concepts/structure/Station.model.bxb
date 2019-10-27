@@ -12,4 +12,8 @@ structure (Station) {
     type (LOCATION)
     min (Required) max (One)
   }
+  property (distance) {
+    type (STRAIGHTDISTANCE)
+    min (Optional) max (One)
+  }
 }

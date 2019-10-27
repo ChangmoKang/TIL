@@ -9,35 +9,47 @@ var console = require('console');
 // DB
 var nationalStation = require('./data/nationalStation.js')
 
+// 함수호출
+var calcDistance = require('./function/calcDistance.js')
+var priorityPush = require('./function/priorityPush.js')
+var transformDistance = require('./function/transformDistance.js')
 
-module.exports = function selectStation (stationName) {
-  const pickResults = []
-  const similarResults = []
+module.exports = function selectStation (stationName, userLocation) {
+  let correctResults = []
+  let similarResults = []
   Object.keys(nationalStation).forEach(region => {
     Object.keys(nationalStation[region]).forEach(each => {
+      location = {
+        'longitude': nationalStation[region][each]['location'][0],
+        'latitude': nationalStation[region][each]['location'][1]
+      }
+
       if (each == stationName) {
-        pickResults.push({
+        correctResults = priorityPush(correctResults, {
           'regionName': region,
           'name': each,
-          'location': {
-            'longitude': nationalStation[region][each]['location'][0],
-            'latitude': nationalStation[region][each]['location'][1]
-          }
+          'location': location,
+          'distance': calcDistance(location, userLocation)
         })
       }
-      else if (each.includes(stationName)) {
-        similarResults.push({
+      else if (each.includes(stationName.slice(0, -1))) {
+        similarResults = priorityPush(similarResults, {
           'regionName': region,
           'name': each,
-          'location': {
-            'longitude': nationalStation[region][each]['location'][0],
-            'latitude': nationalStation[region][each]['location'][1]
-          }
+          'location': location,
+          'distance': calcDistance(location, userLocation)
         })
       }
     })
   })
 
-  console.log(pickResults, similarResults)
-  return pickResults
+  if (correctResults.length !== 0) {
+    correctResults = transformDistance(correctResults)
+    return correctResults
+  } else if (similarResults.length !== 0) {
+    similarResults = transformDistance(similarResults)
+    return similarResults
+  } else {
+    return null
+  }
 }

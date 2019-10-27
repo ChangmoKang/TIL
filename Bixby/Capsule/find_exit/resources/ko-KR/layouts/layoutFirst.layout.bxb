@@ -1,0 +1,97 @@
+layout-macro-def (L-selectDestination) {
+  params {
+    param (result) {
+      type (Result)
+      min (Required) max (One)
+    }
+  }
+
+  content {
+    compound-card {
+      content {
+        map-card {
+          zoom(16)
+          title-area {
+            halign (End)
+            slot2 {
+              single-line {
+                text {
+                  value ("")
+                }
+              }
+            }
+          }
+          markers {
+            marker {
+              geo (result.destination.location)
+              icon ("/images/icons/red-marker.png")
+              width (20)
+              height (20)
+              anchor-x (5)
+              anchor-y (15)
+              rotation (0)
+            }
+          }
+        }
+        hbox {
+          content {
+            vbox {
+              grow(3)
+              content {
+                single-line {
+                  text {
+                    color (Blue)
+                    value ("목적지")
+                  }
+                }
+                single-line {
+                  text {
+                    style (Detail_L)
+                    value ("#{value(result.destination.name)}")
+                  }
+                }
+              }
+            }
+            divider
+            vbox {
+              grow(1)
+              content {
+                single-line {
+                  text {
+                    color (Blue)
+                    value ("거리")
+                  }
+                }
+                if (result.wayTooFar == 2) {
+                  single-line {
+                    text {
+                      style (Detail_L)
+                      color (Red)
+                      value ("#{value(result.straightDistance)}")
+                    }
+                  }
+                } else-if (result.wayTooFar == 1) {
+                  single-line {
+                    text {
+                      style (Detail_L)
+                      color (Amber)
+                      value ("#{value(result.straightDistance)}")
+                    }
+                  }
+                } else {
+                  single-line {
+                    text {
+                      style (Detail_L)
+                      color (Green)
+                      value ("#{value(result.straightDistance)}")
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

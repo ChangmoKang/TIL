@@ -11,7 +11,6 @@ var console = require('console');
 var kakaoKeywordSearch = require('./function/kakaoKeywordSearch.js')
 
 
-// module.exports.function = function getDestinationList (regionName, stationName, destinationName) {
 module.exports.function = function getDestinationList (station, destinationName) {
   const nationalStation = require('./data/nationalStation.js')
   const singleStation = nationalStation[station['regionName']][station['name']]
@@ -26,6 +25,21 @@ module.exports.function = function getDestinationList (station, destinationName)
   const results = []
   let index = 0
   response['documents'].forEach(each => {
+    let wayTooFar
+    if (Number(each.distance) > 2000) {
+      wayTooFar = 2
+    } else if (Number(each.distance) > 1000) {
+      wayTooFar = 1
+    } else {
+      wayTooFar = 0
+    }
+
+    if (Number(each.distance) > 1000) {
+      each.distance = (each.distance/1000).toFixed(2) + 'km'
+    } else {
+      each.distance = each.distance + 'm'
+    }
+
     results[index] = {
       'station': {
         'regionName': station['regionName'],
@@ -42,69 +56,11 @@ module.exports.function = function getDestinationList (station, destinationName)
           'latitude': each.y
         },
       },
-      'straightDistance': each.distance
+      'straightDistance': each.distance,
+      'wayTooFar': wayTooFar
     }
     index += 1
   })
 
   return results
-  // // region이 있는지 확인
-  // const nationalStation = require('./data/nationalStation.js')
-
-  // let isRegionCorrect = false;
-  // Object.keys(nationalStation).forEach(region => {
-  //   if (region == regionName) { isRegionCorrect = true; }
-  // })
-  // if (!isRegionCorrect) {
-  //   throw fail.checkedError('지역명 오류','NotFoundRegion', {})
-  // }
-
-
-  // // stationName이 있는지 확인
-  // const regionalStation = nationalStation[regionName]
-
-  // let isStationNameCorrect = false;
-  // Object.keys(regionalStation).forEach(station => {
-  //   if (station == stationName) { isStationNameCorrect = true; }
-  // })
-  // if (!isStationNameCorrect) {
-  //   throw fail.checkedError('지하철명 오류','NotFoundStationName', {})
-  // }
-
-
-  // // destinationName이 있는지 확인
-  // const singleStation = regionalStation[stationName]
-  
-  // const response = kakaoKeywordSearch(destinationName, singleStation['location'])
-  // if (!response['documents'].length) {
-  //   throw fail.checkedError('목적지명 오류', 'NotFoundDestinationName', {})
-  // }
-
-
-  // // results 만들기
-  // const results = []
-  // let index = 0
-  // response['documents'].forEach(each => {
-  //   results[index] = {
-  //     'station': {
-  //       'regionName': regionName,
-  //       'name': stationName,
-  //       'location': {
-  //         'longitude': singleStation['location'][0],
-  //         'latitude': singleStation['location'][1]
-  //       }
-  //     },
-  //     'destination': {
-  //       'name': each.place_name,
-  //       'location': {
-  //         'longitude': each.x,
-  //         'latitude': each.y
-  //       },
-  //     },
-  //     'straightDistance': each.distance
-  //   }
-  //   index += 1
-  // })
-
-  // return results
 }

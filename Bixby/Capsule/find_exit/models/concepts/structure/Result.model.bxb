@@ -6,4 +6,8 @@ structure (Result) {
     type (STRAIGHTDISTANCE)
     min (Required) max (One)
   }
+  property (wayTooFar) {
+    type (WAYTOOFAR)
+    min (Required) max (One)
+  }
 }

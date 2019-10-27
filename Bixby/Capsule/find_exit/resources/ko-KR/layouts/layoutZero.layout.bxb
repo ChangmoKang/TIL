@@ -1,0 +1,63 @@
+layout-macro-def (L-selectStation) {
+  params {
+    param (station) {
+      type (Station)
+      min (Required) max (One)
+    }
+  }
+
+  content {
+    compound-card {
+      content {
+        map-card {
+          zoom(16)
+          title-area {
+            halign (End)
+            slot2 {
+              single-line {
+                text {
+                  color (Amber)
+                  style (Title_M)
+                  value ("")
+                }
+              }
+            }
+
+          }
+          markers {
+            marker {
+              geo (station.location)
+              icon ("/images/icons/red-marker.png")
+              width (20)
+              height (20)
+              anchor-x (5)
+              anchor-y (15)
+              rotation (0)
+            }
+          }
+        }
+        title-area {
+          halign (End)
+          slot2 {
+            single-line {
+              text {
+                style (Title_M)
+                value ("#{value(station.regionName)} #{value(station.name)}")
+              }
+            }
+          }
+          slot3 {
+            single-line {
+              if (exists(station.distance)) {
+                text {
+                  style (Detail_M)
+                  value ("현재 위치에서 #{value(station.distance)}떨어져 있습니다.")
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

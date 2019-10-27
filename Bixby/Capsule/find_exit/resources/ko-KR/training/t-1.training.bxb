@@ -1,0 +1,5 @@
+train (t-1tzolywlbkj6nhzikln8olupo) {
+  utterance ("[g:Description] (강동역)[v:STATIONNAME]에서 (치과)[v:DESTINATIONNAME] 가는 길 알려줘")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572171085926)
+}

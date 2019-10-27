@@ -1,5 +1,0 @@
-train (t-ui7n310wn9i1sln5thurwvp8p) {
-  utterance ("[g:FindExit] (시청역)[v:STATIONNAME]에서 (스타벅스)[v:DESTINATIONNAME]로 가는 출구 알려줘")
-  plan (Y+BgkEwpii8uTkyr1EutyCzRc0ktTi7KLCjJzM9jEEOVcsvMS3EFMhhEUMWDUotLc0oYFFBF3VNLgGaVZOYlgszyySwuYZBFs8o1OMTTzzHE09/Pz9HXlUEUVTq4BKyTQRpNODUnNbkEJonm+uAQhHHsDIwMTAzMDCwMrAxsQB4DlM8M5jOC+QxwkhlIs4BUAQA=)
-  last-modified (1571982836827)
-}

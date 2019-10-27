@@ -22,6 +22,9 @@ capsule {
     import (viv.time) {as (time) version (3.0.3)}
     import (viv.geo) {as (geo) version (9.21.0)}
   }
+  permissions {
+    user-profile-access
+  }
   store-sections {
     section (Local)
     section (TravelAndTransportation)

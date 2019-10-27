@@ -1,0 +1,5 @@
+train (t-spd6yt9s5t5jz1hl187pe93z4) {
+  utterance ("[g:Description] (교대역)[v:STATIONNAME] (스타벅스)[v:DESTINATIONNAME] 출구")
+  plan (Y+BgkEwpii8uTkyr1EutyCzRc0ktTi7KLCjJzM9jEEOVcsvMS3EFMhhEUMWDUotLc0oYFFBF3VNLgGaVZOYlgszyySwuYZBFs8o1OMTTzzHE09/Pz9HXlUEUVTq4BKyTQRpNODUnNbkEJonm+uAQhHHsDIwMTAzMDCwMrAxsQB4DlM8M5jOC+QxwkhmIWUCqAA==)
+  last-modified (1572161900669)
+}

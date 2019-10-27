@@ -13,5 +13,15 @@ action (FindExit) {
     }
   }
   type (Search)
-  output (Description)
+  output (Description) {
+    throws {
+      unknown-error {
+        on-catch {
+          halt {
+            dialog ("알 수 없는 에러가 발생하였습니다. 다시 시도해주시기 바랍니다.")
+          }
+        }
+      }
+    }
+  }
 }

@@ -1,0 +1,11 @@
+result-view {
+  match: GUIDE (this)
+  
+  message {
+    template-macro (T-guide)
+  }
+  
+  render {
+    layout-macro (L-guide)
+  }
+}

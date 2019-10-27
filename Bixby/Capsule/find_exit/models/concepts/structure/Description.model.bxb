@@ -21,4 +21,8 @@ structure (Description) {
     type (Speech)
     min (Required) max (One)
   }
+  property (wayTooFar) {
+    type (WAYTOOFAR)
+    min (Required) max (One)
+  }
 }

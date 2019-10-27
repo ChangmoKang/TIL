@@ -1,93 +1,18 @@
 result-view {
-  match: Description(this)
+  match: Description (this)
   
   message {
-    if (this.pedestrianDistance > 2000) {
-      template ("#{value(this.station.name)} #{value(this.exitNum)}번 출구로 가세요.") {
-        speech ("#{value(this.speech.stationName)}에서 걸어가기엔 먼 거리 같아요.")
-      }
-    } else {
-      template ("#{value(this.station.name)} #{value(this.exitNum)}번 출구로 가세요.") {
-        speech ("#{value(this.speech.stationName)} #{value(this.speech.exitNum)}번 출구로 가세요.")
+    template-macro (T-showResult) { // def 이름
+      param (description) { // def에서 사용할 이름
+        expression (this) // 어떤걸 def에 넘길건지
       }
     }
   }
   
   render {
-    layout {
-      section {
-        content {
-          map-card {
-            zoom (10)
-            aspect-ratio (4:3)
-            title-area {
-              slot2 {
-                single-line {
-                  text {
-                    value ("거리 : #{value(this.pedestrianDistance)}m")
-                  }
-                }
-              }
-              slot3 {
-                single-line {
-                  text {
-                    value ("예상 소요시간 : #{value(this.requiredTime)}분")
-                  }
-                }
-              }
-            }
-            markers {
-              marker {
-                geo (this.exitLocation)
-                icon ("/images/icons/red-map-marker-fin-fin.png")
-                width (15)
-                height (20)
-                anchor-x (5)
-                anchor-y (15)
-                rotation (0)
-              }
-              marker {
-                geo (this.destination.location)
-                icon ("/images/icons/green-map-marker-fin-fin.png")
-                width (15)
-                height (20)
-                anchor-x (5)
-                anchor-y (15)
-                rotation (0)
-              }
-            }
-          }
-          cell-card {
-            slot1 {
-              image {
-                shape (Circle)
-                url ("/images/icons/red-map-marker-fin-fin.png")
-              }
-            }
-            slot2 {
-              content {
-                primary ("출발지(S) : #{value(this.station.name)} #{value(this.exitNum)}번 출구")
-              }
-            }
-          }
-          cell-card {
-            slot1 {
-              image {
-                shape (Circle)
-                url ("/images/icons/green-map-marker-fin-fin.png")
-              }
-            }
-            slot2 {
-              content {
-                primary ("도착지(G) : #{value(this.destination.name)}")
-              }
-            }
-          }
-          paragraph {
-            value ("목적지가 역사 내에 있는 경우 정확하지 않을 수 있습니다.")
-            style (Detail_M_Soft)
-          }
-        }
+    layout-macro (L-showResult) {
+      param (description) {
+        expression (this)
       }
     }
   }

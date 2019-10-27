@@ -1,6 +1,6 @@
 capsule-info {
-  display-name (__DISPLAY_NAME__)
-  developer-name (__COMPANY_NAME__)
+  display-name (출구찾기)
+  developer-name (pathfinders)
   icon-asset (/images/icons/subway-exit.png)
   description ("__DESCRIPTION__")
   website-url (https://example.com/)

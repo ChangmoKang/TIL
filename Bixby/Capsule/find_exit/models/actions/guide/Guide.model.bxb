@@ -1,0 +1,23 @@
+action (Guide) {
+  description (사용법을 알려준다)
+  collect {
+    input (guide) {
+      type (GUIDE)
+      min (Required) max (One)
+      default-init {
+        intent {
+          goal: Guide
+          value: GUIDE(설명서)
+        }
+      }
+
+    }
+  }
+  type (Search)
+
+  output (GUIDE) {
+    evaluate {
+      $expr(guide)
+    }
+  }
+}

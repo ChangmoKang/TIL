@@ -1,0 +1,121 @@
+layout-macro-def (L-showResult) {
+  params {
+    param (description) {
+      type (Description)
+      min (Required) max (One)
+    }
+  }
+  content {
+    layout {
+      section {
+        content {
+          map-card {
+            zoom (10)
+            aspect-ratio (4:3)
+            title-area {
+              halign (End)
+              slot2 {
+                single-line {
+                  text {
+                    value ("보행거리 :")
+                  }
+                  spacer
+                  if (description.wayTooFar == 2) {
+                    text {
+                      color (Red)
+                      value ("#{value(description.pedestrianDistance)}")
+                    }
+                  } else-if (description.wayTooFar == 1) {
+                    text {
+                      color (Amber)
+                      value ("#{value(description.pedestrianDistance)}")
+                    }
+                  } else {
+                    text {
+                      color (Green)
+                      value ("#{value(description.pedestrianDistance)}")
+                    }
+                  }
+                }
+              }
+              slot3 {
+                single-line {
+                  text {
+                    value ("예상 소요시간 :")
+                  }
+                  spacer
+                  if (description.wayTooFar == 2) {
+                    text {
+                      color (Red)
+                      value ("#{value(description.requiredTime)}분")
+                    }
+                  } else-if (description.wayTooFar == 1) {
+                    text {
+                      color (Amber)
+                      value ("#{value(description.requiredTime)}분")
+                    }
+                  } else {
+                    text {
+                      color (Green)
+                      value ("#{value(description.requiredTime)}분")
+                    }
+                  }
+                }
+              }
+            }
+            markers {
+              marker {
+                geo (description.exitLocation)
+                icon ("/images/icons/start-map.png")
+                width (15)
+                height (20)
+                anchor-x (5)
+                anchor-y (15)
+                rotation (0)
+              }
+              marker {
+                geo (description.destination.location)
+                icon ("/images/icons/end-map.png")
+                width (15)
+                height (20)
+                anchor-x (5)
+                anchor-y (15)
+                rotation (0)
+              }
+            }
+          }
+          cell-card {
+            slot1 {
+              image {
+                shape (Circle)
+                url ("/images/icons/start-description.png")
+              }
+            }
+            slot2 {
+              content {
+                primary ("출발지(S) : #{value(description.station.name)} #{value(description.exitNum)}번 출구")
+              }
+            }
+          }
+          cell-card {
+            slot1 {
+              image {
+                shape (Circle)
+                url ("/images/icons/end-description.png")
+              }
+            }
+            slot2 {
+              content {
+                primary ("도착지(G) : #{value(description.destination.name)}")
+              }
+            }
+          }
+          paragraph {
+            value ("목적지가 역사 내에 있는 경우 정확하지 않을 수 있습니다.")
+            style (Detail_M_Soft)
+          }
+        }
+      }
+    }
+  }
+}

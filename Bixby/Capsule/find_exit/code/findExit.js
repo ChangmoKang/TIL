@@ -35,6 +35,7 @@ module.exports.function = function findExit (result) {
   let minDistance = Infinity
   let exitNum = null
   let pathDetail = null
+  let wayTooFar = 0
   Object.keys(rawExits).forEach(function(one) {
     oneLocation = rawExits[one]
     flag = true
@@ -54,6 +55,22 @@ module.exports.function = function findExit (result) {
       response = http.postUrl(tmapUrl, tmapParams, tmapHeaders).features
       if (response[0]['properties']['totalDistance'] < minDistance) {
         pedestrianDistance = response[0]['properties']['totalDistance']
+        
+        if (pedestrianDistance > 2000) {
+          wayTooFar = 2
+        } else if (pedestrianDistance > 1000) {
+          wayTooFar = 1
+        } else {
+          wayTooFar = 0
+        }
+
+        if (pedestrianDistance > 1000) {
+          pedestrianDistance = (pedestrianDistance/1000).toFixed(2) + 'km'
+        } else {
+          pedestrianDistance = (pedestrianDistance) + 'm'
+        }
+
+
         requiredTime = response[0]['properties']['totalTime']
         minDistance = pedestrianDistance
         exitNum = one
@@ -73,9 +90,14 @@ module.exports.function = function findExit (result) {
   //   })
 
   // for bixby speech
-  const exitNumKr = exitNum.split("").map(e => {
-    return numToKr[e]
-  }).join("")
+  let exitNumKr
+  if (exitNum.includes("-") || exitNum.length === 1) {
+    exitNumKr = exitNum.split("").map(e => {
+      return numToKr[e]
+    }).join("")
+  } else {
+    exitNumKr = exitNum
+  }
   
   const stationNameKr = result['station']['name'].split("").filter(e => {
     if (e == '.') return false
@@ -96,7 +118,8 @@ module.exports.function = function findExit (result) {
     'speech': {
       'stationName': stationNameKr,
       'exitNum': exitNumKr
-    }
+    },
+    'wayTooFar': wayTooFar
   }
   console.log(pathDetail)
   return description
