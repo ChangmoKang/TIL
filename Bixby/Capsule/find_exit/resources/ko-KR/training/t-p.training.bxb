@@ -1,3 +1,8 @@
+train (t-p4sayruqa5gfkv2w9zfofnxan) {
+  utterance ("[g:Description] (잠실야구장)[v:DESTINATIONNAME]에 도착하려면 (종합운동장역)[v:STATIONNAME]에서 어떻게 나가야하니")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572272609955)
+}
 train (t-psdvlunyg19ap45g1e05p24je) {
   utterance ("[g:Description] (율리역)[v:STATIONNAME]에서 (하나로마트)[v:DESTINATIONNAME]까지 거리는")
   plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)

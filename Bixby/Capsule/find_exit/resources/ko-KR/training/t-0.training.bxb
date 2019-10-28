@@ -1,3 +1,8 @@
+train (t-04m39gw1zd4zox272jzbfnn8l) {
+  utterance ("[g:Description] (본아이에프)[v:DESTINATIONNAME]로 갈껀데 (영등포구청역)[v:STATIONNAME]에서 몇 번 출구로 가")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572276384554)
+}
 train (t-0507p485ucklu1bttoe2n0l7l) {
   utterance ("[g:Description] (파라다이스시티역)[v:STATIONNAME]에서 (인천공항)[v:DESTINATIONNAME] 가는 방법 알려줄래")
   plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)

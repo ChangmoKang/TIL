@@ -3,10 +3,20 @@ train (t-z7pj9zrxko6vxm4bp3yowpehz) {
   plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
   last-modified (1572251871512)
 }
-train (t-ztka5i6ul9hxwet1zcuo2fq9l) {
-  utterance ("[g:Description] (신대방역)[v:dr_ssafy.exit.STATIONNAME]에서 (신대방삼거리역)[v:dr_ssafy.exit.DESTINATIONNAME]에 가고 싶어")
+train (t-zee61wbgyra02xfxnkziesyfv) {
+  utterance ("[g:Description] (구의역)[v:dr_ssafy.exit.STATIONNAME]에서 (구의 제1동 주민센터로)[v:dr_ssafy.exit.DESTINATIONNAME] 가는 가장 빠른 출구 알려줘")
   plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
-  last-modified (1572251889921)
+  last-modified (1572274456700)
+}
+train (t-zfegn6o6kbbuq4w6toe3njmld) {
+  utterance ("[g:Description] (우성 6차 아파트)[v:dr_ssafy.exit.DESTINATIONNAME]로 가려면 (건대입구역)[v:dr_ssafy.exit.STATIONNAME]에서 어디로 나가야 돼")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572274400784)
+}
+train (t-ztka5i6ul9hxwet1zcuo2fq9l) {
+  utterance ("[g:Description] (신대방역)[v:STATIONNAME]에서 (신대방삼거리역)[v:DESTINATIONNAME]에 가고 싶어")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572272716332)
 }
 train (t-zx26qpxkrn5hfyjidycxa2g6k) {
   utterance ("[g:Description] (의정부시청역)[v:STATIONNAME]에서 (소방서)[v:DESTINATIONNAME] 가려면 몇 번 출구")

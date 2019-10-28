@@ -1,0 +1,10 @@
+train (t-u4fht1wxxalgu1r818ebxueqq) {
+  utterance ("[g:Description] (성수역)[v:STATIONNAME]에서 (성수 2가 제3동 주민센터)[v:DESTINATIONNAME] 가는 출구 알려줘")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572274351751)
+}
+train (t-ujelmlbg8nq5twl561drz8fsp) {
+  utterance ("[g:Description] (서울대입구역)[v:dr_ssafy.exit.STATIONNAME]에서 (명륜진사갈비)[v:dr_ssafy.exit.DESTINATIONNAME] 출구")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572275762847)
+}

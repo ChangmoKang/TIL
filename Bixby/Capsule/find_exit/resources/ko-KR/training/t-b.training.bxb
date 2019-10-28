@@ -8,3 +8,23 @@ train (t-b55x2pj5waj6gbkxjwcb0bu4z) {
   plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
   last-modified (1572252327897)
 }
+train (t-b9i8lccn9bt0jhawhypfuu76h) {
+  utterance ("[g:Description] (파리바게뜨)[v:DESTINATIONNAME] 갈껀데 (봉천역)[v:STATIONNAME]에서 몇 번 출구로 나가야 돼")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572275807677)
+}
+train (t-bh264r8kxg1ndltawe1qkpkt8) {
+  utterance ("[g:Description] (낙성대역)[v:dr_ssafy.exit.STATIONNAME]에서 (도서관)[v:dr_ssafy.exit.DESTINATIONNAME] 가는 출구 알려줘")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572275686558)
+}
+train (t-bh8pu0jz1p4f6bx1bsp8yz7jv) {
+  utterance ("[g:Description] 출발은 (금련사역)[v:STATIONNAME]에서 할거고 (올리베따노 성 베네딕도 수녀회)[v:DESTINATIONNAME]가 도착지야")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572272169752)
+}
+train (t-btijai7ve06gxecj0p9a04mm3) {
+  utterance ("[g:Description] (을지로4가역)[v:STATIONNAME]에서 (정건 벨라지오 오피스텔)[v:DESTINATIONNAME] 가는 출구 알려줘")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572273719398)
+}

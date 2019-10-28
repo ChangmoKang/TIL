@@ -1,7 +1,22 @@
+train (t-e1gurm1wgsinqwnmy192myqgx) {
+  utterance ("[g:Description] (서대전네거리역)[v:STATIONNAME]에서 (대전 충남 지방병무청)[v:DESTINATIONNAME]까지 가는 방법 알려줘 ")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572272356275)
+}
 train (t-eenpgbqdudl93awnppf4x9p5g) {
   utterance ("[g:Description] (구리역)[v:STATIONNAME]에서 (한양대병원)[v:DESTINATIONNAME]까지 어떻게 가야해")
   plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
   last-modified (1572251851899)
+}
+train (t-eiubq578sfp02fvdiu425v7z8) {
+  utterance ("[g:Description] (대화역)[v:STATIONNAME]에서 (킨텍스)[v:DESTINATIONNAME]로 가는 가장 빠른 출구 알려줘")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572277058477)
+}
+train (t-emaewu7e5rcd4k2sar13dveag) {
+  utterance ("[g:Description] (설화명곡역)[v:STATIONNAME] (LH 대구 경북 본부 분양 홍보관)[v:DESTINATIONNAME]까지 걸어갈 수 있니")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572272239458)
 }
 train (t-eut8ceooc70ecn99wjcr8r2tq) {
   utterance ("[g:Description] (디지털미디어시티역)[v:STATIONNAME]에서 (상암중학교)[v:DESTINATIONNAME] 가는 방법 알려줘")

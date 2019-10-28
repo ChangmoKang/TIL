@@ -1,0 +1,15 @@
+train (t-m07fqxylcifhx1exowai4ci1k) {
+  utterance ("[g:Description] (잠실나루역)[v:dr_ssafy.exit.STATIONNAME]에서 (장미 2차 아파트로)[v:dr_ssafy.exit.DESTINATIONNAME] 가는 출구 알려줘")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572274568796)
+}
+train (t-mf96r0mgxc5yfnmm70bpbm8t2) {
+  utterance ("[g:Description] (광주송정역)[v:STATIONNAME]에서 (삼성 디지털 프라자)[v:DESTINATIONNAME] 가는 길 알려줘")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572272954683)
+}
+train (t-mzed2cs3zay05zasqoe0pke30) {
+  utterance ("[g:Description] (신천 중학교)[v:DESTINATIONNAME] 가려면 (잠실새내역)[v:STATIONNAME]에서 몇 번 출구로 나가야 하지")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572274798838)
+}

@@ -3,8 +3,23 @@ train (t-ob3kebs4su7x1nfm6gnndh2i4) {
   plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
   last-modified (1572252580432)
 }
+train (t-oehk6mknzpjr3iq4zgpjhiuyw) {
+  utterance ("[g:Description] (LG전자 서비스센터)[v:DESTINATIONNAME]에 가야 하는데 (연지공원역)[v:STATIONNAME]에서 어떻게 나가 ")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572272548022)
+}
+train (t-ogkgicqn7xqyapv75gfgynytk) {
+  utterance ("[g:Description] (사당역)[v:dr_ssafy.exit.STATIONNAME]에서 (숙달돼지)[v:dr_ssafy.exit.DESTINATIONNAME]로 가는 출구")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572275616199)
+}
 train (t-ootcpehe7xjtz7vdiim6y0wrp) {
   utterance ("[g:Description] 목적지 (대티물꽁)[v:DESTINATIONNAME] 출발지 (대티역)[v:STATIONNAME]")
   plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
   last-modified (1572252991263)
+}
+train (t-oqs99o1q6yvccuhgartq4tozj) {
+  utterance ("[g:Description] (잠실역)[v:dr_ssafy.exit.STATIONNAME]에서 (롯데타워)[v:dr_ssafy.exit.DESTINATIONNAME] 가는 출구 알려줘")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572274653187)
 }

@@ -1,5 +1,10 @@
 train (t-imcg2237mafc8bww4neh39pgk) {
-  utterance ("[g:Description] (개포동역)[v:dr_ssafy.exit.STATIONNAME]에서 (개포동 근린공원)[v:dr_ssafy.exit.DESTINATIONNAME]까지 몇 분 걸리냐")
+  utterance ("[g:Description] (개포동역)[v:STATIONNAME]에서 (개포동 근린공원)[v:DESTINATIONNAME]까지 몇 분 걸리냐")
   plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
-  last-modified (1572252308602)
+  last-modified (1572272714003)
+}
+train (t-iuurac7gutmggw2mm7pghas32) {
+  utterance ("[g:Description] (금남로4가역)[v:STATIONNAME]에서 (코아 휘트니스센터)[v:DESTINATIONNAME]까지 걸어가고 싶은데 출구 번호 좀 알려줘")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572272297771)
 }

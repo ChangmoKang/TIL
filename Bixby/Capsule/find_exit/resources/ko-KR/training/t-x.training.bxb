@@ -3,6 +3,16 @@ train (t-xaokzqdtpgwpb693e95avwzy1) {
   plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
   last-modified (1572252735640)
 }
+train (t-xje45k9rg2ux6xicbgz9zriy8) {
+  utterance ("[g:Description] (정발산역)[v:dr_ssafy.exit.STATIONNAME] 근처 (공원)[v:dr_ssafy.exit.DESTINATIONNAME] 가는 길 알려줘")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572277165538)
+}
+train (t-xlss78s6bhq1dm1qzyevqdi4w) {
+  utterance ("[g:Description] (대전 둔산 경찰서)[v:DESTINATIONNAME]갈건데 (정부청사역)[v:STATIONNAME]에서 어떻게 갈까")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572272391898)
+}
 train (t-xqhqq2g9l80axw7v9pemf5fir) {
   utterance ("[g:Description] (잠실나루역)[v:STATIONNAME] (아산병원)[v:DESTINATIONNAME]")
   plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)

@@ -8,3 +8,13 @@ train (t-r8eg6fj5e4zc6tuzky1a768rb) {
   plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
   last-modified (1572252626288)
 }
+train (t-rfyle9xax1o40rnh2ft2902ae) {
+  utterance ("[g:Description] (시청역)[v:dr_ssafy.exit.STATIONNAME]에서 (국립현대미술관 덕수궁관)[v:dr_ssafy.exit.DESTINATIONNAME]으로 가는 출구 알려줘")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572273448265)
+}
+train (t-rvafwtfh2kwp0gsvogj49iav4) {
+  utterance ("[g:Description] (강남역)[v:DESTINATIONNAME]이 출발지고 (서초 2동 주민센터)[v:DESTINATIONNAME]가 도착지야")
+  plan (Y+BgkEwpii8uTkyr1EutyCzRc0ktTi7KLCjJzM9jEEOVcsvMS3EFMhhEUMWDUotLc0oYFFBF3VNLgGaVZOYlgszyySwuYZBFs8o1OMTTzzHE09/Pz9HXlUJpUVTp4BKwvQzsDIwMTAzMDCwMrAxsQB4DnM8CJBnBfAYGHiAEAWYgBqljAAA=)
+  last-modified (1572275193498)
+}

@@ -1,3 +1,8 @@
+train (t-6hhab6hf13tmrs9tl4tmudib4) {
+  utterance ("[g:Description] (홍대 예술의 거리)[v:DESTINATIONNAME]에 가려면 (홍대입구역)[v:STATIONNAME]에서 어디로 나가")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572273129992)
+}
 train (t-6kp2a6b687imn793c1og0dczq) {
   utterance ("[g:Description] (신세계백화점)[v:DESTINATIONNAME]은 (센텀시티역)[v:STATIONNAME]에서 어떻게 가")
   plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
@@ -12,4 +17,9 @@ train (t-6rkrj8yprbwbjsmt1xvxm5l21) {
   utterance ("[g:Description] (커피빈)[v:DESTINATIONNAME] 가고 싶어 (장산역)[v:STATIONNAME]에서 걸어갈 수 있어")
   plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
   last-modified (1572252755366)
+}
+train (t-6yrcqscupcgeebmb1dzcw9l76) {
+  utterance ("[g:Description] (주엽역)[v:dr_ssafy.exit.STATIONNAME]에서 (EBS)[v:dr_ssafy.exit.DESTINATIONNAME]로 가는 출구 알려줘")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572277107063)
 }

@@ -1,5 +1,20 @@
+train (t-k0nexufz99m0w4dzovdobhnhw) {
+  utterance ("[g:Description] (이대역)[v:dr_ssafy.exit.STATIONNAME]에서 (신촌 세브란스 병원)[v:dr_ssafy.exit.DESTINATIONNAME] 가는 출구 알려줘")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572273267412)
+}
 train (t-k95xugmmpg6rmao9m77tz5ym7) {
   utterance ("[g:Description] 목적지는 (도곡렉슬)[v:DESTINATIONNAME]이고 출발지는 (한티역)[v:STATIONNAME]이야")
   plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
   last-modified (1572252977175)
+}
+train (t-kddixoek41a13ioqnurf602t3) {
+  utterance ("[g:Description] (리버스 타운)[v:dr_ssafy.exit.DESTINATIONNAME] 가려면 (신림역)[v:dr_ssafy.exit.STATIONNAME]에서 몇 번 출구로 가야 해")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572275880256)
+}
+train (t-kel61lz5ypkbhguwjy2h2xe8r) {
+  utterance ("[g:Description] 출발지는 (삼성역)[v:STATIONNAME]이고 도착지는 (NC타워)[v:DESTINATIONNAME]야")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572275002957)
 }

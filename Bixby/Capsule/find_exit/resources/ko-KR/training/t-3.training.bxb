@@ -1,3 +1,8 @@
+train (t-30imtl4d80djm5rlqed9vrwz0) {
+  utterance ("[g:Description] (서초역)[v:dr_ssafy.exit.STATIONNAME]에서 (대법원)[v:dr_ssafy.exit.DESTINATIONNAME]가는 출구")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572275392273)
+}
 train (t-3bsmvk8drwvcxptcmt0d7l4fr) {
   utterance ("[g:Description] (상상미술관)[v:DESTINATIONNAME]까지 걸어가는 방법 알려줘 (김대중컨벤션센터역)[v:STATIONNAME]에서 갈거야 ")
   plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
@@ -14,7 +19,7 @@ train (t-3vrlrs1e6jqnys399g8cuncpn) {
   last-modified (1572252919265)
 }
 train (t-3xmoinkmw7mt98n4zmu0hl9nc) {
-  utterance ("[g:Description] (문학경기장역)[v:dr_ssafy.exit.STATIONNAME]에서 (문학구장)[v:dr_ssafy.exit.DESTINATIONNAME]까지 갈거야")
+  utterance ("[g:Description] (문학경기장역)[v:STATIONNAME]에서 (문학구장)[v:DESTINATIONNAME]까지 갈거야")
   plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
-  last-modified (1572252037883)
+  last-modified (1572272711854)
 }

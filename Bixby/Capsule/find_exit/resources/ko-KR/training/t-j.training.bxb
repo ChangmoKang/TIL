@@ -1,3 +1,8 @@
+train (t-j80u4i26o5c36jw4d3wx6s3wb) {
+  utterance ("[g:Description] 도착지는 (잠실 7동 주민센터)[v:DESTINATIONNAME]고 출발지는 (종합운동장역)[v:STATIONNAME]이야")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572274949955)
+}
 train (t-jjmcdg0ziuatiku4k2rrg4i5e) {
   utterance ("[g:Description] 목적지는 (KB국민은행)[v:DESTINATIONNAME] 출발지는 (부산대 양산캠퍼스역)[v:STATIONNAME]이야")
   plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)

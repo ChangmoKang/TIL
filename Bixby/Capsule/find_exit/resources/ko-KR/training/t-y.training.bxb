@@ -1,7 +1,12 @@
-train (t-yfsuw8bwoo6r4otkc2jjxcak7) {
-  utterance ("[g:Description] (노은도서관)[v:dr_ssafy.exit.DESTINATIONNAME]에 가고 싶은데 (지족역)[v:dr_ssafy.exit.STATIONNAME] 어디서 출발해햐 돼")
+train (t-y6az3vwgjape3puxt5z3liqdp) {
+  utterance ("[g:Description] (상왕십리역)[v:dr_ssafy.exit.STATIONNAME] (뚜레쥬르)[v:dr_ssafy.exit.DESTINATIONNAME]")
   plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
-  last-modified (1572253244106)
+  last-modified (1572273883515)
+}
+train (t-yfsuw8bwoo6r4otkc2jjxcak7) {
+  utterance ("[g:Description] (노은도서관)[v:DESTINATIONNAME]에 가고 싶은데 (지족역)[v:STATIONNAME] 어디서 출발해햐 돼")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572272715919)
 }
 train (t-ytri7ani6jyjoktg80bxti2jn) {
   utterance ("[g:Description] (벽화거리)[v:DESTINATIONNAME]에 가고 싶어 (현충원역)[v:STATIONNAME]에서 출발할거야")

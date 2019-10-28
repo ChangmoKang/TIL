@@ -1,3 +1,13 @@
+train (t-47kc8ehsltq0rixytxyae46aw) {
+  utterance ("[g:Description] (반석역)[v:STATIONNAME]을 출발지로 해서 (대전 반석 초등학교)[v:DESTINATIONNAME]에 가는 방법 좀 알려주겠니")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572272322086)
+}
+train (t-4en67d0mzt6pugq7chey6a8za) {
+  utterance ("[g:Description] (뚝섬 유수지 체육공원)[v:dr_ssafy.exit.DESTINATIONNAME]으로 가려면 (한양대역)[v:dr_ssafy.exit.STATIONNAME]에서 어디로 나가")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572274204552)
+}
 train (t-4tgt075m923w0f0j4pxpwcn5y) {
   utterance ("[g:Description] (교대역)[v:STATIONNAME]에서 (스타벅스)[v:DESTINATIONNAME]로 가려면 몇 번 출구로 가야 해")
   plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
@@ -7,4 +17,9 @@ train (t-4v72j3opfu9t0ap77k1x40a01) {
   utterance ("[g:Description] (병원)[v:DESTINATIONNAME] 가야되는데 (미남역)[v:STATIONNAME]에서 어떻게 해야 할까")
   plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
   last-modified (1572253107507)
+}
+train (t-4wbfpqo6uzigeep61zmwcpj0y) {
+  utterance ("[g:Description] (행당 1동 주민센터)[v:DESTINATIONNAME]로 갈건데 (왕십리역)[v:STATIONNAME]에서 어디로 나가야 돼")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572273932769)
 }

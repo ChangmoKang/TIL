@@ -1,7 +1,22 @@
+train (t-94wzcy2gxhnrhnaqbi70wroi1) {
+  utterance ("[g:Description] (국립 중앙 의료원)[v:DESTINATIONNAME]으로 갈껀데 (을지로4가역)[v:STATIONNAME]에서 몇 번 출구로 가야 돼")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572273635796)
+}
 train (t-96lw9h6o1t3cikqt3iha2qp8s) {
   utterance ("[g:Description] (신중동역)[v:STATIONNAME]에서 (맛닭꼬)[v:DESTINATIONNAME]에 갈래")
   plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
   last-modified (1572251938275)
+}
+train (t-9dghov883uhytu8peecq70y0s) {
+  utterance ("[g:Description] (대림역)[v:dr_ssafy.exit.STATIONNAME]에서 (공원)[v:dr_ssafy.exit.DESTINATIONNAME]으로 갈거야")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572276126128)
+}
+train (t-9rfbwmhfsm4vrdj9u5tfa5fi4) {
+  utterance ("[g:Description] (KCLA왕의아이들)[v:dr_ssafy.exit.DESTINATIONNAME]로 가려면 (선릉역)[v:dr_ssafy.exit.STATIONNAME]에서 몇 번 출구로 나가야 돼")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572275067775)
 }
 train (t-9sc3e9mccyq59gvq1g9qtea4z) {
   utterance ("[g:Description] (명지대역)[v:STATIONNAME]에서 (세브란스병원)[v:DESTINATIONNAME] 갈건데 가장 빠른 출구 좀 알려줘")

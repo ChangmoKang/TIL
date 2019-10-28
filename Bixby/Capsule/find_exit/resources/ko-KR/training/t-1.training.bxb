@@ -1,7 +1,27 @@
-train (t-1knfishqqss5zimmphs61nijz) {
-  utterance ("[g:Description] (영통역)[v:dr_ssafy.exit.STATIONNAME]에서 (경희대)[v:dr_ssafy.exit.DESTINATIONNAME] 가려면 몇 분 걸릴까")
+train (t-11p4kg4twvg0gaqsauoqdlk7i) {
+  utterance ("[g:Description] (동대문역사문화공원역)[v:dr_ssafy.exit.STATIONNAME]에서 (apm)[v:dr_ssafy.exit.DESTINATIONNAME]가는 출구 알려줘")
   plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
-  last-modified (1572252293440)
+  last-modified (1572273805273)
+}
+train (t-155ifg9pod6kp1ad0tpr1jui7) {
+  utterance ("[g:Description] (신촌역)[v:dr_ssafy.exit.STATIONNAME] 근처 (하나로마트)[v:dr_ssafy.exit.DESTINATIONNAME]로 가는 출구 알려줘")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572276968257)
+}
+train (t-1b3za29yji7j14xjfk5orf3dw) {
+  utterance ("[g:Description] (방배역)[v:STATIONNAME]에서 (방배 1동 주민센터)[v:DESTINATIONNAME]로 가려고 해")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572275481045)
+}
+train (t-1knfishqqss5zimmphs61nijz) {
+  utterance ("[g:Description] (영통역)[v:STATIONNAME]에서 (경희대)[v:DESTINATIONNAME] 가려면 몇 분 걸릴까")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572272711213)
+}
+train (t-1muztuzwu7ssky5tv6e7kj993) {
+  utterance ("[g:Description] (연세대)[v:DESTINATIONNAME]로 가려면 (신촌역)[v:STATIONNAME] 몇 번 출구로 나가야 돼")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572273208586)
 }
 train (t-1t0tfwbrg65923dvcaqx9rdyn) {
   utterance ("[g:Description] (서부여성회관역)[v:STATIONNAME]에서 (치과)[v:DESTINATIONNAME]에 갈거야")

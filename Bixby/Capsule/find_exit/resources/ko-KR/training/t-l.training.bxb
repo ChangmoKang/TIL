@@ -3,3 +3,23 @@ train (t-l659wrz2cntlf0c99rre4om0i) {
   plan (Y2BjEE8pii8uTkyr1EutyCzRcw/1dHENDnENYBBGkyjNTEnFrVoeVcI5IzEvPRWsJ7gksaS0mEESi05f1xAPfxfchrIyMDIwMTAzsABZDFA2M5BmAGMQAPFYgCQDAA==)
   last-modified (1572186621202)
 }
+train (t-l9gdkjqizdzw4gjrkvw6tuz9l) {
+  utterance ("[g:Description] (역삼 1동 주민센터)[v:DESTINATIONNAME]가 도착지고 (역삼역)[v:STATIONNAME]이 출발지야")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572275141861)
+}
+train (t-lap3bfd46c26h68tjh2laubyb) {
+  utterance ("[g:Description] (왕십리 제2동 주민센터)[v:DESTINATIONNAME]로 가려면 (왕십리역)[v:STATIONNAME]에서 몇 번 출구로 나가야 돼")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572274130494)
+}
+train (t-lh2sgogtjri3mceqdkp8xitr7) {
+  utterance ("[g:Description] (1913송정역 시장)[v:DESTINATIONNAME]에 가고 싶어 (광주송적역)[v:STATIONNAME]에서 몇 번 출구로 나가면 되니")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572272717322)
+}
+train (t-lze0tpn4cpxyaqno2q4mynlnl) {
+  utterance ("[g:Description] (사당역)[v:STATIONNAME]에서 (롯데리아)[v:DESTINATIONNAME] 출구")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572275555427)
+}
