@@ -1,5 +1,10 @@
-train (t-54l7557u4stkz8u5pcck7dfpr) {
-  utterance ("[g:Description] (교대역)[v:STATIONNAME]에서 (스타벅스)[v:DESTINATIONNAME]로 가는 출구")
-  plan (Y+BgkEwpii8uTkyr1EutyCzRc0ktTi7KLCjJzM9jEEOVcsvMS3EFMhhEUMWDUotLc0oYFFBF3VNLgGaVZOYlgszyySwuYZBFs8o1OMTTzzHE09/Pz9HXlUEUVTq4BKyTQRpNODUnNbkEJonm+uAQhHHsDIwMTAzMDCwMrAxsQB4DlM8M5jOC+QxwkhmIWUCqAA==)
-  last-modified (1572162072989)
+train (t-5ehgecmbz0w5oniflng59v6zs) {
+  utterance ("[g:Description] (부암역)[v:STATIONNAME]에서 가까운 (아파트)[v:DESTINATIONNAME]까지 거리 좀 알려주라 ")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572252372588)
+}
+train (t-5xm9upzdpigea2d3pzdr0rqti) {
+  utterance ("[g:Description] (전대에버랜드역)[v:STATIONNAME]에서 (캐러비안베이)[v:DESTINATIONNAME]로 갈거야")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572252077492)
 }

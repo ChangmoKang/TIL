@@ -1,0 +1,10 @@
+train (t-psdvlunyg19ap45g1e05p24je) {
+  utterance ("[g:Description] (율리역)[v:STATIONNAME]에서 (하나로마트)[v:DESTINATIONNAME]까지 거리는")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572252410793)
+}
+train (t-pupda3n8phk7dvabg82uko9ee) {
+  utterance ("[g:Description] (잠실역)[v:STATIONNAME]에서 (롯데월드)[v:DESTINATIONNAME]")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572251112502)
+}

@@ -13,6 +13,11 @@ var numToKr = {'1': '일', '2': '이', '3': '삼', '4': '사', '5': '오', '6': 
 // tmap
 var tmapAPI = secret.get('tmapAPI')
 
+// 함수
+var calcDistance = require('./function/calcDistance.js')
+var priorityPush = require('./function/priorityPush.js')
+
+
 module.exports.function = function findExit (result) {
   const singleStation = nationalStation[result['station']['regionName']][result['station']['name']]
   const destinationLocation = result['destination']['location']
@@ -32,57 +37,58 @@ module.exports.function = function findExit (result) {
     'endName': result['destination']['name']
   }
 
+
+
+  let orderByStraightDistance = []
+  Object.keys(rawExits).forEach(each => {
+    eachExitLocation = {
+      'longitude': rawExits[each][0],
+      'latitude': rawExits[each][1]
+    }
+
+    orderByStraightDistance = priorityPush(orderByStraightDistance, {
+      'exitNum': each,
+      'exit': eachExitLocation,
+      'distance': Number((calcDistance(eachExitLocation, destinationLocation)*1000).toFixed(0))
+    })
+
+  })
+
+  orderByStraightDistance = orderByStraightDistance.slice(0, 2)
+
   let minDistance = Infinity
   let exitNum = null
-  let pathDetail = null
   let wayTooFar = 0
-  Object.keys(rawExits).forEach(function(one) {
-    oneLocation = rawExits[one]
-    flag = true
-    Object.keys(rawExits).forEach(function(other) {
-      if (one != other) {
-        otherLocation = rawExits[other]
-        if (Math.min(destinationLocation['longitude'], oneLocation[0]) < otherLocation[0]
-              && otherLocation[0] < Math.max(destinationLocation['longitude'], oneLocation[0])
-                && Math.min(destinationLocation['latitude'], oneLocation[1]) < otherLocation[1]
-                  && otherLocation[1] < Math.max(destinationLocation['latitude'], oneLocation[1])) 
-                    {flag = false}
-      }    
-    })
-    if (flag) {
-      tmapParams['startX'] = oneLocation[0]
-      tmapParams['startY'] = oneLocation[1]
-      response = http.postUrl(tmapUrl, tmapParams, tmapHeaders).features
-      if (response[0]['properties']['totalDistance'] < minDistance) {
-        pedestrianDistance = response[0]['properties']['totalDistance']
-        
-        if (pedestrianDistance > 2000) {
-          wayTooFar = 2
-        } else if (pedestrianDistance > 1000) {
-          wayTooFar = 1
-        } else {
-          wayTooFar = 0
-        }
-
-        if (pedestrianDistance > 1000) {
-          pedestrianDistance = (pedestrianDistance/1000).toFixed(2) + 'km'
-        } else {
-          pedestrianDistance = (pedestrianDistance) + 'm'
-        }
-
-
-        requiredTime = response[0]['properties']['totalTime']
-        minDistance = pedestrianDistance
-        exitNum = one
-        pathDetail = response
-        exitLocation = {
-          'longitude': oneLocation[0],
-          'latitude': oneLocation[1]
-        }
+  // let pathDetail = null
+  Object.keys(orderByStraightDistance).forEach(each => {
+    tmapParams['startX'] = orderByStraightDistance[each]['exit']['longitude']
+    tmapParams['startY'] = orderByStraightDistance[each]['exit']['latitude']
+    response = http.postUrl(tmapUrl, tmapParams, tmapHeaders).features
+    if (response[0]['properties']['totalDistance'] < minDistance) {
+      pedestrianDistance = response[0]['properties']['totalDistance']
+      
+      if (pedestrianDistance > 2000) {
+        wayTooFar = 2
+      } else if (pedestrianDistance > 1000) {
+        wayTooFar = 1
+      } else {
+        wayTooFar = 0
       }
+
+      requiredTime = response[0]['properties']['totalTime']
+      minDistance = pedestrianDistance
+      exitNum = orderByStraightDistance[each]['exitNum']
+      exitLocation = orderByStraightDistance[each]['exit']
+      // pathDetail = response
     }
   })
 
+  if (minDistance > 1000) {
+    minDistance = (minDistance/1000).toFixed(2) + 'km'
+  } else {
+    minDistance = minDistance + 'm'
+  }
+  
   // pathDetail = pathDetail.filter(e => {
   //   return e['properties']['index'] % 2 == 0
   // }).map(e => {
@@ -107,20 +113,25 @@ module.exports.function = function findExit (result) {
     return e
   }).join("")
 
-
+  let naverUrl = 'nmap://route/walk?slat=' + exitLocation.latitude + '&slng=' + exitLocation.longitude + "&sname=" + result.station.name + '&dlat=' + result.destination.location.latitude + '&dlng=' + result.destination.location.longitude + '&dname=' + result.destination.name + '&appname=com.nhn.android.nmap&hl=ko'
+  let kakaoUrl = 'https://map.kakao.com/link/to/' + result['destination']['name'] + ',' + destinationLocation[1] + ',' + destinationLocation[0]
+  // let kakaoUrl = 'https://map.kakao.com/link/to/카카오판교오피스,37.402056,127.108212'
   const description = {
     'station': result['station'],
     'destination': result['destination'],
     'exitNum': exitNum,
     'exitLocation': exitLocation,
-    'pedestrianDistance': pedestrianDistance,
+    'pedestrianDistance': minDistance,
     'requiredTime': Math.ceil(requiredTime/60),
     'speech': {
       'stationName': stationNameKr,
       'exitNum': exitNumKr
     },
-    'wayTooFar': wayTooFar
+    'wayTooFar': wayTooFar,
+    'urls': {
+      'url': [naverUrl, kakaoUrl]
+    } 
   }
-  console.log(pathDetail)
+  // console.log(pathDetail)
   return description
 }

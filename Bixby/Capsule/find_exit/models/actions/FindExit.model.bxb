@@ -4,10 +4,10 @@ action (FindExit) {
     input (result) {
       type (Result)
       min (Required) max (One)
-      prompt-behavior (AlwaysSelection)
       default-init {
         intent {
           goal: GetDestinationList
+
         }
       }
     }

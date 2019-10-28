@@ -1,10 +1,15 @@
-train (t-t52rr2ux9wi182mpvn60esg22) {
-  utterance ("[g:Description] (교대역)[v:STATIONNAME]에서 (스타벅스)[v:DESTINATIONNAME] 출구 알려줘")
-  plan (Y+BgkEwpii8uTkyr1EutyCzRc0ktTi7KLCjJzM9jEEOVcsvMS3EFMhhEUMWDUotLc0oYFFBF3VNLgGaVZOYlgszyySwuYZBFs8o1OMTTzzHE09/Pz9HXlUEUVTq4BKyTQRpNODUnNbkEJonm+uAQhHHsDIwMTAzMDCwMrAxsQB4DlM8M5jOC+QxwkhmIWUCqAA==)
-  last-modified (1572162142198)
+train (t-tg10b3nrwphpdu37tvf5xprgb) {
+  utterance ([g:Guide:continue] 사용법 알려줘)
+  plan (Y2BmEE8pii8uTkyr1EutyCzRcw/1dHENDnENYBBGkyjNTEnFrZqJgRGIGYAkIwMDjAYA)
+  last-modified (1572249714714)
 }
-train (t-tpl91ynt5da6mwfjnst5l7wjg) {
-  utterance ("[g:Description] (교대역)[v:STATIONNAME]에서 (스타벅스)[v:DESTINATIONNAME] 가려면 어떻게 가야 돼")
-  plan (Y+BgkEwpii8uTkyr1EutyCzRc0ktTi7KLCjJzM9jEEOVcsvMS3EFMhhEUMWDUotLc0oYFFBF3VNLgGaVZOYlgszyySwuYZBFs8o1OMTTzzHE09/Pz9HXlUEUVTq4BKyTQRpNODUnNbkEJonm+uAQhHHsDIwMTAzMDCwMrAxsQB4DlM8M5jOC+QxwkhmIWUCqAA==)
-  last-modified (1572162274599)
+train (t-th3hnt23zqlf8t4729ns6c1sv) {
+  utterance ("[g:Description] (응봉역)[v:STATIONNAME]에서 (응봉산)[v:DESTINATIONNAME]까지 걸어갈 수 있을까")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572252099909)
+}
+train (t-tlnqtxw9nmsww88cuva3p2e0g) {
+  utterance ("[g:Description] (계성초)[v:DESTINATIONNAME]로 가고 싶어 (청라언덕역)[v:STATIONNAME]에서 몇 번 출구로 나가야 돼")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572252956601)
 }

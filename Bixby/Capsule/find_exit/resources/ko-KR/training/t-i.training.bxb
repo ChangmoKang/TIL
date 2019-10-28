@@ -1,10 +1,5 @@
-train (t-i3ykps2n7njx5kf3w8xym89zd) {
-  utterance ("[g:Description] (교대역)[v:STATIONNAME]에서 (스타벅스)[v:DESTINATIONNAME] 가는 출구 알려줘")
-  plan (Y+BgkEwpii8uTkyr1EutyCzRc0ktTi7KLCjJzM9jEEOVcsvMS3EFMhhEUMWDUotLc0oYFFBF3VNLgGaVZOYlgszyySwuYZBFs8o1OMTTzzHE09/Pz9HXlUEUVTq4BKyTQRpNODUnNbkEJonm+uAQhHHsDIwMTAzMDCwMrAxsQB4DlM8M5jOC+QxwkhmIWUCqAA==)
-  last-modified (1572162211289)
-}
-train (t-ixb7gcuao355cfwocchkccqjy) {
-  utterance ("[g:Description] (419민주묘지역)[v:STATIONNAME]에서 (덕성여자대학교)[v:DESTINATIONNAME] 방향 출구 알려줘")
+train (t-imcg2237mafc8bww4neh39pgk) {
+  utterance ("[g:Description] (개포동역)[v:dr_ssafy.exit.STATIONNAME]에서 (개포동 근린공원)[v:dr_ssafy.exit.DESTINATIONNAME]까지 몇 분 걸리냐")
   plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
-  last-modified (1572170457990)
+  last-modified (1572252308602)
 }

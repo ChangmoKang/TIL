@@ -1,6 +1,7 @@
 input-view {
   match: Result (this) {
-    to-input: FindExit
+    to-input: FindExit 
+    
   }
 
   message {
@@ -19,4 +20,3 @@ input-view {
     }
   }
 }
-

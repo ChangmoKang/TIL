@@ -1,0 +1,15 @@
+action (Url) {
+  description (app-launch를 위한 Action)
+  collect {
+    input (url) {
+      type (URL)
+      min (Required) max (One)
+    }
+  }
+  type (Search)
+  output (URL) {
+    evaluate {
+      $expr(url)
+    }
+  }
+}

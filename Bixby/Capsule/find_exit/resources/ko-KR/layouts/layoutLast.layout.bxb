@@ -17,48 +17,7 @@ layout-macro-def (L-showResult) {
               slot2 {
                 single-line {
                   text {
-                    value ("보행거리 :")
-                  }
-                  spacer
-                  if (description.wayTooFar == 2) {
-                    text {
-                      color (Red)
-                      value ("#{value(description.pedestrianDistance)}")
-                    }
-                  } else-if (description.wayTooFar == 1) {
-                    text {
-                      color (Amber)
-                      value ("#{value(description.pedestrianDistance)}")
-                    }
-                  } else {
-                    text {
-                      color (Green)
-                      value ("#{value(description.pedestrianDistance)}")
-                    }
-                  }
-                }
-              }
-              slot3 {
-                single-line {
-                  text {
-                    value ("예상 소요시간 :")
-                  }
-                  spacer
-                  if (description.wayTooFar == 2) {
-                    text {
-                      color (Red)
-                      value ("#{value(description.requiredTime)}분")
-                    }
-                  } else-if (description.wayTooFar == 1) {
-                    text {
-                      color (Amber)
-                      value ("#{value(description.requiredTime)}분")
-                    }
-                  } else {
-                    text {
-                      color (Green)
-                      value ("#{value(description.requiredTime)}분")
-                    }
+                    value ("")
                   }
                 }
               }
@@ -84,6 +43,84 @@ layout-macro-def (L-showResult) {
               }
             }
           }
+          compound-card {
+            content {
+              hbox {
+                content {
+                  vbox {
+                    grow(1)
+                    halign (Center)
+                    content {
+                      single-line {
+                        text {
+                          value ("보행거리")
+                        }
+                      }
+                      single-line {
+                        if (description.wayTooFar == 2) {
+                          text {
+                            color (Red)
+                            value ("#{value(description.pedestrianDistance)}")
+                          }
+                        } else-if (description.wayTooFar == 1) {
+                          text {
+                            color (Amber)
+                            value ("#{value(description.pedestrianDistance)}")
+                          }
+                        } else {
+                          text {
+                            color (Green)
+                            value ("#{value(description.pedestrianDistance)}")
+                          }
+                        }
+                      }
+                    }
+                  }
+                  divider
+                  vbox {
+                    grow(1)
+                    halign (Center)
+                    content {
+                      single-line {
+                        text {
+                          value ("예상 소요시간")
+                        }
+                      }
+                      single-line {
+                        if (description.wayTooFar == 2) {
+                          text {
+                            color (Red)
+                            value ("#{value(description.requiredTime)}분")
+                          }
+                        } else-if (description.wayTooFar == 1) {
+                          text {
+                            color (Amber)
+                            value ("#{value(description.requiredTime)}분")
+                          }
+                        } else {
+                          text {
+                            color (Green)
+                            value ("#{value(description.requiredTime)}분")
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          title-area {
+            halign (Center)
+            slot2 {
+              single-line {
+                text {
+                  style (Title_XS)
+                  value ("장소 정보")
+                }
+              }
+            }
+          }
           cell-card {
             slot1 {
               image {
@@ -93,7 +130,7 @@ layout-macro-def (L-showResult) {
             }
             slot2 {
               content {
-                primary ("출발지(S) : #{value(description.station.name)} #{value(description.exitNum)}번 출구")
+                primary ("출발지: #{value(description.station.name)} #{value(description.exitNum)}번 출구")
               }
             }
           }
@@ -106,7 +143,56 @@ layout-macro-def (L-showResult) {
             }
             slot2 {
               content {
-                primary ("도착지(G) : #{value(description.destination.name)}")
+                primary ("도착지: #{value(description.destination.name)}")
+              }
+            }
+          }
+          title-area {
+            halign (Center)
+            slot2 {
+              single-line {
+                text {
+                  style (Title_XS)
+                  value ("외부 APP으로 연결")
+                }
+              }
+            }
+          }
+          cell-card {
+            on-click {
+              intent {
+                goal: Url
+                value: $expr(description.urls.url[0])
+              }
+            }
+            slot1 {
+              image {
+                shape (Square)
+                url("/images/icons/naver-map.png")
+              }
+            }
+            slot2 {
+              content {
+                primary ("네이버맵으로 연결")
+              }
+            }
+          }
+          cell-card {
+            on-click {
+              intent {
+                goal: Url
+                value: $expr(description.urls.url[1])
+              }
+            }
+            slot1 {
+              image {
+                shape (Square)
+                url("/images/icons/kakao-map.png")
+              }
+            }
+            slot2 {
+              content {
+                primary ("카카오맵으로 연결")
               }
             }
           }

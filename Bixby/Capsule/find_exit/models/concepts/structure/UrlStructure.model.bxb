@@ -1,0 +1,7 @@
+structure (UrlStructure) {
+  description (naver와 daum url을 가지는 Structure)
+  property (url) {
+    type (URL)
+    min (Required) max (Many)
+  }
+}

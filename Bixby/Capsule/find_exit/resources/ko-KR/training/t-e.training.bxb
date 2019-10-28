@@ -1,10 +1,10 @@
-train (t-fauxaezwmwf6usq2nfmluoz1p) {
-  utterance ("[g:Description] (운길산역)[v:STATIONNAME]에서 (씨지브이)[v:DESTINATIONNAME]까지 걸어가볼까")
+train (t-eenpgbqdudl93awnppf4x9p5g) {
+  utterance ("[g:Description] (구리역)[v:STATIONNAME]에서 (한양대병원)[v:DESTINATIONNAME]까지 어떻게 가야해")
   plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
-  last-modified (1572252156559)
+  last-modified (1572251851899)
 }
-train (t-fempungve0xys5g867nomph11) {
-  utterance ("[g:Description] 가장 가까운 (시장)[v:DESTINATIONNAME] 갈건데 (월배역)[v:STATIONNAME]에서 어떻게 내려야해")
+train (t-eut8ceooc70ecn99wjcr8r2tq) {
+  utterance ("[g:Description] (디지털미디어시티역)[v:STATIONNAME]에서 (상암중학교)[v:DESTINATIONNAME] 가는 방법 알려줘")
   plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
-  last-modified (1572252938383)
+  last-modified (1572251621798)
 }

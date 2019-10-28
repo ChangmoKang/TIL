@@ -1,5 +1,10 @@
-train (t-rm0lnlo23rfn7la53hxii35nd) {
-  utterance ("[g:Description] (교대역)[v:STATIONNAME] (스타벅스)[v:DESTINATIONNAME]")
-  plan (Y+BgkEwpii8uTkyr1EutyCzRc0ktTi7KLCjJzM9jEEOVcsvMS3EFMhhEUMWDUotLc0oYFFBF3VNLgGaVZOYlgszyySwuYZBFs8o1OMTTzzHE09/Pz9HXlUEUVTq4BKyTQRpNODUnNbkEJonm+uAQhHHsDIwMTAzMDCwMrAxsQB4DlM8M5jOC+QxwkhmIWUCqAA==)
-  last-modified (1572159759789)
+train (t-r13l0r209h380nu4gl30r64vo) {
+  utterance ("[g:Description] (도매시장)[v:DESTINATIONNAME]에 가고 싶어 (대전역)[v:STATIONNAME]에서 출발 가능")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572253226941)
+}
+train (t-r8eg6fj5e4zc6tuzky1a768rb) {
+  utterance ("[g:Description] (동서대)[v:DESTINATIONNAME]에 갈거고 (냉정역)[v:STATIONNAME]에서 출발할래")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572252626288)
 }

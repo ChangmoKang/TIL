@@ -1,0 +1,5 @@
+train (t-nl737sdu11nmrsbnh4i7qyn7m) {
+  utterance ("[g:Description] (행신역)[v:STATIONNAME]에서 (홈플러스)[v:DESTINATIONNAME]까지 걸어갈래")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572252129347)
+}

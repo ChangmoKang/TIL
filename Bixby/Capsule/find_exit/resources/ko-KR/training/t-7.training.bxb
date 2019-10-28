@@ -1,0 +1,20 @@
+train (t-74uopv88yrbgaduatoze80rat) {
+  utterance ("[g:Description] (부산은행)[v:DESTINATIONNAME]에 가려면 (거제해맞이역)[v:STATIONNAME]에서 몇 번 출구")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572252901242)
+}
+train (t-76mmzozlnw7sg8pm49em9satz) {
+  utterance ("[g:Description] (삼전역)[v:STATIONNAME]에서 (꼬치집)[v:DESTINATIONNAME] 가려면 어떻게 해")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572252019311)
+}
+train (t-7d2mf2z7udgj69ybn82gb9nca) {
+  utterance ("[g:Description] (인천논현역)[v:STATIONNAME]에서 (운전학원)[v:DESTINATIONNAME] 가려면 몇 번 출구로 나가")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572252205286)
+}
+train (t-7ui18kourd1ntkzg1v8lhwwj3) {
+  utterance ("[g:Description] 출발지 (수정역)[v:STATIONNAME] 목적지 (화정 근린 공원)[v:DESTINATIONNAME]")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572252437979)
+}

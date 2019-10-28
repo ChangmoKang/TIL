@@ -1,0 +1,10 @@
+train (t-ob3kebs4su7x1nfm6gnndh2i4) {
+  utterance ("[g:Description] (신라요양병원)[v:DESTINATIONNAME]에 갈건데 (동의대역)[v:STATIONNAME]에서 출발할거야 ")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572252580432)
+}
+train (t-ootcpehe7xjtz7vdiim6y0wrp) {
+  utterance ("[g:Description] 목적지 (대티물꽁)[v:DESTINATIONNAME] 출발지 (대티역)[v:STATIONNAME]")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572252991263)
+}

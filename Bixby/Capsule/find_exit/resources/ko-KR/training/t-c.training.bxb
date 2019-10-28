@@ -1,10 +1,10 @@
-train (t-fauxaezwmwf6usq2nfmluoz1p) {
-  utterance ("[g:Description] (운길산역)[v:STATIONNAME]에서 (씨지브이)[v:DESTINATIONNAME]까지 걸어가볼까")
+train (t-c8ny03ay0fhlw6bco9ivst1ev) {
+  utterance ("[g:Description] (이촌역)[v:STATIONNAME]에서 (국립 중앙 박물관)[v:DESTINATIONNAME]까지 가는 데 몇 분")
   plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
-  last-modified (1572252156559)
+  last-modified (1572252262334)
 }
-train (t-fempungve0xys5g867nomph11) {
-  utterance ("[g:Description] 가장 가까운 (시장)[v:DESTINATIONNAME] 갈건데 (월배역)[v:STATIONNAME]에서 어떻게 내려야해")
+train (t-csc9qx55u2jfkurh3c5le45hc) {
+  utterance ("[g:Description] (경북여고)[v:DESTINATIONNAME]까지 가려면 (명덕역)[v:STATIONNAME]에서 몇 번 출구로 나가야해")
   plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
-  last-modified (1572252938383)
+  last-modified (1572252831449)
 }

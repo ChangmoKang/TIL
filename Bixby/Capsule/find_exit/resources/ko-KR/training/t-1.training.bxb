@@ -1,5 +1,10 @@
-train (t-1tzolywlbkj6nhzikln8olupo) {
-  utterance ("[g:Description] (강동역)[v:STATIONNAME]에서 (치과)[v:DESTINATIONNAME] 가는 길 알려줘")
+train (t-1knfishqqss5zimmphs61nijz) {
+  utterance ("[g:Description] (영통역)[v:dr_ssafy.exit.STATIONNAME]에서 (경희대)[v:dr_ssafy.exit.DESTINATIONNAME] 가려면 몇 분 걸릴까")
   plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
-  last-modified (1572171085926)
+  last-modified (1572252293440)
+}
+train (t-1t0tfwbrg65923dvcaqx9rdyn) {
+  utterance ("[g:Description] (서부여성회관역)[v:STATIONNAME]에서 (치과)[v:DESTINATIONNAME]에 갈거야")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572252056857)
 }

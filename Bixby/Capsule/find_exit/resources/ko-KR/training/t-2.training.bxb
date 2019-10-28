@@ -1,5 +1,15 @@
-train (t-2qvwt02kr46fog8za4rxr8uxg) {
-  utterance ("[g:Description] (교대역)[v:STATIONNAME]에서 (스타벅스)[v:DESTINATIONNAME]로 가려면 몇 번 출구로 가야 돼")
-  plan (Y+BgkEwpii8uTkyr1EutyCzRc0ktTi7KLCjJzM9jEEOVcsvMS3EFMhhEUMWDUotLc0oYFFBF3VNLgGaVZOYlgszyySwuYZBFs8o1OMTTzzHE09/Pz9HXlUEUVTq4BKyTQRpNODUnNbkEJonm+uAQhHHsDIwMTAzMDCwMrAxsQB4DlM8M5jOC+QxwkhmIWUCqAA==)
-  last-modified (1572162175130)
+train (t-25p26x36j6cgtgtfj3eea5uw2) {
+  utterance ("[g:Description] (사직구장)[v:dr_ssafy.exit.DESTINATIONNAME] 가고 싶은데 (사직역)[v:dr_ssafy.exit.STATIONNAME]에서 어떻게 가야해")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572253089904)
+}
+train (t-2pfgekwzwb0n4g4z38cbg3111) {
+  utterance ("[g:Description] 출발지는 (구남역)[v:STATIONNAME] 목적지는 (구포중)[v:DESTINATIONNAME]")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572252456699)
+}
+train (t-2s2145zwhhdeald4rbm3r5fjk) {
+  utterance ("[g:Description] (수원시청역)[v:STATIONNAME]에서 (영화관)[v:DESTINATIONNAME]으로")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572251142858)
 }

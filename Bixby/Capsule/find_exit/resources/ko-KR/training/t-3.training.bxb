@@ -1,0 +1,20 @@
+train (t-3bsmvk8drwvcxptcmt0d7l4fr) {
+  utterance ("[g:Description] (상상미술관)[v:DESTINATIONNAME]까지 걸어가는 방법 알려줘 (김대중컨벤션센터역)[v:STATIONNAME]에서 갈거야 ")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572253165301)
+}
+train (t-3ol1mizy4ddka7ixx317wles8) {
+  utterance ("[g:Description] (하이마트)[v:DESTINATIONNAME] 갈래 (못골역)[v:STATIONNAME]에서 출발할거고")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572252650379)
+}
+train (t-3vrlrs1e6jqnys399g8cuncpn) {
+  utterance ("[g:Description] (동성로)[v:DESTINATIONNAME] 갈 수 있는 가장 빠른 출구 알려줘 (중앙로역)[v:STATIONNAME]에서 출발할거야")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572252919265)
+}
+train (t-3xmoinkmw7mt98n4zmu0hl9nc) {
+  utterance ("[g:Description] (문학경기장역)[v:dr_ssafy.exit.STATIONNAME]에서 (문학구장)[v:dr_ssafy.exit.DESTINATIONNAME]까지 갈거야")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572252037883)
+}

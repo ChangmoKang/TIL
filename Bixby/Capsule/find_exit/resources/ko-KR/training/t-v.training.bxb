@@ -1,7 +1,17 @@
-train (t-vuky1mounh1uuyojgd7d1apyo) {
-  utterance ("[g:Description] (교대역)[v:STATIONNAME]에서 (스타벅스)[v:DESTINATIONNAME] 방향 출구 알려줘")
-  plan (Y+BgkEwpii8uTkyr1EutyCzRc0ktTi7KLCjJzM9jEEOVcsvMS3EFMhhEUMWDUotLc0oYFFBF3VNLgGaVZOYlgszyySwuYZBFs8o1OMTTzzHE09/Pz9HXlUEUVTq4BKyTQRpNODUnNbkEJonm+uAQhHHsDIwMTAzMDCwMrAxsQB4DlM8M5jOC+QxwkhmIWUCqAA==)
-  last-modified (1572162343368)
+train (t-v5rjz5mft5tfdurc7yqzypfxc) {
+  utterance ("[g:Description] (루카스 병원)[v:DESTINATIONNAME]에 갈건데 (중동역)[v:STATIONNAME]에서 걸어갈 수 있을까")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572252713812)
+}
+train (t-vcspswmlrvdlqsjfnojikt2ox) {
+  utterance ("[g:Description] (세븐일레븐)[v:dr_ssafy.exit.DESTINATIONNAME]에 갈건데 (문화전당역)[v:dr_ssafy.exit.STATIONNAME]에서 어떻게 갈 수 있어")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572253180063)
+}
+train (t-vm8hxrw5wokicet92rjq38fzn) {
+  utterance ("[g:Description] 출발지는 (모라역)[v:STATIONNAME]이고 목적지는 (우체국)[v:DESTINATIONNAME]이야")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572252473233)
 }
 train (t-vzic1lcmc1cjwglgmqdbwjf8m) {
   utterance ("[g:Guide:continue,r:ChangeGuideStatus] (다음)[v:GUIDEMETHOD]")

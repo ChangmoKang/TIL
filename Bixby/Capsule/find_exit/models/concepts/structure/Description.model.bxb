@@ -25,4 +25,8 @@ structure (Description) {
     type (WAYTOOFAR)
     min (Required) max (One)
   }
+  property (urls) {
+    type (UrlStructure)
+    min (Required) max (One)
+  }
 }

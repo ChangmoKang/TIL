@@ -1,5 +1,15 @@
-train (t-xms8zyovmxh24y94ybu4pklui) {
-  utterance ([g:Guide:continue] 사용법 알려줘)
-  plan (Y2BmEE8pii8uTkyr1EutyCzRcw/1dHENDnENYBBGkyjNTEnFrZqJgRGIGYAkIwMDjAYA)
-  last-modified (1572185968759)
+train (t-xaokzqdtpgwpb693e95avwzy1) {
+  utterance ("[g:Description] (고려불한증막)[v:DESTINATIONNAME]에 갈건데 (송내역)[v:STATIONNAME]에서 걸어가는 방법 좀 알려줘")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572252735640)
+}
+train (t-xqhqq2g9l80axw7v9pemf5fir) {
+  utterance ("[g:Description] (잠실나루역)[v:STATIONNAME] (아산병원)[v:DESTINATIONNAME]")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572251085238)
+}
+train (t-xseml07fnus35w781x6yv0lmr) {
+  utterance ("[g:Description] 목적지는 (경성대학교)[v:DESTINATIONNAME]야 출발지는 (경성대부경대역)[v:STATIONNAME]")
+  plan (XY7RCoIwFIb/srTuKygJegLfQWqFYApuXYfogoFYuBPU27dGEvNih53v2/l3MMe67q5al7d3JF+KooPUVacepO4tVq46qrZm5oKFywupnw1h59KTJJNFqi2/WanShO3gK8ZFksUiybMsPjMsXc3JTiIcYNnIino52J6Lf9zGVRfOijTfW48ZRhjDwwRT+AhMjx/xLPFNB3v6CmNg3gfABw==)
+  last-modified (1572253060031)
 }

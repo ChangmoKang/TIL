@@ -10,21 +10,9 @@ layout-macro-def (L-guide) {
       section {
         content {
           if (step == 0) {
-            progress-bar(20)
             compound-card {
               content {
-                title-area {
-                  halign (Center)
-                  slot2 {
-                    single-line {
-                      text {
-                        style (Detail_M)
-                        value ("교대역에서 스타벅스로 가는 출구를 찾아보겠습니다.")
-                      }
-                    }
-                  }
-                }
-                divider
+                divider          
                 hbox {
                   content {
                     vbox {
@@ -32,7 +20,7 @@ layout-macro-def (L-guide) {
                       content {
                         single-line {
                           text {
-                            color (Amber)
+                            color (Red)
                             style (Title_S)
                             value ("From")
                           }
@@ -57,7 +45,7 @@ layout-macro-def (L-guide) {
                         }
                         single-line {
                           text {
-                            color (Red)
+                            color (Blue)
                             value ("?")
                           }
                         }
@@ -69,7 +57,7 @@ layout-macro-def (L-guide) {
                       content {
                         single-line {
                           text {
-                            color (Amber)
+                            color (Green)
                             style (Title_S)
                             value ("To")
                           }
@@ -118,7 +106,7 @@ layout-macro-def (L-guide) {
                         value ("\"")
                       }
                       text {
-                        color (Green)
+                        color (Red)
                         style (Detail_L)
                         value ("교대역")
                       }
@@ -140,41 +128,38 @@ layout-macro-def (L-guide) {
                 }
               }
             }
+
             paragraph {
-              value ("출구찾기 캡슐은 위와 같이 인식된 출발지(교대역)와 목적지(스타벅스)를 가지고 검색을 시작합니다.")
+              value ("출구찾기 캡슐은 교대역을 출발지, 스타벅스를 목적지로 인식합니다.")
             }
             divider
-            title-area {
+            title-area{
               halign (Center)
-              slot2 {
-                single-line {
-                  text {
-                    style (Detail_L)
-                    value ("하단의 \"다음\" 버튼을 눌러주세요")
-                  }
+              slot2{
+                paragraph{
+                  value("하단의 \"다음\" 버튼을 눌러주세요")
                 }
               }
             }
           } else-if (step == 1) {
-            progress-bar(40)
             image-card {
               image-url(/images/guide/selectStation.png)
               aspect-ratio(Nine_TwentyOne)
               title-area {
-                halign (End)
+                halign (Center)
                 slot2 {
                   single-line {
                     text {
                       color (Amber)
-                      style (Detail_M)
-                      value ("1개의 역사만 검색될 경우 이 단계는 나타나지 않습니다.")
+                      style (Detail_L)
+                      value ("동일한 역이 검색되는 경우 역을 선택합니다.")
                     }
                   }
                 }
               }
             }
             paragraph {
-              value ("우선, 인식 된 출발지(교대역)이 실제로 존재하는지, 있다면 두 곳 이상인지 확인합니다.\n교대역은 수도권, 부산, 대구에 존재하여 한 곳을 선택해야합니다.\n이 중 \"부산 교대역\"을 선택해보겠습니다.")
+              value ("3개의 역 중 \"부산 교대역\"을 선택해보겠습니다.")
             }
             divider
             title-area {
@@ -189,7 +174,6 @@ layout-macro-def (L-guide) {
               }
             }
           } else-if (step == 2) {
-            progress-bar(60)
             image-card {
               image-url(/images/guide/selectDestination.png)
               aspect-ratio(Nine_TwentyOne)
@@ -200,14 +184,14 @@ layout-macro-def (L-guide) {
                     text {
                       color (Amber)
                       style (Detail_M)
-                      value ("1개의 목적지만 검색될 경우 이 단계는 나타나지 않습니다.")
+                      value ("")
                     }
                   }
                 }
               }
             }
             paragraph {
-              value ("목적지 또한 실제로 존재하는지, 있다면 두 곳 이상인지 확인합니다.\n부산 교대역 근처에 스타벅스가 많으므로 한 곳을 선택해야합니다.\n이 중 \"스타벅스 부산교대점\"을 선택해보겠습니다.")
+              value ("부산 교대역 근처에 스타벅스가 많으므로 한 곳을 선택해야합니다.\n이 중 \"스타벅스 부산교대점\"을 선택해보겠습니다.")
             }
             divider
             title-area {
@@ -222,7 +206,6 @@ layout-macro-def (L-guide) {
               }
             }
           } else-if (step == 3) {
-            progress-bar(80)
             image-card {
               image-url(/images/guide/result.png)
               aspect-ratio(Nine_TwentyOne)
@@ -241,7 +224,7 @@ layout-macro-def (L-guide) {
             }
             paragraph {
               style (Detail_M)
-              value ("부산 교대역에서 스타벅스 부산교대점은 3번 출구로 나가야 가장 빠르게 도착함을 알 수 있습니다.\n예상 소요시간과 보행거리가 초록색으로 나타난 이유는\n목적지와의 거리가 2km 초과인 경우 빨간색,\n 1km 초과 2km 이하인 경우 주황색,\n 1km 이하인 경우 초록색으로 표시되기 때문입니다.")
+              value ("출발지부터 목적지까지의 거리가\n* 2km 초과인 경우는 빨강\n* 1km ~ 2km인 경우는 주황\n* 1km 이하인 경우는 초록색으로 표시됩니다.") 
             }
             divider
             title-area {
@@ -256,7 +239,6 @@ layout-macro-def (L-guide) {
               }
             }
           } else-if (step == 4) {
-            progress-bar(100)
             compound-card {
               content {
                 hbox {
@@ -266,7 +248,7 @@ layout-macro-def (L-guide) {
                       content {
                         single-line {
                           text {
-                            color (Amber)
+                            color (Red)
                             style (Title_S)
                             value ("From")
                           }
@@ -291,7 +273,7 @@ layout-macro-def (L-guide) {
                         }
                         single-line {
                           text {
-                            color (Green)
+                            color (Blue)
                             value ("3번출구")
                           }
                         }
@@ -303,7 +285,7 @@ layout-macro-def (L-guide) {
                       content {
                         single-line {
                           text {
-                            color (Amber)
+                            color (Green)
                             style (Title_S)
                             value ("To")
                           }
@@ -321,7 +303,7 @@ layout-macro-def (L-guide) {
             }
             paragraph {
               style (Detail_M)
-              value ("발화 > 출발지 선택 > 목적지 선택을 통하여 3번 출구로 나가야 함을 알게되었습니다.\n출구찾기의 사용 설명은 여기까지 입니다.\n아래의 주의사항을 잘 읽어보시고 사용해보시기 바랍니다.")
+              value ("발화 > 출발지 선택 > 목적지 선택을 통해 3번 출구로 나가야 함을 알게되었습니다.\n출구찾기의 사용 설명은 여기까지 입니다.\n 주의사항을 읽고 사용해보시기 바랍니다.")
             }
             divider
             title-area {
@@ -336,8 +318,8 @@ layout-macro-def (L-guide) {
               }
             }
             paragraph {
-              style (Detail_M)
-              value ("1.지하철 역사명, 목적지 순서로 발화해주세요.\n(목적지 먼저 발화하지 않도록 주의해주세요.)\n2.'역'을 꼭 포함하여 발화해주세요.\n(교대 X >> 교대역 O)\n3.목적지 검색이 원활하지 않을 경우 목적지 주변 검색이 용이한 장소를 검색해주세요.")
+              style (Detail_L)
+              value ("1.지하철 역사명, 목적지 순서로 발화해주세요.\n  (목적지 먼저 발화하지 않도록 주의해주세요.)\n2.'역'을 꼭 포함하여 발화해주세요.\n  (교대 X >> 교대역 O)\n 3.목적지 검색이 원활하지 않을 경우 목적지 주변 검색이 용이한 장소를 검색해주세요.")
             }
             divider
             input-cell {
@@ -357,289 +339,3 @@ layout-macro-def (L-guide) {
     }
   }
 }
-
-
-            // compound-card {
-            //   content {
-            //     hbox {
-            //       content {
-            //         vbox {
-            //           grow (1)
-            //           content {
-            //             single-line {
-            //               text {
-            //                 color (Amber)
-            //                 style (Title_S)
-            //                 value ("From")
-            //               }
-            //             }
-            //             single-line {
-            //               text {
-            //                 value ("교대역")
-            //               }
-            //             }
-            //           }
-            //         }
-            //         divider
-            //         vbox {
-            //           grow (1)
-            //           content {
-            //             single-line {
-            //               text {
-            //                 color (Blue)
-            //                 style (Title_S)
-            //                 value ("Exit")
-            //               }
-            //             }
-            //             single-line {
-            //               text {
-            //                 value ("?")
-            //               }
-            //             }
-            //           }
-            //         }
-            //         divider
-            //         vbox {
-            //           grow (1)
-            //           content {
-            //             single-line {
-            //               text {
-            //                 color (Amber)
-            //                 style (Title_S)
-            //                 value ("To")
-            //               }
-            //             }
-            //             single-line {
-            //               text {
-            //                 value ("스타벅스")
-            //               }
-            //             }
-            //           }
-            //         }
-            //       }
-            //     }
-            //     divider
-            //     title-area {
-            //       halign (Center)
-            //       slot2 {
-            //         single-line {
-            //           text {
-            //             style (Detail_M)
-            //             value ("교대역에서 스타벅스로 가는 출구를 찾아보겠습니다.")
-            //           }
-            //         }
-            //       }
-            //     }
-            //   }
-            // }
-            // compound-card {
-            //   content {
-            //     title-area {
-            //       halign (Start)
-            //       slot2 {
-            //         paragraph {
-            //           style (Detail_M)
-            //           value ("교대역은 수도권, 부산, 대구에 존재하여 한 곳을 선택해야합니다.")
-            //         }
-            //       }
-            //     }
-            //     image-card {
-            //       image-url(/images/guide/selectStation.png)
-            //       aspect-ratio(Nine_TwentyOne)
-            //       title-area {
-            //         halign (End)
-            //         slot2 {
-            //           single-line {
-            //             text {
-            //               color (Amber)
-            //               style (Detail_M)
-            //               value ("1개의 역사만 검색될 경우 이 단계는 나타나지 않습니다.")
-            //             }
-            //           }
-            //         }
-            //       }
-            //     }
-            //     title-area {
-            //       halign (Start)
-            //       slot2 {
-            //         paragraph {
-            //           style (Detail_M)
-            //           value ("\"부산 교대역\"을 선택해보겠습니다.")
-            //         }
-            //       }
-            //     }
-            //   }
-            // }
-            // compound-card {
-            //   content {
-            //     title-area {
-            //       halign (Start)
-            //       slot2 {
-            //         paragraph {
-            //           style (Detail_M)
-            //           value ("부산 교대역 근처에 스타벅스가 많으므로 한 곳을 선택해야합니다.")
-            //         }
-            //       }
-            //     }
-            //     image-card {
-            //       image-url(/images/guide/selectDestination.png)
-            //       aspect-ratio(Nine_TwentyOne)
-            //       title-area {
-            //         halign (End)
-            //         slot2 {
-            //           single-line {
-            //             text {
-            //               color (Amber)
-            //               style (Detail_M)
-            //               value ("1개의 목적지만 검색될 경우 이 단계는 나타나지 않습니다.")
-            //             }
-            //           }
-            //         }
-            //       }
-            //     }
-            //     title-area {
-            //       halign (Start)
-            //       slot2 {
-            //         paragraph {
-            //           style (Detail_M)
-            //           value ("\"스타벅스 부산교대점\"을 선택해보겠습니다.")
-            //         }
-            //       }
-            //     }
-            //   }
-            // }
-            // compound-card {
-            //   content {
-            //     title-area {
-            //       halign (Start)
-            //       slot2 {
-            //         paragraph {
-            //           style (Detail_M)
-            //           value ("부산 교대역에서 스타벅스 부산교대점에 가려면 \n 3번 출구로 나가야합니다.")
-            //         }
-            //       }
-            //     }
-            //     image-card {
-            //       image-url(/images/guide/result.png)
-            //       aspect-ratio(Nine_TwentyOne)
-            //       title-area {
-            //         halign (End)
-            //         slot2 {
-            //           single-line {
-            //             text {
-            //               color (Amber)
-            //               style (Detail_M)
-            //               value ("result")
-            //             }
-            //           }
-            //         }
-            //       }
-            //     }
-            //     paragraph {
-            //       style (Detail_M)
-            //       value ("목적지와의 거리가 2km 초과인 경우 빨간색,\n 1km 초과 2km 이하인 경우 주황색,\n 1km 이하인 경우 초록색으로 표시됩니다.")
-            //     }
-            //   }
-            // }
-            // compound-card {
-            //   content {
-            //     hbox {
-            //       content {
-            //         vbox {
-            //           grow (2)
-            //           content {
-            //             single-line {
-            //               text {
-            //                 color (Amber)
-            //                 style (Title_S)
-            //                 value ("From")
-            //               }
-            //             }
-            //             single-line {
-            //               text {
-            //                 value ("교대역")
-            //               }
-            //             }
-            //           }
-            //         }
-            //         divider
-            //         vbox {
-            //           grow (3)
-            //           content {
-            //             single-line {
-            //               text {
-            //                 color (Blue)
-            //                 style (Title_S)
-            //                 value ("Exit")
-            //               }
-            //             }
-            //             single-line {
-            //               text {
-            //                 value ("3번출구")
-            //               }
-            //             }
-            //           }
-            //         }
-            //         divider
-            //         vbox {
-            //           grow (2)
-            //           content {
-            //             single-line {
-            //               text {
-            //                 color (Amber)
-            //                 style (Title_S)
-            //                 value ("To")
-            //               }
-            //             }
-            //             single-line {
-            //               text {
-            //                 value ("스타벅스")
-            //               }
-            //             }
-            //           }
-            //         }
-            //       }
-            //     }
-            //     divider
-            //     title-area {
-            //       halign (Center)
-            //       slot2 {
-            //         paragraph {
-            //           style (Detail_M)
-            //           value ("부산 교대역에서 스타벅스 부산교대점으로 가는 출구는 \n3번 출구입니다.")
-            //         }
-            //       }
-            //     }
-            //   }
-            // }
-            // input-cell {
-            //   label("아래의 문장을 클릭하여 사용해보세요")
-            //   on-click {
-            //     intent {
-            //       goal: Description
-            //       value: STATIONNAME(교대역)
-            //       value: DESTINATIONNAME(스타벅스)
-            //     }
-            //   }
-            //   value ("\"교대역에서 스타벅스로 가는 출구 알려줘\"")
-            // }
-            // divider
-            // compound-card {
-            //   content {
-            //     title-area {
-            //       halign (Center)
-            //       slot2 {
-            //         single-line {
-            //           text {
-            //             style (Title_M)
-            //             value ("주의사항")
-            //           }
-            //         }
-            //       }
-            //     }
-            //     paragraph {
-            //       style (Detail_M)
-            //       value ("1.지하철 역사명, 목적지 순서로 발화해주세요.\n(목적지 먼저 발화하지 않도록 주의해주세요.)\n2.'역'을 꼭 포함하여 발화해주세요.\n(교대 X >> 교대역 O)")
-            //     }
-            //   }
-            // }

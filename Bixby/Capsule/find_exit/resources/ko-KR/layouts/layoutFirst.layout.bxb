@@ -40,7 +40,6 @@ layout-macro-def (L-selectDestination) {
               content {
                 single-line {
                   text {
-                    color (Blue)
                     value ("목적지")
                   }
                 }
@@ -58,7 +57,6 @@ layout-macro-def (L-selectDestination) {
               content {
                 single-line {
                   text {
-                    color (Blue)
                     value ("거리")
                   }
                 }
