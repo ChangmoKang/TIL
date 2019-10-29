@@ -9,6 +9,16 @@ action (GetDestinationList) {
       type (DESTINATIONNAME)
       min (Required) max (One)
     }
+    input (sort) {
+      type (SORT)
+      min (Required) max (One)
+      default-init {
+        intent {
+          goal: SORT
+          value: SORT(accuracy)
+        }
+      }
+    }
   }
   type(Search)
   output (Result) {

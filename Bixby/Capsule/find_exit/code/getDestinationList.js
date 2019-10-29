@@ -11,11 +11,11 @@ var console = require('console');
 var kakaoKeywordSearch = require('./function/kakaoKeywordSearch.js')
 
 
-module.exports.function = function getDestinationList (station, destinationName) {
+module.exports.function = function getDestinationList (station, destinationName, sort) {
   const nationalStation = require('./data/nationalStation.js')
   const singleStation = nationalStation[station['regionName']][station['name']]
   
-  const response = kakaoKeywordSearch(destinationName, singleStation['location'])
+  const response = kakaoKeywordSearch(destinationName, singleStation['location'], sort)
   if (!response['documents'].length) {
     throw fail.checkedError('목적지명 오류', 'NotFoundDestinationName', {})
   }
@@ -25,7 +25,6 @@ module.exports.function = function getDestinationList (station, destinationName)
   const results = []
   let index = 0
   response['documents'].forEach(each => {
-    let wayTooFar
     if (Number(each.distance) > 2000) {
       wayTooFar = 2
     } else if (Number(each.distance) > 1000) {

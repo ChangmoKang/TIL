@@ -32,6 +32,18 @@ module.exports = function selectStation (stationName, userLocation) {
           'distance': calcDistance(location, userLocation)
         })
       }
+      else if (nationalStation[region][each]['alias'] != undefined) {
+        Object.keys(nationalStation[region][each]['alias']).forEach(aliasIndex => {
+          if (nationalStation[region][each]['alias'][aliasIndex] == stationName) {
+            correctResults = priorityPush(correctResults, {
+              'regionName': region,
+              'name': each,
+              'location': location,
+              'distance': calcDistance(location, userLocation)
+            })
+          }
+        })
+      }
       else if (each.includes(stationName.slice(0, -1))) {
         similarResults = priorityPush(similarResults, {
           'regionName': region,

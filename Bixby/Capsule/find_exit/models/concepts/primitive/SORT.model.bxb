@@ -1,0 +1,5 @@
+enum (SORT) {
+  description (kakaoKeywordSearch에 들어갈 변수)
+  symbol (accuracy)
+  symbol (distance)
+}

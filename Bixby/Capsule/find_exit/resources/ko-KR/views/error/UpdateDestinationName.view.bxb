@@ -3,7 +3,9 @@ input-view{
     to-input: UpdateDestinationName
   }
   message{
-    template ("목적지를 찾을 수 없습니다. 목적지를 다시 말해주세요.")
+    template ("목적지를 찾을 수 없습니다. 목적지를 다시 말씀해주세요.") {
+      speech ("목적지가 존재하지 않거나 역 근처 3km 이내에 목적지가 존재하지 않습니다. 목적지를 다시 말씀해주세요.")
+    }
   }
   
   render{

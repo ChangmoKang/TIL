@@ -45,16 +45,14 @@ module.exports.function = function findExit (result) {
       'longitude': rawExits[each][0],
       'latitude': rawExits[each][1]
     }
-
     orderByStraightDistance = priorityPush(orderByStraightDistance, {
       'exitNum': each,
       'exit': eachExitLocation,
       'distance': Number((calcDistance(eachExitLocation, destinationLocation)*1000).toFixed(0))
     })
-
   })
 
-  orderByStraightDistance = orderByStraightDistance.slice(0, 2)
+  orderByStraightDistance = orderByStraightDistance.slice(0, 3)
 
   let minDistance = Infinity
   let exitNum = null
@@ -66,7 +64,7 @@ module.exports.function = function findExit (result) {
     response = http.postUrl(tmapUrl, tmapParams, tmapHeaders).features
     if (response[0]['properties']['totalDistance'] < minDistance) {
       pedestrianDistance = response[0]['properties']['totalDistance']
-      
+      // console.log(pedestrianDistance, orderByStraightDistance[each]['exitNum'])
       if (pedestrianDistance > 2000) {
         wayTooFar = 2
       } else if (pedestrianDistance > 1000) {
@@ -114,7 +112,7 @@ module.exports.function = function findExit (result) {
   }).join("")
 
   let naverUrl = 'nmap://route/walk?slat=' + exitLocation.latitude + '&slng=' + exitLocation.longitude + "&sname=" + result.station.name + '&dlat=' + result.destination.location.latitude + '&dlng=' + result.destination.location.longitude + '&dname=' + result.destination.name + '&appname=com.nhn.android.nmap&hl=ko'
-  let kakaoUrl = 'https://map.kakao.com/link/to/' + result['destination']['name'] + ',' + destinationLocation[1] + ',' + destinationLocation[0]
+  let kakaoUrl = 'https://map.kakao.com/link/to/' + result['destination']['name'] + ',' + result.destination.location.latitude + ',' + result.destination.location.longitude
   // let kakaoUrl = 'https://map.kakao.com/link/to/카카오판교오피스,37.402056,127.108212'
   const description = {
     'station': result['station'],

@@ -1,0 +1,8 @@
+vocab(SORT) {
+  "accuracy" {
+    "accuracy"
+  }
+  "distance" {
+    "distance" "근처" "가까운"
+  }
+}

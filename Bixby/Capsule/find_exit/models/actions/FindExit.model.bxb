@@ -7,7 +7,6 @@ action (FindExit) {
       default-init {
         intent {
           goal: GetDestinationList
-
         }
       }
     }

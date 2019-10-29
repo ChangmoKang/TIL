@@ -11,7 +11,7 @@ endpoints {
     }
 
     action-endpoint (GetDestinationList) {
-      accepted-inputs (station, destinationName)
+      accepted-inputs (station, destinationName, sort)
       local-endpoint (getDestinationList.js)
     }
 
