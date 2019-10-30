@@ -38,10 +38,20 @@ train (t-mnmuduqi0minnm9p8bmxcwn41) {
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315939907)
 }
+train (t-mnt7zyf2pylrs0bhbdagg17rm) {
+  utterance ("[g:Description] (초읍동 주민센터)[v:DESTINATIONNAME]로 갈 생각인데 (거제 역)[v:STATIONNAME]에서 어떻게 가")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572408019738)
+}
 train (t-mr4p89a6kl0ytaigvk32izj3e) {
   utterance ("[g:Description] (천안역)[v:STATIONNAME] 근처에 있는 (호텔)[v:DESTINATIONNAME] 알려줘")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572329013418)
+}
+train (t-mveszuhuqagl90un001w3vkor) {
+  utterance ("[g:Description] (현대백화점)[v:DESTINATIONNAME]으로 이어져 있는 (압구정역)[v:STATIONNAME] 출구 알려줘")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572405545628)
 }
 train (t-mzed2cs3zay05zasqoe0pke30) {
   utterance ("[g:Description] (신천 중학교)[v:DESTINATIONNAME] 가려면 (잠실새내역)[v:STATIONNAME]에서 몇 번 출구로 나가야 하지")

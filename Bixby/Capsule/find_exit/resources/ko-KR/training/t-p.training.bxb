@@ -28,6 +28,11 @@ train (t-pb0xoza5u79ry6xp4ui4cwkcr) {
   plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
   last-modified (1572325938754)
 }
+train (t-phjx33j3m8wyohw6sxswtxyrz) {
+  utterance ("[g:Description] (코아 어린이 공원)[v:DESTINATIONNAME]에 갈 생각인데 (고속터미널역)[v:STATIONNAME]에서 어디로 나가야 할까")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572408423002)
+}
 train (t-pjrghdgqaq9sbhbxijlpdkeis) {
   utterance ("[g:Description] (쪽박산)[v:DESTINATIONNAME]에 가려고 계획 중인데 (진위역)[v:STATIONNAME]에서 몇 번 출구로 나가야 할까")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
@@ -57,11 +62,6 @@ train (t-pupda3n8phk7dvabg82uko9ee) {
   utterance ("[g:Description] (잠실역)[v:STATIONNAME]에서 (롯데월드)[v:DESTINATIONNAME]")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315936619)
-}
-train (t-pvsjns76ohawc5x52mnjqcoyk) {
-  utterance ("[g:Description] (초읍동 주민센터)[v:DESTINATIONNAME]로 갈 생각인데 (거제 역)[v:STATIONNAME]에서 어떻게 가")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572346263330)
 }
 train (t-px4k468ng8nt5manhgr45298i) {
   utterance ("[g:Description] (노량진 수산물 도매시장)[v:DESTINATIONNAME]으로 가는 (노량진역)[v:STATIONNAME] 출구")

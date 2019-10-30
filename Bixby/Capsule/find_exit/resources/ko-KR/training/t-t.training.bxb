@@ -1,3 +1,8 @@
+train (t-t6w99hbsbtwsrdfshe2ud7lqf) {
+  utterance ("[g:Description] (명지대역)[v:STATIONNAME]에서 (세브란스 병원)[v:DESTINATIONNAME] 갈 건데 가장 빠른 출구 좀 알려줘")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572404785875)
+}
 train (t-t9c4kxcxrmb3f9phh0aycqlzo) {
   utterance ("[g:Description] (대야미역)[v:STATIONNAME] (갈치 저수지)[v:DESTINATIONNAME]")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
@@ -32,6 +37,11 @@ train (t-tsi3o9eehj01naxxqk03tdcf7) {
   utterance ("[g:Description] (노원역)[v:STATIONNAME] 근처 (스타벅스)[v:DESTINATIONNAME]로 가는 출구 알려줘")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315938527)
+}
+train (t-tu6lt9pxzvbo1ip27o0wf7hdp) {
+  utterance ("[g:Description] (공덕역)[v:STATIONNAME] 6호선에서 (도화동 주민센터)[v:DESTINATIONNAME]로 가려고 하는데 어떻게 가야 돼")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572425094281)
 }
 train (t-tzrb3pa0xoxn5n88vozncs0tz) {
   utterance ("[g:Description] (덕정역)[v:STATIONNAME]에서 (서희 스타힐스 2단지 아파트)[v:DESTINATIONNAME]로 가려면 어디로 나가야 돼")

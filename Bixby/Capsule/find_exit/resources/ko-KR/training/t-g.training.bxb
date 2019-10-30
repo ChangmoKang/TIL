@@ -18,10 +18,35 @@ train (t-g6277070nbd85ivkqlg4slw10) {
   plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
   last-modified (1572316750956)
 }
+train (t-g6qnghy0ys1fifcmb92i01moo) {
+  utterance ("[g:Description] (카이스트 역)[v:STATIONNAME]에서 (카이스트)[v:DESTINATIONNAME]로 가는 출구 알려줘")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572421014379)
+}
 train (t-g6zhmhrw730k2v71enlxmyoiq) {
   utterance ("[g:Description] (을지로3가 역)[v:STATIONNAME]에서 (을지로 인쇄골목)[v:DESTINATIONNAME]으로 가는 출구 알려줘")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572346718778)
+}
+train (t-gewmeo0d6donzeqmzqhkk5vb0) {
+  utterance ("[g:Description] (을지로1가 역)[v:STATIONNAME]에서 (롯데백화점)[v:DESTINATIONNAME] 어떻게 가니")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572412468022)
+}
+train (t-gjnngbue71zwoxmyfvseyxov0) {
+  utterance ("[g:Description] (금남로4가 역)[v:STATIONNAME]에서 (광주극장)[v:DESTINATIONNAME]으로 가는 방법 알려줘")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572412452074)
+}
+train (t-glj42oew7uwvlbtva0xw8ej6m) {
+  utterance ("[g:Description] (종로3가역)[v:STATIONNAME] (근처)[v:SORT:distance] (카페)[v:DESTINATIONNAME] 알려줘")
+  plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
+  last-modified (1572415972126)
+}
+train (t-gv6z9nr7vtsq0vd2lecrypjnj) {
+  utterance ("[g:Description] (스타벅스)[v:DESTINATIONNAME]에 갈 건데 (대구역)[v:STATIONNAME]에서 몇 번 출구로 나가야 가장 빠를까")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572404725643)
 }
 train (t-gxs0uh4h8serc9xld61ox4ntd) {
   utterance ("[g:Description] (직산역)[v:STATIONNAME]에서 (서희 스타힐스)[v:DESTINATIONNAME] 쪽으로 나갈 거야")

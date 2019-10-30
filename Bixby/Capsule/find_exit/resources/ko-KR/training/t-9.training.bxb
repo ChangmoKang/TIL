@@ -23,10 +23,10 @@ train (t-9rfbwmhfsm4vrdj9u5tfa5fi4) {
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315933935)
 }
-train (t-9sc3e9mccyq59gvq1g9qtea4z) {
-  utterance ("[g:Description] (명지대역)[v:STATIONNAME]에서 (세브란스병원)[v:DESTINATIONNAME] 갈건데 가장 빠른 출구 좀 알려줘")
+train (t-9sgwoht8ilqe871kd5xtnld4k) {
+  utterance ("[g:Description] (행당 1동 주민센터)[v:DESTINATIONNAME]로 갈 건데 (왕십리역)[v:STATIONNAME]에서 어디로 나가야 돼")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315933992)
+  last-modified (1572404959665)
 }
 train (t-9tuab9gxsc1434h7cillyhips) {
   utterance ("[g:Description] (삼전역)[v:STATIONNAME]에서 (꼬치집)[v:DESTINATIONNAME]에 가려면 어떻게 해야 돼")
@@ -37,11 +37,6 @@ train (t-9u7j0u8qpn3gclf013ddtpyng) {
   utterance ("[g:Description] (종로3가역)[v:STATIONNAME]에서 (CGV)[v:DESTINATIONNAME]로 가는 출구")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315941470)
-}
-train (t-9v3ja4oxry41qcumljvd63rg5) {
-  utterance ("[g:Description] (스타벅스)[v:DESTINATIONNAME]에 갈건데 (대구역)[v:STATIONNAME]에서 몇 번 출구로 나가야 가장 빠를까")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315934085)
 }
 train (t-9y595ndh2pq3cvazv43vhlquw) {
   utterance ("[g:Description] (지족 역)[v:STATIONNAME]에서 (노브랜드)[v:DESTINATIONNAME]로 갈 건데 몇 번 출구로 나가야 돼")

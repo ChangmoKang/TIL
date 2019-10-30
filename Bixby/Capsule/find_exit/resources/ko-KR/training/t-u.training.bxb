@@ -13,6 +13,11 @@ train (t-uhck0r7ito6ixkm83ti6jbsz3) {
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572327196560)
 }
+train (t-uidhaa2m44roadz17ffu2gn14) {
+  utterance ("[g:Description] (충정로역)[v:STATIONNAME]에서 (파리바게트)[v:DESTINATIONNAME] 갈 건데 몇 번 출구로 나가야 돼")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572415993309)
+}
 train (t-ujelmlbg8nq5twl561drz8fsp) {
   utterance ("[g:Description] (서울대입구역)[v:STATIONNAME]에서 (명륜진사갈비)[v:DESTINATIONNAME] 출구")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
@@ -24,9 +29,14 @@ train (t-uoaaoqt7842ltlknb4gbfs01f) {
   last-modified (1572315941381)
 }
 train (t-urcbxrsgofh41rssk2kik7w9w) {
-  utterance ("[g:Description] (옥수역)[v:STATIONNAME] 근처 (동물병원)[v:DESTINATIONNAME]")
+  utterance ("[g:Description] (옥수역)[v:STATIONNAME] (근처)[v:SORT:distance] (동물병원)[v:DESTINATIONNAME]")
+  plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
+  last-modified (1572420673958)
+}
+train (t-urg52t9ficzn348ajemd6xgsc) {
+  utterance ("[g:Description] (고터)[v:STATIONNAME]에서 (파미에스테이션)[v:DESTINATIONNAME]으로 가는 출구 알려줘")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315941644)
+  last-modified (1572417076039)
 }
 train (t-us1xyy5f3cyh9vg84u40x2eun) {
   utterance ("[g:Description] (안중근 의사 기념관)[v:DESTINATIONNAME]으로 갈 거야 (회현역)[v:STATIONNAME]에서")

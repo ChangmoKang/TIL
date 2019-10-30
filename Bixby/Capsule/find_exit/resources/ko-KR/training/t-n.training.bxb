@@ -19,9 +19,14 @@ train (t-nhu6xfh6me5vmrmrrbzkmvufa) {
   last-modified (1572315936193)
 }
 train (t-nj5z6zaom5sw97b6k7135427h) {
-  utterance ("[g:Description] (을지로4가)[v:STATIONNAME] 역에서 (우래옥)[v:DESTINATIONNAME] 갈거야")
+  utterance ("[g:Description] (을지로4가 역)[v:STATIONNAME]에서 (우래옥)[v:DESTINATIONNAME] 갈거야")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572339600506)
+  last-modified (1572391776311)
+}
+train (t-nkms74tu7vx3ra2li72ybgszn) {
+  utterance ("[g:Description] (망우역)[v:STATIONNAME] 출구 중에 (홈플러스)[v:DESTINATIONNAME]로 가는 가장 빠른 출구는 어디야")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572423822697)
 }
 train (t-nl737sdu11nmrsbnh4i7qyn7m) {
   utterance ("[g:Description] (행신역)[v:STATIONNAME]에서 (홈플러스)[v:DESTINATIONNAME]까지 걸어갈래")

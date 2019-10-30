@@ -18,10 +18,10 @@ train (t-8dhw48jyktaqmllu3u8nyd0ts) {
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572327440185)
 }
-train (t-8hmvna4buiex38t4j83cg4dr4) {
-  utterance ("[g:Description] (생태공원)[v:DESTINATIONNAME] 갈건데 (괘법 르네시떼역)[v:STATIONNAME]에서 걸어가고 싶어")
+train (t-8mj4pd6vadxz8bdc4nm3b7qca) {
+  utterance ("[g:Description] (일송정)[v:DESTINATIONNAME]으로 갈 생각인데 (금남로5가 역)[v:STATIONNAME]에서 몇 번 출구로 나가야 돼")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315933700)
+  last-modified (1572409229432)
 }
 train (t-8oetld9x79ky5gyd7liy8cvkp) {
   utterance ("[g:Description] (렛츠 런 파크 서울)[v:DESTINATIONNAME]로 가려면 (경마공원역)[v:STATIONNAME]에서 어디로 나가야 돼")

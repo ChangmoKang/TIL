@@ -1,3 +1,8 @@
+train (t-64vt57wtjazzkcczoi5knqb83) {
+  utterance ("[g:Description] (강남 필라테스)[v:DESTINATIONNAME]로 가는 (강남구청역)[v:STATIONNAME] 출구 알려줘")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572405607296)
+}
 train (t-6aqszexpstcko11k9h0icp7li) {
   utterance ("[g:Description] (동묘앞역)[v:STATIONNAME]에서 (E7 플레이스)[v:DESTINATIONNAME]로 갈수 있는 출구")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
@@ -13,15 +18,15 @@ train (t-6kp2a6b687imn793c1og0dczq) {
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315933178)
 }
-train (t-6lct4wjic0pfj6cdkpatuycz8) {
-  utterance ("[g:Description] (서면역)[v:STATIONNAME]에서 (파리바게트)[v:DESTINATIONNAME]까지 갈건데 거리 좀 알려줘")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315933274)
-}
 train (t-6rkrj8yprbwbjsmt1xvxm5l21) {
   utterance ("[g:Description] (커피빈)[v:DESTINATIONNAME] 가고 싶어 (장산역)[v:STATIONNAME]에서 걸어갈 수 있어")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315933320)
+}
+train (t-6siunh24opkgelmlhahjhlkp4) {
+  utterance ("[g:Description] (생태공원)[v:DESTINATIONNAME] 갈 건데 (괘법르네시떼역)[v:STATIONNAME]에서 걸어가고 싶어")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572404917136)
 }
 train (t-6vk0u3nkdttcjlmvdyhb3o5uc) {
   utterance ("[g:Description] (전쟁기념관)[v:DESTINATIONNAME]으로 가려고 하는데 (삼각지역)[v:STATIONNAME]에서 어디로 나가")

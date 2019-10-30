@@ -53,8 +53,8 @@ train (t-4v72j3opfu9t0ap77k1x40a01) {
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315932875)
 }
-train (t-4wbfpqo6uzigeep61zmwcpj0y) {
-  utterance ("[g:Description] (행당 1동 주민센터)[v:DESTINATIONNAME]로 갈건데 (왕십리역)[v:STATIONNAME]에서 어디로 나가야 돼")
+train (t-4vemr2cvkxejaqdxdviyztyqw) {
+  utterance ("[g:Description] (루카스 병원)[v:DESTINATIONNAME]에 갈 건데 (중동역)[v:STATIONNAME]에서 걸어갈 수 있을까")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315932926)
+  last-modified (1572405083620)
 }

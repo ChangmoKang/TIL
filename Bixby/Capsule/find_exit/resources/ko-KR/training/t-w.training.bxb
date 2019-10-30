@@ -3,6 +3,11 @@ train (t-w1muorcwd0tsm98b18p1lc5jh) {
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315937541)
 }
+train (t-w6vbdynw1nsdujdjtmig162og) {
+  utterance ("[g:Description] (마라탕)[v:DESTINATIONNAME] 집 가고 싶은데 (신촌역 경의중앙선)[v:DESTINATIONNAME]에서 가장 (가까운)[v:SORT:distance] 곳 알려줘")
+  plan (Y+BkkEwpii8uTkyr1EutyCzRc0ktTi7KLCjJzM9jEEOVcsvMS3EFMhhEUMWDUotLc0oYFFBF3VNLgGaVZOYlgszyySwuYZBFs8o1OMTTzzHE09/Pz9HXlUJpIVTpYP+gEAZRNLESsFsYOBgYGZgYmBlYGFgZ2BjYgXwGuAgLkGQG8hjAmAcIIYAFiCGqGQA=)
+  last-modified (1572426566622)
+}
 train (t-wmu6t0au2q5arlaaegvh91w1o) {
   utterance ("[g:Description] (합정역)[v:STATIONNAME] 근처 (스타벅스)[v:DESTINATIONNAME]로 가는 출구 알려줘")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)

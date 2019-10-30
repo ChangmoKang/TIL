@@ -29,9 +29,9 @@ train (t-eiubq578sfp02fvdiu425v7z8) {
   last-modified (1572315935030)
 }
 train (t-ekwmdvi1or1471uly7zz4slih) {
-  utterance ("[g:Description] (신길온천역에)[v:STATIONNAME] 있는 (한짬뽕)[v:DESTINATIONNAME]")
+  utterance ("[g:Description] (신길온천역)[v:STATIONNAME]에 있는 (한짬뽕)[v:DESTINATIONNAME]")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315940519)
+  last-modified (1572391819510)
 }
 train (t-emaewu7e5rcd4k2sar13dveag) {
   utterance ("[g:Description] (설화명곡역)[v:STATIONNAME] (LH 대구 경북 본부 분양 홍보관)[v:DESTINATIONNAME]까지 걸어갈 수 있니")
@@ -47,4 +47,9 @@ train (t-eut8ceooc70ecn99wjcr8r2tq) {
   utterance ("[g:Description] (디지털미디어시티역)[v:STATIONNAME]에서 (상암중학교)[v:DESTINATIONNAME] 가는 방법 알려줘")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315935118)
+}
+train (t-ewx69tsp6x67bvuzyl3dgk1jp) {
+  utterance ("[g:Description] (서면역)[v:STATIONNAME]에서 (파리바게트)[v:DESTINATIONNAME]까지 갈 건데 좀 알려줘")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572404942546)
 }

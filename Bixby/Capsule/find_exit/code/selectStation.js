@@ -14,6 +14,7 @@ var calcDistance = require('./function/calcDistance.js')
 var priorityPush = require('./function/priorityPush.js')
 var transformDistance = require('./function/transformDistance.js')
 
+
 module.exports = function selectStation (stationName, userLocation) {
   let correctResults = []
   let similarResults = []
@@ -24,7 +25,7 @@ module.exports = function selectStation (stationName, userLocation) {
         'latitude': nationalStation[region][each]['location'][1]
       }
 
-      if (each == stationName) {
+      if (each == stationName || each.split(" ")[0] == stationName) {
         correctResults = priorityPush(correctResults, {
           'regionName': region,
           'name': each,

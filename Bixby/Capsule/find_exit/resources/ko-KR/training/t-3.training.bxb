@@ -8,10 +8,25 @@ train (t-35wokq3a6xrbvh2rr5ijxlppl) {
   plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
   last-modified (1572316124315)
 }
+train (t-38qb2uxcwwl43a9udpvdnhb1e) {
+  utterance ("[g:Description] 가장 (가까운)[v:SORT:distance] (교회)[v:DESTINATIONNAME]에 갈 건데 (양주역)[v:STATIONNAME]에서 갈거야")
+  plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
+  last-modified (1572405068336)
+}
 train (t-3bsmvk8drwvcxptcmt0d7l4fr) {
   utterance ("[g:Description] (상상미술관)[v:DESTINATIONNAME]까지 걸어가는 방법 알려줘 (김대중컨벤션센터역)[v:STATIONNAME]에서 갈거야 ")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315932535)
+}
+train (t-3kv2jfxxdsw678xr09zlbewr4) {
+  utterance ("[g:Description] (한국전력공사)[v:DESTINATIONNAME] 갈 생각인데 (농성역)[v:STATIONNAME]에서 몇 번 출구로 나가야 할까")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572408225445)
+}
+train (t-3l2ndewid6uhjcd06733g6x22) {
+  utterance ("[g:Description] (우송대 역)[v:STATIONNAME]에서 (근처)[v:SORT:distance] (공원)[v:DESTINATIONNAME] 가는 길 알려줘")
+  plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
+  last-modified (1572419306277)
 }
 train (t-3ol1mizy4ddka7ixx317wles8) {
   utterance ("[g:Description] (하이마트)[v:DESTINATIONNAME] 갈래 (못골역)[v:STATIONNAME]에서 출발할거고")

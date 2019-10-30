@@ -13,10 +13,10 @@ train (t-fauxaezwmwf6usq2nfmluoz1p) {
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315935164)
 }
-train (t-fempungve0xys5g867nomph11) {
-  utterance ("[g:Description] 가장 (가까운)[v:SORT:distance] (시장)[v:DESTINATIONNAME] 갈건데 (월배역)[v:STATIONNAME]에서 어떻게 내려야해")
-  plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
-  last-modified (1572315849487)
+train (t-fpk7z3a13nff9m0o700n7vbzs) {
+  utterance ("[g:Description] (세븐일레븐)[v:DESTINATIONNAME]에 갈 건데 (문화전당역)[v:STATIONNAME]에서 어떻게 갈 수 있어")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572405103649)
 }
 train (t-fwhquqz4tq4xv739qzv8rvy13) {
   utterance ("[g:Description] (성동 공업 고등학교)[v:DESTINATIONNAME]로 갈꺼야 (신당역)[v:STATIONNAME]에서 몇 번 출구로 가야 돼")

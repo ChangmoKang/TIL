@@ -23,6 +23,11 @@ train (t-c8ny03ay0fhlw6bco9ivst1ev) {
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315934597)
 }
+train (t-cemtu01lr15ofbhcx5hrgu58p) {
+  utterance ("[g:Description] (금남로4가 역)[v:STATIONNAME]에서 (대성약국)[v:DESTINATIONNAME]으로 갈 생각이야")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572409104736)
+}
 train (t-csc9qx55u2jfkurh3c5le45hc) {
   utterance ("[g:Description] (경북여고)[v:DESTINATIONNAME]까지 가려면 (명덕역)[v:STATIONNAME]에서 몇 번 출구로 나가야해")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
@@ -32,6 +37,11 @@ train (t-cu6wlkfu2c086630ys9w17i0w) {
   utterance ("[g:Description] (오산대역)[v:STATIONNAME]에서 출발할 예정인데 (세교 서울 이비인후과 의원)[v:DESTINATIONNAME]으로 가는 출구 알려줘")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572327897247)
+}
+train (t-cupc8e7we4duzdtn4d18eolhm) {
+  utterance ("[g:Description] (우체국)[v:DESTINATIONNAME] 어디로 가야 되는지 알려줘 (평내호평역)[v:STATIONNAME]에서")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572423390227)
 }
 train (t-cvld5es4oc2zomz687oyqszsw) {
   utterance ("[g:Description] (원흥역)[v:STATIONNAME]에서 (농협대학교)[v:DESTINATIONNAME] 갈거야")

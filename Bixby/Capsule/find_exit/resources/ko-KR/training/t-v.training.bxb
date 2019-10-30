@@ -1,8 +1,3 @@
-train (t-v5rjz5mft5tfdurc7yqzypfxc) {
-  utterance ("[g:Description] (루카스 병원)[v:DESTINATIONNAME]에 갈건데 (중동역)[v:STATIONNAME]에서 걸어갈 수 있을까")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315937347)
-}
 train (t-v7vkqa2l1ep347ar919bjnt4x) {
   utterance ("[g:Description] (개봉역)[v:STATIONNAME]에서 (근처)[v:SORT:distance] (스타벅스)[v:DESTINATIONNAME]")
   plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
@@ -17,11 +12,6 @@ train (t-vcfpkq80wfchti5jiixb9qait) {
   utterance ("[g:Description] (수서역)[v:STATIONNAME]에 있는 (카페)[v:DESTINATIONNAME]")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315942176)
-}
-train (t-vcspswmlrvdlqsjfnojikt2ox) {
-  utterance ("[g:Description] (세븐일레븐)[v:DESTINATIONNAME]에 갈건데 (문화전당역)[v:STATIONNAME]에서 어떻게 갈 수 있어")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315937397)
 }
 train (t-vek4k39se9rirkna5wdz50j7w) {
   utterance ("[g:Description] (병점역)[v:STATIONNAME]에서 (국민건강보험공단)[v:DESTINATIONNAME]")
@@ -42,6 +32,16 @@ train (t-vnd3s8a9hvy4ffsgk6se2f8dt) {
   utterance ("[g:Description] (서울 종암 경찰서)[v:DESTINATIONNAME] 가려고 하는데 (길음역)[v:STATIONNAME]에서 어디로 나가")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315938769)
+}
+train (t-vuy4ideofwthasxrwpawtg6gs) {
+  utterance ("[g:Description] (신촌역)[v:STATIONNAME] (근처)[v:SORT:distance]에 있는 (하나로마트)[v:DESTINATIONNAME]로 가는 출구 알려줘")
+  plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
+  last-modified (1572420846790)
+}
+train (t-vz2phkpye2aaoh40njzhtjxpe) {
+  utterance ("[g:Description] (구의역)[v:STATIONNAME]에서 (광진구청)[v:DESTINATIONNAME]으로 갈 생각인데 길 좀 알려줘")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572415971668)
 }
 train (t-vzic1lcmc1cjwglgmqdbwjf8m) {
   utterance ("[g:Guide:continue,r:ChangeGuideStatus] (다음)[v:GUIDEMETHOD]")
