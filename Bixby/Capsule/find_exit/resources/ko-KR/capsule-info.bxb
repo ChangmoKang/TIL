@@ -1,18 +1,16 @@
 capsule-info {
-  display-name (출구 찾기)
+  display-name (빠른 출구)
   developer-name (pathfinders)
   icon-asset (/images/icons/subway-exit.png)
   description ("특정 역사에서 목적지까지 가장 빨리 도착할 수 있는 출구를 알려줍니다.\n\n캡슐 사용 시 지하철 역사 명, 목적지 순으로 발화해주세요.\n현재 목적지 검색이 원활하지 않을 수 있습니다.\n목적지 검색이 원활하지 않은 경우 목적지 근처 음성 인식이 용이한 곳으로 말씀해주세요.")
   privacy-policy-url (https://docs.google.com/spreadsheets/d/16gc_4yCc9kMO2Y608mu2bczgdco9iRgr1VPCkMtyQIY/edit?usp=sharing)
-  dispatch-name (출구 찾기)
-  dispatch-aliases {
-    alias (출구찾기)
-  }
+  dispatch-name (빠른 출구)
   search-keywords {
     keyword (지하철)
     keyword (출구)
     keyword (출구찾기)
     keyword (출구 찾기)
+    keyword (빠른출구)
+    keyword (빠른 출구)
   }
-
 }

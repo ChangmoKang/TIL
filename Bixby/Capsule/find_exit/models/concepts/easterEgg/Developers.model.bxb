@@ -1,0 +1,23 @@
+structure (Developers) {
+  description (__DESCRIPTION__)
+  property (name) {
+    type (EASTEREGGNAME)
+    min (Required) max (One)
+  }
+  property (role) {
+    type (EASTEREGGROLE)
+    min (Required) max (One)
+  }
+  property (github) {
+    type (EASTEREGGGITHUB)
+    min (Required) max (One)
+  }
+  property (email) {
+    type (EASTEREGGEMAIL)
+    min (Required) max (One)
+  }
+  property (thumbnail) {
+    type (EASTEREGGTHUMBNAIL)
+    min (Required) max (One)
+  }
+}

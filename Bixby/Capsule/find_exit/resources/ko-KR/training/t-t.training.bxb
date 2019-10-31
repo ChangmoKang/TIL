@@ -16,7 +16,7 @@ train (t-td121imonobko1uui1156lggf) {
 train (t-tg10b3nrwphpdu37tvf5xprgb) {
   utterance ([g:Guide:continue] 사용법 알려줘)
   plan (Y2BmEE8pii8uTkyr1EutyCzRcw/1dHENDnENYBBGkyjNTEnFrZqJgRGIGYAkIwMDjAYA)
-  last-modified (1572249714714)
+  last-modified (1572511776330)
 }
 train (t-th3hnt23zqlf8t4729ns6c1sv) {
   utterance ("[g:Description] (응봉역)[v:STATIONNAME]에서 (응봉산)[v:DESTINATIONNAME]까지 걸어갈 수 있을까")

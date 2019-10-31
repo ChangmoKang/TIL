@@ -24,5 +24,10 @@ endpoints {
       accepted-inputs (destinationName)
       local-endpoint (error/updateDestinationName.js)
     }
+
+    action-endpoint (EasterEgg) {
+      accepted-inputs ()
+      local-endpoint (easterEgg/easterEgg.js)
+    }
   }
 }

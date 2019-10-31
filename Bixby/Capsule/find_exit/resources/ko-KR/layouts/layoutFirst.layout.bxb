@@ -16,7 +16,8 @@ layout-macro-def (L-selectDestination) {
             slot2 {
               single-line {
                 text {
-                  value ("")
+                  style (Detail_M)
+                  value ("#{value(result.destination.address)}")
                 }
               }
             }

@@ -144,6 +144,7 @@ layout-macro-def (L-showResult) {
             slot2 {
               content {
                 primary ("도착지: #{value(description.destination.name)}")
+                secondary ("#{value(description.destination.address)}")
               }
             }
           }

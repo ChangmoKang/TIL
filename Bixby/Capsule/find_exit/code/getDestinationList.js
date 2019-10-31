@@ -54,6 +54,7 @@ module.exports.function = function getDestinationList (station, destinationName,
           'longitude': each.x,
           'latitude': each.y
         },
+        'address': each.address_name
       },
       'straightDistance': each.distance,
       'wayTooFar': wayTooFar

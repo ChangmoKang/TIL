@@ -8,4 +8,8 @@ structure (Destination) {
     type (LOCATION)
     min (Required) max (One)
   }
+  property (address) {
+    type (ADDRESS)
+    min (Required) max (One)
+  }
 }

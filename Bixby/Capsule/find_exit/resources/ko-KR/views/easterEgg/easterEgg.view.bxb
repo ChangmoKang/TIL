@@ -1,0 +1,112 @@
+result-view {
+  match : Developers (developers)
+
+  message {
+    template ("개발자 소개입니다.") {
+      speech ("저희 개발자들을 소개해 드릴게요.")
+    }
+  }
+
+  render {
+    list-of (developers) {
+      has-details (false)
+      where-each (developer) {
+        compound-card {
+          content {
+            image-card {
+              aspect-ratio (1:1)
+              image-url ("#{value(developer.thumbnail)}")
+              title-area {
+                slot2 {
+                  single-line {
+                    text ("")
+                  }
+                }
+              }
+            }
+            title-area {
+              halign (Center)
+              slot2 {
+                single-line {
+                  text {
+                    value ("#{value(developer.name)}")
+                    style (Title_XS)
+                  }
+                }
+              }
+            }
+            divider
+            hbox {
+              content {
+                vbox {
+                  halign (Start)
+                  content {
+                    text {
+                      value ("역할")
+                      style (Detail_L)
+                    }
+                  }
+                }
+                vbox {
+                  halign (End)
+                  content {
+                    text {
+                      value ("#{value(developer.role)}")
+                      style (Detail_L)
+                    }
+                  }
+                }
+              }
+            }
+            divider
+            hbox {
+              content {
+                vbox {
+                  halign (Start)
+                  content {
+                    text {
+                      value ("Github")
+                      style (Detail_L)
+                    }
+                  }
+                }
+                vbox {
+                  halign (End)
+                  content {
+                    text {
+                      value ("#{value(developer.github)}")
+                      style (Detail_L)
+                    }
+                  }
+                }
+              }
+            }
+            divider
+            hbox {
+              content {
+                vbox {
+                  halign (Start)
+                  content {
+                    text {
+                      value ("Email")
+                      style (Detail_L)
+                    }
+                  }
+                }
+                vbox {
+                  halign (End)
+                  content {
+                    text {
+                      value ("#{value(developer.email)}")
+                      style (Detail_L)
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

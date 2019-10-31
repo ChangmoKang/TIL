@@ -62,9 +62,9 @@ module.exports.function = function findExit (result) {
     tmapParams['startX'] = orderByStraightDistance[each]['exit']['longitude']
     tmapParams['startY'] = orderByStraightDistance[each]['exit']['latitude']
     response = http.postUrl(tmapUrl, tmapParams, tmapHeaders).features
+    // console.log(pedestrianDistance, orderByStraightDistance[each]['exitNum'])
     if (response[0]['properties']['totalDistance'] < minDistance) {
       pedestrianDistance = response[0]['properties']['totalDistance']
-      // console.log(pedestrianDistance, orderByStraightDistance[each]['exitNum'])
       if (pedestrianDistance > 2000) {
         wayTooFar = 2
       } else if (pedestrianDistance > 1000) {

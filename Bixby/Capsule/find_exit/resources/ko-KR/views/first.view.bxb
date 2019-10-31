@@ -19,22 +19,4 @@ input-view {
       }
     }
   }
-
-  conversation-drivers {
-    if (size(this) > 0) {
-      conversation-driver {
-        template ("첫 번째")
-      }
-    } 
-    if (size(this) > 1) {
-      conversation-driver {
-        template ("두 번째")
-      }
-    } 
-    if (size(this) > 2) {
-      conversation-driver {
-        template ("세 번째")
-      }
-    }
-  }
 }

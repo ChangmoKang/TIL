@@ -1,3 +1,8 @@
+train (t-o0vkqqd0fz90a5vudmh8kw7c3) {
+  utterance ("[g:Description] (노은 역)[v:STATIONNAME]에서 (어린이 공원)[v:DESTINATIONNAME] 가는 출구 알려줘")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572504406225)
+}
 train (t-o2g5b0nw2joyiuihrlobiv6ck) {
   utterance ("[g:Description] (남영역)[v:STATIONNAME]에서 (마라선생)[v:DESTINATIONNAME]으로 가는 출구")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
@@ -12,6 +17,11 @@ train (t-obtnl9g5rhsxhrvcscy5fgbws) {
   utterance ("[g:Description] (세류역)[v:STATIONNAME]에서 (홈플러스 익스프레스)[v:DESTINATIONNAME] 방면 출구")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572327668081)
+}
+train (t-oc17kdntvnht9aql8jc88a0g0) {
+  utterance ([g:Guide:continue:Guide] 사용법 알려줘라)
+  plan (Y2BmEE8pii8uTkyr1EutyCzRcw/1dHENDnENYBBGkyjNTEnFrZqJgRGIGYAkIwMDjAYA)
+  last-modified (1572511800439)
 }
 train (t-oehk6mknzpjr3iq4zgpjhiuyw) {
   utterance ("[g:Description] (LG전자 서비스센터)[v:DESTINATIONNAME]에 가야 하는데 (연지공원역)[v:STATIONNAME]에서 어떻게 나가 ")

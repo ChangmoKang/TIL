@@ -1,0 +1,5 @@
+action (EasterEgg) {
+  description (개발자를 소개하는 이스터에그)
+  type (Constructor)
+  output (Developers)
+}

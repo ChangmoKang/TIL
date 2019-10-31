@@ -1,3 +1,8 @@
+train (t-10efwpul67hy6qfsb0tp1xxqm) {
+  utterance ("[g:Description] (오토바이 골목)[v:DESTINATIONNAME] 갈 건데 (청라언덕역)[v:STATIONNAME]에서 몇 번 출구로 가야하는지 검색해줘")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572497420217)
+}
 train (t-11p4kg4twvg0gaqsauoqdlk7i) {
   utterance ("[g:Description] (동대문역사문화공원역)[v:STATIONNAME]에서 (apm)[v:DESTINATIONNAME]가는 출구 알려줘")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)

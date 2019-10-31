@@ -1,3 +1,8 @@
+train (t-v7r6kz60bvrfekqeo6nmktja6) {
+  utterance ("[g:Description] (목동역)[v:STATIONNAME]에서 갈 수 있는 (카페)[v:DESTINATIONNAME] 알려줘")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572513832377)
+}
 train (t-v7vkqa2l1ep347ar919bjnt4x) {
   utterance ("[g:Description] (개봉역)[v:STATIONNAME]에서 (근처)[v:SORT:distance] (스타벅스)[v:DESTINATIONNAME]")
   plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)

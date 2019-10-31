@@ -13,6 +13,11 @@ train (t-86344h6vbge4owyol6px9rm63) {
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315933655)
 }
+train (t-8blkd53iupd2j1w4whxdft445) {
+  utterance ([g:EasterEgg] 개발자 소개)
+  plan (Y2BikEgpii8uTkyr1EutyCzRc0ktS83JL0gtKmYQR5VxTSwuSS1yTU9nYARCBigGkgA=)
+  last-modified (1572511058825)
+}
 train (t-8dhw48jyktaqmllu3u8nyd0ts) {
   utterance ("[g:Description] (복합 생활 스포츠 타운)[v:DESTINATIONNAME] 방향 (당정역)[v:STATIONNAME] 출구")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
