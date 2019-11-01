@@ -4,9 +4,9 @@ train (t-w1muorcwd0tsm98b18p1lc5jh) {
   last-modified (1572315937541)
 }
 train (t-w6vbdynw1nsdujdjtmig162og) {
-  utterance ("[g:Description] (마라탕)[v:DESTINATIONNAME] 집 가고 싶은데 (신촌역 경의중앙선)[v:DESTINATIONNAME]에서 가장 (가까운)[v:SORT:distance] 곳 알려줘")
-  plan (Y+BkkEwpii8uTkyr1EutyCzRc0ktTi7KLCjJzM9jEEOVcsvMS3EFMhhEUMWDUotLc0oYFFBF3VNLgGaVZOYlgszyySwuYZBFs8o1OMTTzzHE09/Pz9HXlUJpIVTpYP+gEAZRNLESsFsYOBgYGZgYmBlYGFgZ2BjYgXwGuAgLkGQG8hjAmAcIIYAFiCGqGQA=)
-  last-modified (1572426566622)
+  utterance ("[g:Description] (마라탕)[v:DESTINATIONNAME] 집 가고 싶은데 (신촌역 경의중앙선)[v:STATIONNAME]에서 가장 (가까운)[v:SORT:distance] 곳 알려줘")
+  plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
+  last-modified (1572565043302)
 }
 train (t-wmu6t0au2q5arlaaegvh91w1o) {
   utterance ("[g:Description] (합정역)[v:STATIONNAME] 근처 (스타벅스)[v:DESTINATIONNAME]로 가는 출구 알려줘")

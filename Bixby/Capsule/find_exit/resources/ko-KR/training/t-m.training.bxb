@@ -1,8 +1,3 @@
-train (t-m07fqxylcifhx1exowai4ci1k) {
-  utterance ("[g:Description] (잠실나루역)[v:STATIONNAME]에서 (장미 2차 아파트로)[v:DESTINATIONNAME] 가는 출구 알려줘")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315936005)
-}
 train (t-m1k6f8yvshgtshr5ux0vk24k0) {
   utterance ("[g:Description] (초안산 근린공원)[v:DESTINATIONNAME]으로 가고 싶은데 (쌍문역)[v:STATIONNAME]에서 몇 번 출구로 나가야 돼")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)

@@ -39,9 +39,9 @@ train (t-rrxpfy2t3wlz5ic7q0d7uhmj5) {
   last-modified (1572315939143)
 }
 train (t-rvafwtfh2kwp0gsvogj49iav4) {
-  utterance ("[g:Description] (강남역)[v:DESTINATIONNAME]이 출발지고 (서초 2동 주민센터)[v:DESTINATIONNAME]가 도착지야")
-  plan (Y+BkkEwpii8uTkyr1EutyCzRc0ktTi7KLCjJzM9jEEOVcsvMS3EFMhhEUMWDUotLc0oYFFBF3VNLgGaVZOYlgszyySwuYZBFs8o1OMTTzzHE09/Pz9HXlUJpIVTpYP+gEAZRNLESsFsYOBgYGZgYmBlYGFgZ2BjYgXwGuAgLkGQG8hjAmAcIIYAZiEGqGQA=)
-  last-modified (1572315936964)
+  utterance ("[g:Description] (강남역)[v:STATIONNAME]이 출발지고 (서초 2동 주민센터)[v:DESTINATIONNAME]가 도착지야")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572564956145)
 }
 train (t-rvclfxlbti3z23pp2qjqrmemz) {
   utterance ("[g:Description] (교회)[v:DESTINATIONNAME] 방향 (대곡역)[v:STATIONNAME] 출구")
