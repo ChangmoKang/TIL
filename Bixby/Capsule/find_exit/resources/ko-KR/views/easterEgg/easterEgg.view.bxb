@@ -9,7 +9,6 @@ result-view {
 
   render {
     list-of (developers) {
-      has-details (false)
       where-each (developer) {
         compound-card {
           content {

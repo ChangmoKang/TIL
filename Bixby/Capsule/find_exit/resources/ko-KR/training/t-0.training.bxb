@@ -1,3 +1,8 @@
+train (t-00bwv6gbo5m2g25d23q0beg0d) {
+  utterance ("[g:Description] (근처)[v:SORT:distance] (이마트)[v:DESTINATIONNAME]로 가야 하는데 (선릉역)[v:STATIONNAME]에서 어떻게 나가야 하는지 안내해줘")
+  plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
+  last-modified (1572592365175)
+}
 train (t-021d5nblovqaum3bqnrzjbzx5) {
   utterance ("[g:Description] (대화역)[v:STATIONNAME] (근처)[v:SORT:distance] (카페)[v:DESTINATIONNAME]")
   plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
