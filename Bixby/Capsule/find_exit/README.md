@@ -1,6 +1,6 @@
 # dr_ssafy.exit
 
-![](C:\Users\창모\Desktop\TIL\Bixby\Capsule\find_exit\assets\images\icons\subway-exit.png)
+![Thumbnail](.\assets\images\icons\subway-exit.png)
 
 
 
