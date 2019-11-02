@@ -1,6 +1,8 @@
 # dr_ssafy.exit
 
-![Thumbnail](.\assets\images\icons\subway-exit.png)
+<div align='center'>
+    <img src=".\assets\images\icons\subway-exit.png" height="400" width="400">
+</div>
 
 
 
