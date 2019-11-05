@@ -18,10 +18,20 @@ train (t-qjsm4azipsgztkgo8adbggug3) {
   plan (Y2BmEE8pii8uTkyr1EutyCzRcw/1dHENDnENYBBGkyjNTEnFrZqJgRGIGYAkIwMDjAYA)
   last-modified (1572511729192)
 }
+train (t-qk8jqguhysbbhjhl33jcu8qb8) {
+  utterance ([g:Guide:continue] 캡슐 사용방법 찾아줘)
+  plan (Y2BmEE8pii8uTkyr1EutyCzRcw/1dHENDnENYBBGkyjNTEnFrZqJgRGIGYAkIwMDjAYA)
+  last-modified (1572956799514)
+}
 train (t-qndq72n6f3u7q7gfcs08p722y) {
   utterance ("[g:Description] (의왕역)[v:STATIONNAME] (장안마을 주공 아파트)[v:DESTINATIONNAME]")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572327472885)
+}
+train (t-qok84bgvljp7ieg5fq2lkfh0m) {
+  utterance ([g:Guide:continue] 사용법 안내해줘)
+  plan (Y2BmEE8pii8uTkyr1EutyCzRcw/1dHENDnENYBBGkyjNTEnFrZqJgRGIGYAkIwMDjAYA)
+  last-modified (1572957039235)
 }
 train (t-qop9jgsy4cavan7fihyegy04y) {
   utterance ("[g:Description] (판교역)[v:STATIONNAME]에서 (네이버)[v:DESTINATIONNAME]까지 가는 데 몇 분 걸려")

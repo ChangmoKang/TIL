@@ -1,3 +1,8 @@
+train (t-sa8nmeg056h7tfntw82bji1b2) {
+  utterance ("[g:Description] (쪽박 산)[v:DESTINATIONNAME]에 가려고 계획 중인데 (진위역)[v:STATIONNAME]에서 몇 번 출구로 나가야 할까")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572967302929)
+}
 train (t-sh80zqzfzx77rrqs1w6ti8uer) {
   utterance ("[g:Description] (미아역)[v:STATIONNAME]에서 (서울 사이버 대학교)[v:DESTINATIONNAME]로 가는 출구 알려줘")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
@@ -13,10 +18,20 @@ train (t-skfi0sexd90zd5xt69uwqjvim) {
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572506190709)
 }
+train (t-slr86r7n2wm2xvo31tc9vshfq) {
+  utterance ([g:Guide:continue] 사용 설명서)
+  plan (Y2BmEE8pii8uTkyr1EutyCzRcw/1dHENDnENYBBGkyjNTEnFrZqJgRGIGYAkIwMDjAYA)
+  last-modified (1572955765010)
+}
 train (t-spzjs71wz4g57qhtt69qi7z6k) {
   utterance ("[g:Description] (청구역)[v:STATIONNAME]에서 (근처)[v:SORT:distance] (청구 아파트)[v:DESTINATIONNAME] 가는 길 알려줘")
   plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
   last-modified (1572347151282)
+}
+train (t-ssalzzdfgr6b248p52j12rjw7) {
+  utterance ("[g:Description] (성환 버스터미널)[v:DESTINATIONNAME] 쪽으로 가려고 하는데 (성환역)[v:STATIONNAME]에서 가장 빠른 출구 알려줘")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572967227826)
 }
 train (t-sxp76y19pydhd1e89sdoyab1q) {
   utterance ("[g:Description] (광주 극장)[v:DESTINATIONNAME]으로 갈 건데 (금남로4가 역)[v:STATIONNAME]에서 몇 번 출구로 나가야 돼")

@@ -1,3 +1,8 @@
+train (t-y2rnx66ppvvhqetniazipgrnr) {
+  utterance ("[g:Description] (서울대입구역)[v:STATIONNAME]에서 (명륜 진사 갈비)[v:DESTINATIONNAME] 출구")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572967525824)
+}
 train (t-y42gu7gld67uonj9vm9e71z6q) {
   utterance ("[g:Description] (차앤박피부과)[v:DESTINATIONNAME] 쪽 출구 알려줘 (평택역)[v:STATIONNAME]에서")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
@@ -23,6 +28,11 @@ train (t-y7u9xhbq9ad6sesbnj8dfpyyw) {
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572327831364)
 }
+train (t-ydaiyt3pd4qenix193dsay5vy) {
+  utterance ("[g:Description] (동서대)[v:dr_ssafy.exit.DESTINATIONNAME]로 갈 거고 (냉정역)[v:dr_ssafy.exit.STATIONNAME]에서 출발할래")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572967329088)
+}
 train (t-yddtuh25yeb9you2w5o39a3mb) {
   utterance ("[g:Description] (뉴코아 아웃렛)[v:DESTINATIONNAME] 갈 건데 (반포역)[v:STATIONNAME] 출구 좀 알려줘")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
@@ -32,11 +42,6 @@ train (t-yezi5699cg0dx3hztmnnw3j65) {
   utterance ("[g:Description] (안국역)[v:STATIONNAME] (근처)[v:SORT:distance] (맛집)[v:DESTINATIONNAME]")
   plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
   last-modified (1572391803091)
-}
-train (t-yfsuw8bwoo6r4otkc2jjxcak7) {
-  utterance ("[g:Description] (노은도서관)[v:DESTINATIONNAME]에 가고 싶은데 (지족역)[v:STATIONNAME] 어디서 출발해햐 돼")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315937932)
 }
 train (t-yftimquf2pncxzoc18vei8hsu) {
   utterance ("[g:Description] (월계역)[v:STATIONNAME]에서 (아시아퍼시픽 국제외국인학교)[v:DESTINATIONNAME]로 가는 출구")
@@ -87,4 +92,9 @@ train (t-yyqxim17qzx9lw3s3xeu14qq3) {
   utterance ("[g:Description] (BBQ)[v:DESTINATIONNAME]까지 걸어갈건데 (아양교역)[v:STATIONNAME]에서 출발할거야")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315938135)
+}
+train (t-yyvm8uiiuaomrv2h4kmsvrva1) {
+  utterance ([g:Guide:continue] 사용 방법)
+  plan (Y2BmEE8pii8uTkyr1EutyCzRcw/1dHENDnENYBBGkyjNTEnFrZqJgRGIGYAkIwMDjAYA)
+  last-modified (1572955685651)
 }

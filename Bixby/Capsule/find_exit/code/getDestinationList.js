@@ -17,7 +17,8 @@ module.exports.function = function getDestinationList (station, destinationName,
   
   const response = kakaoKeywordSearch(destinationName, singleStation['location'], sort)
   if (!response['documents'].length) {
-    throw fail.checkedError('목적지명 오류', 'NotFoundDestinationName', {})
+    return []
+    // throw fail.checkedError('목적지명 오류', 'NotFoundDestinationName', {})
   }
 
 
@@ -61,6 +62,6 @@ module.exports.function = function getDestinationList (station, destinationName,
     }
     index += 1
   })
-
+  console.log(results)
   return results
 }

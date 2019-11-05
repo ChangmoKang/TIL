@@ -8,15 +8,15 @@ train (t-p1kt4ta9r5jp0rmpbmdwo7sto) {
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572316086148)
 }
+train (t-p3ovfeqtpaun7j1zyn267sr65) {
+  utterance ("[g:Description] (고 터)[v:dr_ssafy.exit.STATIONNAME]에서 (파미에스테이션)[v:dr_ssafy.exit.DESTINATIONNAME]으로 가는 출구 알려줘")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572967576845)
+}
 train (t-p4sayruqa5gfkv2w9zfofnxan) {
   utterance ("[g:Description] (잠실야구장)[v:DESTINATIONNAME]에 도착하려면 (종합운동장역)[v:STATIONNAME]에서 어떻게 나가야하니")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315936529)
-}
-train (t-p6l2jecps1krn0six38290j45) {
-  utterance ("[g:Description] (대치역)[v:STATIONNAME]에서 (단대 사대 부속고등학교)[v:DESTINATIONNAME]")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315942057)
 }
 train (t-p7txpluiwfosw6ctup5ydmkfc) {
   utterance ("[g:Description] (불당동 카페거리)[v:DESTINATIONNAME]로 가는 (아산역)[v:STATIONNAME] 출구 정보 알려줘")
@@ -32,11 +32,6 @@ train (t-phjx33j3m8wyohw6sxswtxyrz) {
   utterance ("[g:Description] (코아 어린이 공원)[v:DESTINATIONNAME]에 갈 생각인데 (고속터미널역)[v:STATIONNAME]에서 어디로 나가야 할까")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572408423002)
-}
-train (t-pjrghdgqaq9sbhbxijlpdkeis) {
-  utterance ("[g:Description] (쪽박산)[v:DESTINATIONNAME]에 가려고 계획 중인데 (진위역)[v:STATIONNAME]에서 몇 번 출구로 나가야 할까")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572327999260)
 }
 train (t-pkeii06skiuu7w81ihfwumio9) {
   utterance ("[g:Description] (동대문구 정보화 도서관)[v:DESTINATIONNAME]으로 가려고 하는데 (회기역)[v:STATIONNAME]에서 어디로 가야 돼")

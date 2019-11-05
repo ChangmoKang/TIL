@@ -1,13 +1,3 @@
-train (t-b0lr1m24jceecduj1xfzj8yww) {
-  utterance ("[g:Description] (라마다 호텔)[v:DESTINATIONNAME]에 가고 싶은데 (해운대역)[v:STATIONNAME]에서 걸어갈 수 있을까")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315934311)
-}
-train (t-b55x2pj5waj6gbkxjwcb0bu4z) {
-  utterance ("[g:Description] (구룡역)[v:STATIONNAME]에서 (코스트코)[v:DESTINATIONNAME]까지 거리 알려줘")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315934357)
-}
 train (t-b5vp5lb2xopc0vvampfwaioft) {
   utterance ("[g:Description] (무악재역)[v:STATIONNAME] 주변 (사찰)[v:DESTINATIONNAME]")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
@@ -22,11 +12,6 @@ train (t-b8c8ozfn95yvjr92t3nhd38i3) {
   utterance ("[g:Description] (세모 어린이공원)[v:DESTINATIONNAME] 방면 (부개역)[v:STATIONNAME] 출구")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572325422074)
-}
-train (t-b9i8lccn9bt0jhawhypfuu76h) {
-  utterance ("[g:Description] (파리바게뜨)[v:DESTINATIONNAME] 갈껀데 (봉천역)[v:STATIONNAME]에서 몇 번 출구로 나가야 돼")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315934405)
 }
 train (t-bb42kuy28l7uglgmqy9urd9dk) {
   utterance ("[g:Description] (김대중 역)[v:STATIONNAME]에서 (김대중 컨벤션 센터)[v:DESTINATIONNAME]로 가는 출구 알려줘")
@@ -43,11 +28,6 @@ train (t-bh264r8kxg1ndltawe1qkpkt8) {
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315934463)
 }
-train (t-bh8pu0jz1p4f6bx1bsp8yz7jv) {
-  utterance ("[g:Description] 출발은 (금련사역)[v:STATIONNAME]에서 할거고 (올리베따노 성 베네딕도 수녀회)[v:DESTINATIONNAME]가 도착지야")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315934508)
-}
 train (t-btijai7ve06gxecj0p9a04mm3) {
   utterance ("[g:Description] (을지로4가역)[v:STATIONNAME]에서 (정건 벨라지오 오피스텔)[v:DESTINATIONNAME] 가는 출구 알려줘")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
@@ -57,4 +37,14 @@ train (t-bubxu6h37yze2011sbgry9o7j) {
   utterance ("[g:Description] (벧엘교회로)[v:DESTINATIONNAME]가는 (상록수역)[v:STATIONNAME] 출구")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315940254)
+}
+train (t-bvrwfc6fla7inrwkpfsxc09m1) {
+  utterance ([g:Guide:continue] 설명서)
+  plan (Y2BmEE8pii8uTkyr1EutyCzRcw/1dHENDnENYBBGkyjNTEnFrZqJgRGIGYAkIwMDjAYA)
+  last-modified (1572967192676)
+}
+train (t-byjuw2at5t1o233l1y96bisye) {
+  utterance ("[g:Description] (로데오 거리)[v:dr_ssafy.exit.DESTINATIONNAME]로 가고 싶어 (수원역)[v:dr_ssafy.exit.STATIONNAME]에서")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572961207859)
 }

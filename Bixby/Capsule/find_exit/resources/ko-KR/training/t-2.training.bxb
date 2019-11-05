@@ -8,6 +8,11 @@ train (t-25p26x36j6cgtgtfj3eea5uw2) {
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315932032)
 }
+train (t-27vjm0vdu7hu5w2oiamuvui13) {
+  utterance ("[g:Description] (근처)[v:SORT:distance] (부산 은행)[v:DESTINATIONNAME]에 가려면 (거제해맞이역)[v:STATIONNAME]에서 몇 번 출구로 나가야 돼")
+  plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
+  last-modified (1572960701861)
+}
 train (t-2doond9gy7jkhoa6k70tjx33z) {
   utterance ("[g:Description] (동인천역)[v:STATIONNAME]에서 (이디야)[v:DESTINATIONNAME] 가는 출구 알려줘")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
@@ -33,6 +38,11 @@ train (t-2i5soqgy2vkpm582nhgkeusdi) {
   plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
   last-modified (1572315897474)
 }
+train (t-2jjb9mw5blzggiijsoetau0fe) {
+  utterance ("[g:Description] (우송대 역)[v:dr_ssafy.exit.STATIONNAME] (근처)[v:SORT:distance] (공원)[v:dr_ssafy.exit.DESTINATIONNAME] 가는 길 알려줘")
+  plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
+  last-modified (1572959653268)
+}
 train (t-2jmmptwwmvfcp1jti89nsarsw) {
   utterance ("[g:Description] (북아현동 주민센터)[v:DESTINATIONNAME]로 가려면 (아현역)[v:STATIONNAME] 몇 번 출구 가야 돼")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
@@ -42,16 +52,6 @@ train (t-2lw50rjnwgahxkkn39wq0poxu) {
   utterance ("[g:Description] (교대역)[v:STATIONNAME]에서 (서울 중앙 지방 법원 등기국)[v:DESTINATIONNAME]까지")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315932343)
-}
-train (t-2pfgekwzwb0n4g4z38cbg3111) {
-  utterance ("[g:Description] 출발지는 (구남역)[v:STATIONNAME] 목적지는 (구포중)[v:DESTINATIONNAME]")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315932391)
-}
-train (t-2qzdeu75wts0153b0k49vynh9) {
-  utterance ("[g:Description] (파라솔 요양병원)[v:DESTINATIONNAME]으로 가야하는데 (금천구청)[v:STATIONNAME]에서 갈 수 있어")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572326835942)
 }
 train (t-2s2145zwhhdeald4rbm3r5fjk) {
   utterance ("[g:Description] (수원시청역)[v:STATIONNAME]에서 (영화관)[v:DESTINATIONNAME]으로")

@@ -1,13 +1,3 @@
-train (t-94wzcy2gxhnrhnaqbi70wroi1) {
-  utterance ("[g:Description] (국립 중앙 의료원)[v:DESTINATIONNAME]으로 갈껀데 (을지로4가역)[v:STATIONNAME]에서 몇 번 출구로 가야 돼")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315933795)
-}
-train (t-96lw9h6o1t3cikqt3iha2qp8s) {
-  utterance ("[g:Description] (신중동역)[v:STATIONNAME]에서 (맛닭꼬)[v:DESTINATIONNAME]에 갈래")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315933839)
-}
 train (t-98ny36a96ukxozyvfn4xygjni) {
   utterance ("[g:Description] (서울역)[v:STATIONNAME]에서 (손기정 체육공원)[v:DESTINATIONNAME] 가는 길 알려줘")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
@@ -37,6 +27,16 @@ train (t-9u7j0u8qpn3gclf013ddtpyng) {
   utterance ("[g:Description] (종로3가역)[v:STATIONNAME]에서 (CGV)[v:DESTINATIONNAME]로 가는 출구")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315941470)
+}
+train (t-9waco0ou3w7df511ia6wwxgl4) {
+  utterance ("[g:Description] (반지 마을 주공 3단지 아파트)[v:dr_ssafy.exit.DESTINATIONNAME] 방면 (서정리역)[v:dr_ssafy.exit.STATIONNAME] 출구")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572967099633)
+}
+train (t-9xpt6hujketd3p8ygt9kovevu) {
+  utterance ("[g:Description] (교대역)[v:dr_ssafy.exit.STATIONNAME]에서 (스타벅스)[v:dr_ssafy.exit.DESTINATIONNAME]는 어디로 가야 돼")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572968555795)
 }
 train (t-9y595ndh2pq3cvazv43vhlquw) {
   utterance ("[g:Description] (지족 역)[v:STATIONNAME]에서 (노브랜드)[v:DESTINATIONNAME]로 갈 건데 몇 번 출구로 나가야 돼")

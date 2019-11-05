@@ -29,17 +29,17 @@ train (t-ajnz18x7xj8y5wbdakog5cf18) {
   last-modified (1572426294223)
 }
 train (t-auq6j3bit81uniegoydu5zfgb) {
-  utterance ([g:Guide:continue:Guide] 사용법 알려주렴)
+  utterance ([g:Guide:continue] 사용법 알려주렴)
   plan (Y2BmEE8pii8uTkyr1EutyCzRcw/1dHENDnENYBBGkyjNTEnFrZqJgRGIGYAkIwMDjAYA)
-  last-modified (1572511800496)
-}
-train (t-awn2paaut8wgfbldhkqvspfkf) {
-  utterance ("[g:Description] (자갈치역)[v:STATIONNAME]에서 (CGV)[v:DESTINATIONNAME] 거리 좀")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315934265)
+  last-modified (1572955538555)
 }
 train (t-axeg6admp9ctsj7t7t5sm9e0k) {
   utterance ("[g:Description] (정왕역)[v:STATIONNAME] 근처에 있는 (중앙공원)[v:DESTINATIONNAME]")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315940564)
+}
+train (t-aydl40av3bq007g03hpis3cdy) {
+  utterance ([g:Guide:continue] 사용법 보여줘)
+  plan (Y2BmEE8pii8uTkyr1EutyCzRcw/1dHENDnENYBBGkyjNTEnFrZqJgRGIGYAkIwMDjAYA)
+  last-modified (1572957010554)
 }

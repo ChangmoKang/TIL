@@ -19,9 +19,9 @@ train (t-obtnl9g5rhsxhrvcscy5fgbws) {
   last-modified (1572327668081)
 }
 train (t-oc17kdntvnht9aql8jc88a0g0) {
-  utterance ([g:Guide:continue:Guide] 사용법 알려줘라)
+  utterance ([g:Guide:continue] 사용법 알려줘라)
   plan (Y2BmEE8pii8uTkyr1EutyCzRcw/1dHENDnENYBBGkyjNTEnFrZqJgRGIGYAkIwMDjAYA)
-  last-modified (1572511800439)
+  last-modified (1572955550254)
 }
 train (t-oehk6mknzpjr3iq4zgpjhiuyw) {
   utterance ("[g:Description] (LG전자 서비스센터)[v:DESTINATIONNAME]에 가야 하는데 (연지공원역)[v:STATIONNAME]에서 어떻게 나가 ")
@@ -33,20 +33,10 @@ train (t-ogkgicqn7xqyapv75gfgynytk) {
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315936382)
 }
-train (t-ootcpehe7xjtz7vdiim6y0wrp) {
-  utterance ("[g:Description] 목적지 (대티물꽁)[v:DESTINATIONNAME] 출발지 (대티역)[v:STATIONNAME]")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315936441)
-}
 train (t-oqs99o1q6yvccuhgartq4tozj) {
   utterance ("[g:Description] (잠실역)[v:STATIONNAME]에서 (롯데타워)[v:DESTINATIONNAME] 가는 출구 알려줘")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315936486)
-}
-train (t-osot8f1k928vnuj8rh77p0wre) {
-  utterance ("[g:Description] (역곡역)[v:STATIONNAME]에서 (세럴산)[v:DESTINATIONNAME] 방면 출구")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572319259243)
 }
 train (t-otomkhc74rqg64lz73x88ucuf) {
   utterance ("[g:Description] (양재역)[v:STATIONNAME]에 있는 (돼지연구소)[v:DESTINATIONNAME]")
@@ -57,4 +47,9 @@ train (t-owv6eh8f1zap57y1e11ui28be) {
   utterance ("[g:Description] (범계역)[v:STATIONNAME]에서 (향촌 롯데 아파트)[v:DESTINATIONNAME]로 갈거야")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315940010)
+}
+train (t-owxnp44iou24cvamijrucwx9q) {
+  utterance ([g:Guide:continue] 캡슐 사용법 보여줘)
+  plan (Y2BmEE8pii8uTkyr1EutyCzRcw/1dHENDnENYBBGkyjNTEnFrZqJgRGIGYAkIwMDjAYA)
+  last-modified (1572956641262)
 }

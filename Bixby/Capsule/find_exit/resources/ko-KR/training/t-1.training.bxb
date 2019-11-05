@@ -1,12 +1,7 @@
-train (t-10efwpul67hy6qfsb0tp1xxqm) {
-  utterance ("[g:Description] (오토바이 골목)[v:DESTINATIONNAME] 갈 건데 (청라언덕역)[v:STATIONNAME]에서 몇 번 출구로 가야하는지 검색해줘")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572497420217)
-}
-train (t-11p4kg4twvg0gaqsauoqdlk7i) {
-  utterance ("[g:Description] (동대문역사문화공원역)[v:STATIONNAME]에서 (apm)[v:DESTINATIONNAME]가는 출구 알려줘")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315931648)
+train (t-10qtbrb5b085aaewtfzk2zcmj) {
+  utterance ([g:Guide:continue] 사용 방법 검색해줘)
+  plan (Y2BmEE8pii8uTkyr1EutyCzRcw/1dHENDnENYBBGkyjNTEnFrZqJgRGIGYAkIwMDjAYA)
+  last-modified (1572956974142)
 }
 train (t-1b3za29yji7j14xjfk5orf3dw) {
   utterance ("[g:Description] (방배역)[v:STATIONNAME]에서 (방배 1동 주민센터)[v:DESTINATIONNAME]로 가려고 해")
@@ -18,15 +13,15 @@ train (t-1k1qy50tlpkd52zgs1c9oqvxi) {
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572318656582)
 }
-train (t-1knfishqqss5zimmphs61nijz) {
-  utterance ("[g:Description] (영통역)[v:STATIONNAME]에서 (경희대)[v:DESTINATIONNAME] 가려면 몇 분 걸릴까")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315931828)
-}
 train (t-1muztuzwu7ssky5tv6e7kj993) {
   utterance ("[g:Description] (연세대)[v:DESTINATIONNAME]로 가려면 (신촌역)[v:STATIONNAME] 몇 번 출구로 나가야 돼")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315931878)
+}
+train (t-1oqov6ygoavlykpqgx1n2msrs) {
+  utterance ([g:Guide:continue:Guide] 캡슐 사용방법 안내해줘)
+  plan (Y2BmEE8pii8uTkyr1EutyCzRcw/1dHENDnENYBBGkyjNTEnFrZqJgRGIGYAkIwMDjAYA)
+  last-modified (1572956865525)
 }
 train (t-1t0tfwbrg65923dvcaqx9rdyn) {
   utterance ("[g:Description] (서부여성회관역)[v:STATIONNAME]에서 (치과)[v:DESTINATIONNAME]에 갈거야")
@@ -37,4 +32,14 @@ train (t-1ub4hf5duzlvmc3o3t08rjgt5) {
   utterance ("[g:Description] (용산역)[v:STATIONNAME]에서 (앰배서더 호텔)[v:DESTINATIONNAME]로 가는 출구")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572318224248)
+}
+train (t-1uzz6v1flxf3x2zz57oafpveb) {
+  utterance ("[g:Description] (1913 송정역 시장)[v:DESTINATIONNAME]에 가고 싶어 (광주송정역)[v:STATIONNAME]에서 몇 번 출구로 나가면 되니")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572967260462)
+}
+train (t-1ziz4chzlofwg95kxeb6b4kum) {
+  utterance ([g:Guide:continue] 캡슐 사용방법 알려줘)
+  plan (Y2BmEE8pii8uTkyr1EutyCzRcw/1dHENDnENYBBGkyjNTEnFrZqJgRGIGYAkIwMDjAYA)
+  last-modified (1572956778947)
 }

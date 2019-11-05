@@ -3,20 +3,20 @@ train (t-r13kkekv5tlja5v7lwt469wxz) {
   plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
   last-modified (1572326143437)
 }
-train (t-r13l0r209h380nu4gl30r64vo) {
-  utterance ("[g:Description] (도매시장)[v:DESTINATIONNAME]에 가고 싶어 (대전역)[v:STATIONNAME]에서 출발 가능")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315936803)
-}
 train (t-r7f8vdewhuuo13d6p131cdtm5) {
   utterance ("[g:Description] (대구 국제 공항 입구역)[v:STATIONNAME]에서 (근처)[v:SORT:distance] (공원)[v:DESTINATIONNAME]으로 가는 출구 알려줘")
   plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
   last-modified (1572419171025)
 }
-train (t-r8eg6fj5e4zc6tuzky1a768rb) {
-  utterance ("[g:Description] (동서대)[v:DESTINATIONNAME]에 갈거고 (냉정역)[v:STATIONNAME]에서 출발할래")
+train (t-r9hmce9gtuuoair0pdzfo2huo) {
+  utterance ("[g:Description] (국립중앙의료원)[v:DESTINATIONNAME]으로 갈 건데 (을지로4가역)[v:STATIONNAME]에서 몇 번 출구로 가야 돼")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315936846)
+  last-modified (1572961578709)
+}
+train (t-rdmsy581x08wgc35161j5a2ez) {
+  utterance ([g:Guide:continue] 사용법 찾아줘)
+  plan (Y2BmEE8pii8uTkyr1EutyCzRcw/1dHENDnENYBBGkyjNTEnFrZqJgRGIGYAkIwMDjAYA)
+  last-modified (1572956556664)
 }
 train (t-rfyle9xax1o40rnh2ft2902ae) {
   utterance ("[g:Description] (시청역)[v:STATIONNAME]에서 (국립현대미술관 덕수궁관)[v:DESTINATIONNAME]으로 가는 출구 알려줘")
@@ -37,11 +37,6 @@ train (t-rrxpfy2t3wlz5ic7q0d7uhmj5) {
   utterance ("[g:Description] (명동역)[v:STATIONNAME]에서 (A랜드)[v:DESTINATIONNAME]로 가는 출구 알려줘")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315939143)
-}
-train (t-rvafwtfh2kwp0gsvogj49iav4) {
-  utterance ("[g:Description] (강남역)[v:STATIONNAME]이 출발지고 (서초 2동 주민센터)[v:DESTINATIONNAME]가 도착지야")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572564956145)
 }
 train (t-rvclfxlbti3z23pp2qjqrmemz) {
   utterance ("[g:Description] (교회)[v:DESTINATIONNAME] 방향 (대곡역)[v:STATIONNAME] 출구")

@@ -9,9 +9,9 @@ train (t-v7vkqa2l1ep347ar919bjnt4x) {
   last-modified (1572318973295)
 }
 train (t-v92wfz1bxrdk72be1fkrxf08v) {
-  utterance ("[g:Description] (삼송역)[v:STATIONNAME] 근처 (마트)[v:DESTINATIONNAME] 방향 출구")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315940992)
+  utterance ("[g:Description] (삼송역)[v:STATIONNAME] (근처)[v:SORT:distance] (마트)[v:DESTINATIONNAME] 방향 출구")
+  plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
+  last-modified (1572966012587)
 }
 train (t-vcfpkq80wfchti5jiixb9qait) {
   utterance ("[g:Description] (수서역)[v:STATIONNAME]에 있는 (카페)[v:DESTINATIONNAME]")
@@ -27,11 +27,6 @@ train (t-vin9ox9j62oscptjcwm90n0b1) {
   utterance ("[g:Description] (명학역)[v:STATIONNAME] (안양 아트센터)[v:DESTINATIONNAME]")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572327330693)
-}
-train (t-vm8hxrw5wokicet92rjq38fzn) {
-  utterance ("[g:Description] 출발지는 (모라역)[v:STATIONNAME]이고 목적지는 (우체국)[v:DESTINATIONNAME]이야")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315937447)
 }
 train (t-vnd3s8a9hvy4ffsgk6se2f8dt) {
   utterance ("[g:Description] (서울 종암 경찰서)[v:DESTINATIONNAME] 가려고 하는데 (길음역)[v:STATIONNAME]에서 어디로 나가")

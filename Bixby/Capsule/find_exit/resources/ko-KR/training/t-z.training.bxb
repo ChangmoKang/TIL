@@ -3,6 +3,11 @@ train (t-z7pj9zrxko6vxm4bp3yowpehz) {
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315938180)
 }
+train (t-z9u4m10b5db8jka4kzueo18ut) {
+  utterance ("[g:Description] (숙대입구역)[v:dr_ssafy.exit.STATIONNAME]에서 (소망을찾는이 지역아동센터)[v:dr_ssafy.exit.DESTINATIONNAME]로 가는 출구 알려줘")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572960116567)
+}
 train (t-z9xlamyuojy33qdb125u030w7) {
   utterance ("[g:Description] (오이도역)[v:STATIONNAME] (메가박스)[v:DESTINATIONNAME]")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
@@ -12,6 +17,11 @@ train (t-zdr8h008z5oz9qmqw8zaotl6w) {
   utterance ("[g:Description] (성균관대역)[v:STATIONNAME] (수원 성균관대역 동문 굿모닝 힐 아파트)[v:DESTINATIONNAME]")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572327551734)
+}
+train (t-zdx6mkaxofumkysgaslw5jf7f) {
+  utterance ([g:Guide:continue] 사용 방법 보여줘)
+  plan (Y2BmEE8pii8uTkyr1EutyCzRcw/1dHENDnENYBBGkyjNTEnFrZqJgRGIGYAkIwMDjAYA)
+  last-modified (1572956944726)
 }
 train (t-zee61wbgyra02xfxnkziesyfv) {
   utterance ("[g:Description] (구의역)[v:STATIONNAME]에서 (구의 제1동 주민센터로)[v:DESTINATIONNAME] 가는 가장 빠른 출구 알려줘")

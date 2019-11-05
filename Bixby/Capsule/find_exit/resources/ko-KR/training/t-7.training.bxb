@@ -3,35 +3,20 @@ train (t-73miexylewgruae3ejriaq8qp) {
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315933414)
 }
-train (t-74uopv88yrbgaduatoze80rat) {
-  utterance ("[g:Description] (부산은행)[v:DESTINATIONNAME]에 가려면 (거제해맞이역)[v:STATIONNAME]에서 몇 번 출구")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315933460)
-}
 train (t-76mmzozlnw7sg8pm49em9satz) {
   utterance ("[g:Description] (삼전역)[v:STATIONNAME]에서 (꼬치집)[v:DESTINATIONNAME] 가려면 어떻게 해")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315933505)
-}
-train (t-77drl5h7hiaog4hhgwvkf2088) {
-  utterance ("[g:Description] (화랑저수지)[v:DESTINATIONNAME] 방향 (고잔역)[v:STATIONNAME] 출구")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315940387)
 }
 train (t-7a0kbr899gek1h6abqf9fby7c) {
   utterance ("[g:Description] (불광역)[v:STATIONNAME] 주변 (백화점)[v:DESTINATIONNAME]")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315941158)
 }
-train (t-7b4fyh9k9eyq3rhal39vptscx) {
-  utterance ("[g:Description] (CN천년부페웨딩홀)[v:DESTINATIONNAME] 방면으로 가는 (백석역)[v:STATIONNAME] 출구")
+train (t-7hi706ppna9vk79zjso2buxy1) {
+  utterance ("[g:Description] (인천 논현역)[v:STATIONNAME]에서 (운전학원)[v:DESTINATIONNAME] 가려면 몇 번 출구로 나가")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315940757)
-}
-train (t-7d2mf2z7udgj69ybn82gb9nca) {
-  utterance ("[g:Description] (인천논현역)[v:STATIONNAME]에서 (운전학원)[v:DESTINATIONNAME] 가려면 몇 번 출구로 나가")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315933552)
+  last-modified (1572960885133)
 }
 train (t-7kbdgde5lwxg37d9hu2uufj2p) {
   utterance ("[g:Description] (시청 용인대역)[v:STATIONNAME]에서 (수풍정)[v:DESTINATIONNAME] 가는 출구 알려줘")
@@ -48,16 +33,6 @@ train (t-7q50ymuqzssmnqy5gu9lg9zax) {
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572328969887)
 }
-train (t-7tn5jvqozgp5rucvwds1pbp4k) {
-  utterance ("[g:Description] (남부터미널)[v:STATIONNAME] (근처)[v:SORT:distance] (내과의원)[v:DESTINATIONNAME]")
-  plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
-  last-modified (1572315918209)
-}
-train (t-7ui18kourd1ntkzg1v8lhwwj3) {
-  utterance ("[g:Description] 출발지 (수정역)[v:STATIONNAME] 목적지 (화정 근린 공원)[v:DESTINATIONNAME]")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315933606)
-}
 train (t-7wji7vuukowz3le8mn9wfkr3y) {
   utterance ("[g:Description] (구파발역)[v:STATIONNAME]에서 (주민센터)[v:DESTINATIONNAME]로 가는 출구")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
@@ -67,11 +42,6 @@ train (t-7wucgjafknj6h8829p7lihnhw) {
   utterance ("[g:Description] (로데오거리)[v:DESTINATIONNAME]로 가고싶어 (수원역)[v:STATIONNAME]에서")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572327635768)
-}
-train (t-7zhmxrm5gplao97xt6477s4v8) {
-  utterance ("[g:Description] (사당역)[v:STATIONNAME]에서 (낙성대역)[v:DESTINATIONNAME]방향으로 가는 출구 알려줘")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315939560)
 }
 train (t-7zyb5ms99ob45z2rdc1xhlikd) {
   utterance ("[g:Description] (금호역)[v:STATIONNAME] (근처)[v:SORT:distance] (버스 정류장)[v:DESTINATIONNAME]")
