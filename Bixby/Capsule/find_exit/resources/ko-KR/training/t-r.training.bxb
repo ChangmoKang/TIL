@@ -3,6 +3,11 @@ train (t-r13kkekv5tlja5v7lwt469wxz) {
   plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
   last-modified (1572326143437)
 }
+train (t-r2rb7jiyby1mg3m1dwc38sab2) {
+  utterance ("[g:Description] (카페베네)[v:dr_ssafy.exit.DESTINATIONNAME] 갈거야 (하단 역)[v:dr_ssafy.exit.STATIONNAME]에서 출발")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1573005857103)
+}
 train (t-r7f8vdewhuuo13d6p131cdtm5) {
   utterance ("[g:Description] (대구 국제 공항 입구역)[v:STATIONNAME]에서 (근처)[v:SORT:distance] (공원)[v:DESTINATIONNAME]으로 가는 출구 알려줘")
   plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
@@ -27,6 +32,11 @@ train (t-rgs1853oc489x1p0tjufjcpyq) {
   utterance ("[g:Description] (도봉산 리베니움 아파트)[v:DESTINATIONNAME] 방면 (도봉산역)[v:STATIONNAME] 출구 알려줘")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572317109556)
+}
+train (t-rhaf0uw9ezgn31t5q0n68rtwz) {
+  utterance ("[g:Description] (종로5가 역)[v:STATIONNAME]에서 (광장시장)[v:DESTINATIONNAME]으로 가는 출구")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1573005589609)
 }
 train (t-rkyvgg7qa544gt92oug2t5ner) {
   utterance ("[g:Description] (중동역)[v:STATIONNAME]에서 (삼성전자 서비스센터)[v:DESTINATIONNAME] 가는 방법")

@@ -23,6 +23,11 @@ train (t-5k07wcmn1nzb3jnrxyyfka9mm) {
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572327953750)
 }
+train (t-5m0yu3moe6gqp99z87zb5lhyv) {
+  utterance ("[g:Description] (삼성역)[v:dr_ssafy.exit.STATIONNAME]에서 (크라이 치즈버거)[v:DESTINATIONNAME]")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1573006848052)
+}
 train (t-5qh747ymq3elvhx41a7n9m2nz) {
   utterance ([g:Guide:continue] 사용 방법 알려줘)
   plan (Y2BmEE8pii8uTkyr1EutyCzRcw/1dHENDnENYBBGkyjNTEnFrZqJgRGIGYAkIwMDjAYA)

@@ -20,6 +20,11 @@ endpoints {
       local-endpoint (findExit.js)
     }
 
+    action-endpoint (UpdateStationName) {
+      accepted-inputs (stationName)
+      local-endpoint (error/updateStationName.js)
+    }
+
     action-endpoint (UpdateDestinationName) {
       accepted-inputs (destinationName)
       local-endpoint (error/updateDestinationName.js)

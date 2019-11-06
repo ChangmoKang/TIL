@@ -1,3 +1,8 @@
+train (t-c27e2lo8j5yo859ekxsnjvw6t) {
+  utterance ("[g:Description] (시청 용인대역)[v:dr_ssafy.exit.STATIONNAME]에서 (근처)[v:dr_ssafy.exit.SORT:distance] (스타벅스)[v:dr_ssafy.exit.DESTINATIONNAME] 가는 출구 알려줘")
+  plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
+  last-modified (1573004995107)
+}
 train (t-c43ht3t5emd2kb8d9ok3sd5k8) {
   utterance ("[g:Description] (방학역)[v:STATIONNAME] (근처)[v:SORT:distance] (CU)[v:DESTINATIONNAME]")
   plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
@@ -7,6 +12,11 @@ train (t-c48tdcy82ttfr5qems1mk1k73) {
   utterance ("[g:Description] (도봉역)[v:STATIONNAME]에서 (서울 북부 지방법원)[v:DESTINATIONNAME]으로 가는 가장 빠른 출구")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572317169757)
+}
+train (t-c5ibmnycprigt6fhmjwfw00rn) {
+  utterance ([g:Guide:continue] 설명서 보여줘)
+  plan (Y2BmEE8pii8uTkyr1EutyCzRcw/1dHENDnENYBBGkyjNTEnFrZqJgRGIGYAkIwMDjAYA)
+  last-modified (1573015304768)
 }
 train (t-c7ae3scguavgetzsltkjfa18b) {
   utterance ("[g:Description] (동대입구역)[v:STATIONNAME]에서 (장충동 족발거리)[v:DESTINATIONNAME]")
@@ -28,10 +38,20 @@ train (t-cemtu01lr15ofbhcx5hrgu58p) {
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572409104736)
 }
+train (t-cq7lo5ukgx0hkit5dpz6bh0e0) {
+  utterance ("[g:Description] (종로3가 역)[v:dr_ssafy.exit.STATIONNAME]에서 (탑골공원)[v:dr_ssafy.exit.DESTINATIONNAME] 가는 출구 알려줘")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1573005557152)
+}
 train (t-csc9qx55u2jfkurh3c5le45hc) {
   utterance ("[g:Description] (경북여고)[v:DESTINATIONNAME]까지 가려면 (명덕역)[v:STATIONNAME]에서 몇 번 출구로 나가야해")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315934641)
+}
+train (t-csll4p1e1uyojcar0vto39y0x) {
+  utterance ([g:Guide:continue] 이거 어떻게 쓰는거야)
+  plan (Y2BmEE8pii8uTkyr1EutyCzRcw/1dHENDnENYBBGkyjNTEnFrZqJgRGIGYAkIwMDjAYA)
+  last-modified (1573015145547)
 }
 train (t-cu6wlkfu2c086630ys9w17i0w) {
   utterance ("[g:Description] (오산대역)[v:STATIONNAME]에서 출발할 예정인데 (세교 서울 이비인후과 의원)[v:DESTINATIONNAME]으로 가는 출구 알려줘")
@@ -47,11 +67,6 @@ train (t-cvld5es4oc2zomz687oyqszsw) {
   utterance ("[g:Description] (원흥역)[v:STATIONNAME]에서 (농협대학교)[v:DESTINATIONNAME] 갈거야")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315940934)
-}
-train (t-cvni8px79dfto78blsnkm81b4) {
-  utterance ("[g:Description] (배방역)[v:STATIONNAME]에서 출발할 건데 (아산 배방 푸르지오 아파트)[v:DESTINATIONNAME] 쪽으로 가는 출구는")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572329236595)
 }
 train (t-cwjics3h6pg1zde1uzhjunu1u) {
   utterance ("[g:Description] (충정로역)[v:STATIONNAME]에서 (손기정 체육공원)[v:DESTINATIONNAME]으로 가는 출구 알려줘")

@@ -33,6 +33,11 @@ train (t-tlnqtxw9nmsww88cuva3p2e0g) {
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315937102)
 }
+train (t-tmg5xkbduuwpxh2qu5u4tqaq5) {
+  utterance ("[g:Description] (안산역)[v:dr_ssafy.exit.STATIONNAME] (안산시민 시장)[v:dr_ssafy.exit.DESTINATIONNAME]")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1573004217620)
+}
 train (t-trbvgs7wwahtww3efwfidowem) {
   utterance ("[g:Description] (일광역)[v:STATIONNAME]에서 출발해서 (부산 테크노파크 해양생물산업육성센터)[v:DESTINATIONNAME]까지 가려면 얼마나 걸릴까")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
@@ -47,6 +52,11 @@ train (t-tu6lt9pxzvbo1ip27o0wf7hdp) {
   utterance ("[g:Description] (공덕역)[v:STATIONNAME] 6호선에서 (도화동 주민센터)[v:DESTINATIONNAME]로 가려고 하는데 어떻게 가야 돼")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572425094281)
+}
+train (t-txq8a1pobwmb6lt64hr7j96g2) {
+  utterance ("[g:Description] (원흥역)[v:dr_ssafy.exit.STATIONNAME]에서 (농협 대학교)[v:dr_ssafy.exit.DESTINATIONNAME] 갈거야")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1573004701849)
 }
 train (t-tzrb3pa0xoxn5n88vozncs0tz) {
   utterance ("[g:Description] (덕정역)[v:STATIONNAME]에서 (서희 스타힐스 2단지 아파트)[v:DESTINATIONNAME]로 가려면 어디로 나가야 돼")

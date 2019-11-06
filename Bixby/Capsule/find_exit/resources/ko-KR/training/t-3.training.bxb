@@ -1,8 +1,3 @@
-train (t-30imtl4d80djm5rlqed9vrwz0) {
-  utterance ("[g:Description] (서초역)[v:STATIONNAME]에서 (대법원)[v:DESTINATIONNAME]가는 출구")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315932487)
-}
 train (t-35wokq3a6xrbvh2rr5ijxlppl) {
   utterance ("[g:Description] (지행역)[v:STATIONNAME] (근처)[v:SORT:distance] (편의점)[v:DESTINATIONNAME]")
   plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
@@ -27,6 +22,11 @@ train (t-3kv2jfxxdsw678xr09zlbewr4) {
   utterance ("[g:Description] (한국전력공사)[v:DESTINATIONNAME] 갈 생각인데 (농성역)[v:STATIONNAME]에서 몇 번 출구로 나가야 할까")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572408225445)
+}
+train (t-3psc4g41opzys4eqbir51jmqk) {
+  utterance ("[g:Description] 목적지는 (KB국민은행)[v:DESTINATIONNAME] 출발지는 (부산대 양산캠퍼스역)[v:STATIONNAME]")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572998776829)
 }
 train (t-3vrlrs1e6jqnys399g8cuncpn) {
   utterance ("[g:Description] (동성로)[v:DESTINATIONNAME] 갈 수 있는 가장 빠른 출구 알려줘 (중앙로역)[v:STATIONNAME]에서 출발할거야")

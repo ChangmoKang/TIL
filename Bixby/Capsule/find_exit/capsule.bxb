@@ -1,6 +1,6 @@
 capsule {
   id (dr_ssafy.exit)
-  version (1.2.3)
+  version (1.2.6)
   format (3)
   targets {
     target (bixby-mobile-ko-KR) {enabled (true)}

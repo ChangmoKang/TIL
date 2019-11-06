@@ -3,10 +3,25 @@ train (t-98ny36a96ukxozyvfn4xygjni) {
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315939238)
 }
+train (t-9bbk1mij7q4nf9nxt57i9vd2m) {
+  utterance ("[g:Description] (이당역)[v:dr_ssafy.exit.STATIONNAME]에서 (사당역)[v:dr_ssafy.exit.DESTINATIONNAME]으로 가는 출구 알려줘")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1573027655861)
+}
+train (t-9chsybuzbziuzcfdqb0kaupb5) {
+  utterance ("[g:Description] 목적지는 (경성대학교)[v:DESTINATIONNAME] 출발지는 (경성대 부경대역)[v:STATIONNAME]")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572998878820)
+}
 train (t-9dghov883uhytu8peecq70y0s) {
   utterance ("[g:Description] (대림역)[v:STATIONNAME]에서 (공원)[v:DESTINATIONNAME]으로 갈거야")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315933889)
+}
+train (t-9pms3spx4rzo0n800dbvhybls) {
+  utterance ("[g:Description] (역삼역)[v:dr_ssafy.exit.STATIONNAME] (근처)[v:dr_ssafy.exit.SORT:distance] (카페)[v:DESTINATIONNAME] 어딨어요")
+  plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
+  last-modified (1573007475962)
 }
 train (t-9rfbwmhfsm4vrdj9u5tfa5fi4) {
   utterance ("[g:Description] (KCLA왕의아이들)[v:DESTINATIONNAME]로 가려면 (선릉역)[v:STATIONNAME]에서 몇 번 출구로 나가야 돼")

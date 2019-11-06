@@ -8,11 +8,6 @@ train (t-d4w8zx79vuf45maqn59wzdq3m) {
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315942088)
 }
-train (t-d5abb8vvakg8u350a4jqecnlu) {
-  utterance ("[g:Description] (보라매공원)[v:DESTINATIONNAME] 갈껀데 (신대방역)[v:STATIONNAME] 몇 번 출구로 나가")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315934730)
-}
 train (t-d65ne3l9ndgslkzpupkiy1zvw) {
   utterance ("[g:Description] (못골역)[v:STATIONNAME]에서 출발할 거고 (하이마트)[v:DESTINATIONNAME]로 갈 거야")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
@@ -23,10 +18,20 @@ train (t-daoq8np8zj1dgy8kocjgulzpi) {
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572319585529)
 }
+train (t-daw4yq7xgb37lqaerlohbxrke) {
+  utterance ("[g:Description] (신세계 백화점)[v:DESTINATIONNAME]은 (센텀시티역)[v:STATIONNAME]에서 어떻게 가")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1573003893861)
+}
 train (t-db45irhssx8dxmb4outswspvw) {
   utterance ("[g:Description] (가락시장역)[v:STATIONNAME] (수산시장)[v:DESTINATIONNAME]")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315942235)
+}
+train (t-de1u8wrfbehfogd3iowdq0x93) {
+  utterance ("[g:Description] (구로디지털단지역)[v:dr_ssafy.exit.STATIONNAME]에서 (대림 중앙시장)[v:dr_ssafy.exit.DESTINATIONNAME] 갈거야")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572997130834)
 }
 train (t-dfiawfx6kwfybunza0wuodoc1) {
   utterance ("[g:Description] 도착지는 (CGV)[v:DESTINATIONNAME]고 출발지는 (강남역)[v:STATIONNAME]이야")
@@ -68,10 +73,20 @@ train (t-dodkou5ifs8wwy8fy17bkxcc5) {
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572593153744)
 }
+train (t-dp4d71wexjsh7qnwklm7on72q) {
+  utterance ("[g:Description] (월계역)[v:dr_ssafy.exit.STATIONNAME]에서 (아시아 퍼시픽 국제 외국인학교)[v:dr_ssafy.exit.DESTINATIONNAME]로 가는 출구")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1573004741018)
+}
 train (t-dv554dep12tfcvcrt0vffjx4o) {
   utterance ("[g:Description] (재현 고등학교)[v:DESTINATIONNAME]로 가려면 (상계역)[v:STATIONNAME]에서 어디로 나가야 돼")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315938481)
+}
+train (t-dvist1qtqqs71pra13y4udjoi) {
+  utterance ("[g:Description] (메가박스)[v:DESTINATIONNAME]로 갈 수 있는 가장 빠른 출구 알려줘 (중앙로 역)[v:STATIONNAME]에서 출발할 거야")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572998241395)
 }
 train (t-dxu453e8vrz6ez8fiv49cvf8p) {
   utterance ([g:Guide:continue] 사용법 좀 알려줘봐)

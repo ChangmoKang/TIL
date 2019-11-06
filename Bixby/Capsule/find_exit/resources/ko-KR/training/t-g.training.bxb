@@ -9,9 +9,9 @@ train (t-g30qbig3pkg8kfl8zyv83y511) {
   last-modified (1572326799153)
 }
 train (t-g3cibzfr3hst3z7tbbblgqmth) {
-  utterance ("[g:Description] (성신여대입구역)[v:STATIONNAME]에서 근처 (세븐일레븐)[v:DESTINATIONNAME]으로 가는 출구 알려줘")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315938816)
+  utterance ("[g:Description] (성신여대입구역)[v:STATIONNAME]에서 (근처)[v:SORT:distance] (세븐일레븐)[v:DESTINATIONNAME]으로 가는 출구 알려줘")
+  plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
+  last-modified (1573030156590)
 }
 train (t-g6277070nbd85ivkqlg4slw10) {
   utterance ("[g:Description] 가장 (가까운)[v:SORT:distance] (공원)[v:DESTINATIONNAME] 갈 건데 (가능역)[v:STATIONNAME]에서 출발할 거야")
@@ -27,6 +27,16 @@ train (t-g6zhmhrw730k2v71enlxmyoiq) {
   utterance ("[g:Description] (을지로3가 역)[v:STATIONNAME]에서 (을지로 인쇄골목)[v:DESTINATIONNAME]으로 가는 출구 알려줘")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572346718778)
+}
+train (t-gbpcggkqsw0il3ljty1v4qxy5) {
+  utterance ("[g:Description] (마포대교역)[v:dr_ssafy.exit.STATIONNAME]에서 (한강)[v:dr_ssafy.exit.DESTINATIONNAME]으로 가는 출구 알려줘")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1573027536107)
+}
+train (t-gc5skczurfa7eq2rxttsye3su) {
+  utterance ("[g:Description] (파리바게트)[v:DESTINATIONNAME] 갈건데 (봉천역)[v:STATIONNAME]에서 몇 번 출구로 나가야 돼")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1573005824675)
 }
 train (t-gewmeo0d6donzeqmzqhkk5vb0) {
   utterance ("[g:Description] (을지로1가 역)[v:STATIONNAME]에서 (롯데백화점)[v:DESTINATIONNAME] 어떻게 가니")
@@ -58,6 +68,11 @@ train (t-gv6z9nr7vtsq0vd2lecrypjnj) {
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572404725643)
 }
+train (t-gwixa8wdnaakb2znu12umkfqo) {
+  utterance ("[g:Description] (오토바이 골목)[v:dr_ssafy.exit.DESTINATIONNAME] 갈 건데 (청라 언덕역)[v:dr_ssafy.exit.STATIONNAME] 몇 번 출구로 가")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1573004506094)
+}
 train (t-gxs0uh4h8serc9xld61ox4ntd) {
   utterance ("[g:Description] (직산역)[v:STATIONNAME]에서 (서희 스타힐스)[v:DESTINATIONNAME] 쪽으로 나갈 거야")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
@@ -67,9 +82,4 @@ train (t-gyd3a6rahl5phwaoe6a0f7pcu) {
   utterance ("[g:Description] (강남역)[v:STATIONNAME]에서 (CGV)[v:DESTINATIONNAME] 가려고 하는데 몇 번 출구로 나가야 돼")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572954918369)
-}
-train (t-gzpym0xb2wp41sy22hqftrlmz) {
-  utterance ("[g:Description] (소요산 탑 온천랜드)[v:DESTINATIONNAME]로 가는 (보산역)[v:STATIONNAME] 출구 알려줘")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315942474)
 }

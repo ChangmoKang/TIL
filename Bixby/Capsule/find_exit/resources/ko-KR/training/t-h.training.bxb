@@ -3,6 +3,11 @@ train (t-h4rbb4u36bm3kupfcxggl38yx) {
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315935301)
 }
+train (t-h7aeyftqhitsnhgaex66l0rtt) {
+  utterance ("[g:Description] (혜화역)[v:dr_ssafy.exit.STATIONNAME]에서 (알라딘 중고 서점)[v:dr_ssafy.exit.DESTINATIONNAME]으로 가려고 해")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1573005987637)
+}
 train (t-hg5f7bmpae2uidmg5bmzuw7j4) {
   utterance ("[g:Description] (근처)[v:SORT:distance] (농협)[v:DESTINATIONNAME]으로 갈 건데 (반고개역)[v:STATIONNAME]에서 출발할 거야")
   plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
@@ -27,6 +32,11 @@ train (t-hotv8f7ll99frb9n8e1fvod4o) {
   utterance ("[g:Description] (잠실새내역)[v:DESTINATIONNAME]에서 (서울 잠실 2동 우체국)[v:STATIONNAME]으로 갈꺼야")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315935346)
+}
+train (t-hq3j2d2m4e17l34kp7mbmiysh) {
+  utterance ("[g:Description] (이촌역)[v:STATIONNAME]에서 (국립중앙박물관)[v:DESTINATIONNAME]까지 가는 데 몇 분")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1573006077758)
 }
 train (t-hqa70luuh13qrpnqiogivign6) {
   utterance ("[g:Description] (오금역)[v:STATIONNAME] 근처에 있는 가장 (가까운)[v:SORT:distance] (공원)[v:DESTINATIONNAME]으로 가는 출구 알려줘")

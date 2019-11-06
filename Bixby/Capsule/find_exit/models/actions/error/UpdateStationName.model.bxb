@@ -1,13 +1,13 @@
-action (UpdateDestinationName) {
+action (UpdateStationName) {
   type(Constructor)
   description (__DESCRIPTION__)
   collect {
-    input (destinationName) {
-      type (DESTINATIONNAME)
+    input (stationName) {
+      type (STATIONNAME)
       min (Required) max (One)
     }
   }
-  output (DESTINATIONNAME) {
+  output (STATIONNAME) {
     throws {
       unknown-error {
         on-catch {

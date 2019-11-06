@@ -18,15 +18,15 @@ train (t-nhu6xfh6me5vmrmrrbzkmvufa) {
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315936193)
 }
-train (t-nj5z6zaom5sw97b6k7135427h) {
-  utterance ("[g:Description] (을지로4가 역)[v:STATIONNAME]에서 (우래옥)[v:DESTINATIONNAME] 갈거야")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572391776311)
-}
 train (t-nkms74tu7vx3ra2li72ybgszn) {
   utterance ("[g:Description] (망우역)[v:STATIONNAME] 출구 중에 (홈플러스)[v:DESTINATIONNAME]로 가는 가장 빠른 출구는 어디야")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572423822697)
+}
+train (t-nl4dfl5dtlbg58il08vhozyp5) {
+  utterance ("[g:Description] (국립중앙의료원)[v:dr_ssafy.exit.DESTINATIONNAME]으로 갈 건데 (을지로4가 역)[v:dr_ssafy.exit.STATIONNAME]에서 몇 번 출구로 가야 해")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572997338909)
 }
 train (t-nl737sdu11nmrsbnh4i7qyn7m) {
   utterance ("[g:Description] (행신역)[v:STATIONNAME]에서 (홈플러스)[v:DESTINATIONNAME]까지 걸어갈래")
@@ -42,4 +42,14 @@ train (t-nq4a488autt3j2qjxrf08fqlr) {
   utterance ("[g:Description] (홍제역)[v:STATIONNAME] (그랜드힐튼 서울)[v:DESTINATIONNAME]")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315941246)
+}
+train (t-nqwsvmoyd6xiyhba0vr9x3ad6) {
+  utterance ("[g:Description] (동대구역)[v:dr_ssafy.exit.STATIONNAME] (근처)[v:dr_ssafy.exit.SORT:distance] (노래방)[v:DESTINATIONNAME] 찾아줘")
+  plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
+  last-modified (1573007612853)
+}
+train (t-nuj4vkj3mtw7gxgqvuys3y9k5) {
+  utterance ("[g:Description] (서초역)[v:STATIONNAME]에서 (대법원)[v:DESTINATIONNAME] 가는 출구")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1573000428185)
 }

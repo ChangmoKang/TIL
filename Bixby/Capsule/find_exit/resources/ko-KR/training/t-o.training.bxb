@@ -23,15 +23,15 @@ train (t-oc17kdntvnht9aql8jc88a0g0) {
   plan (Y2BmEE8pii8uTkyr1EutyCzRcw/1dHENDnENYBBGkyjNTEnFrZqJgRGIGYAkIwMDjAYA)
   last-modified (1572955550254)
 }
-train (t-oehk6mknzpjr3iq4zgpjhiuyw) {
-  utterance ("[g:Description] (LG전자 서비스센터)[v:DESTINATIONNAME]에 가야 하는데 (연지공원역)[v:STATIONNAME]에서 어떻게 나가 ")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315936335)
-}
 train (t-ogkgicqn7xqyapv75gfgynytk) {
   utterance ("[g:Description] (사당역)[v:STATIONNAME]에서 (숙달돼지)[v:DESTINATIONNAME]로 가는 출구")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315936382)
+}
+train (t-op23xnc28lgeibe0i1bs6ufzr) {
+  utterance ("[g:Description] (반석역)[v:dr_ssafy.exit.STATIONNAME]에서 (할리스 커피)[v:dr_ssafy.exit.DESTINATIONNAME]로 가는 출구 알려줘")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572999442905)
 }
 train (t-oqs99o1q6yvccuhgartq4tozj) {
   utterance ("[g:Description] (잠실역)[v:STATIONNAME]에서 (롯데타워)[v:DESTINATIONNAME] 가는 출구 알려줘")

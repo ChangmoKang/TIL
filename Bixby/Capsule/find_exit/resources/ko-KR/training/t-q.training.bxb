@@ -1,12 +1,12 @@
-train (t-q2dy9btcmluj9ds43257w1u9s) {
-  utterance ("[g:Description] (당산역)[v:STATIONNAME]에서 근처 (GS25)[v:DESTINATIONNAME] 출구")
-  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572315936664)
-}
 train (t-q695mh6qin0wjf4u5c5svcw23) {
   utterance ("[g:Description] (영등포역)[v:STATIONNAME]에서 (센트럴 푸르지오 시티 오피스텔)[v:DESTINATIONNAME]로 가는 출구")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572318439160)
+}
+train (t-q8if7fir5uzdzxabodju6yi7z) {
+  utterance ("[g:Description] (LG 전자 서비스 센터)[v:DESTINATIONNAME] 가야 되는데 (연지공원역)[v:STATIONNAME]에서 어떻게 나가")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572996435383)
 }
 train (t-qhrepo43g0iywa49cx0lfe532) {
   utterance ("[g:Description] (당고개역)[v:STATIONNAME] 근처 (약국)[v:DESTINATIONNAME]으로 가는 출구 찾아줘")
@@ -23,6 +23,11 @@ train (t-qk8jqguhysbbhjhl33jcu8qb8) {
   plan (Y2BmEE8pii8uTkyr1EutyCzRcw/1dHENDnENYBBGkyjNTEnFrZqJgRGIGYAkIwMDjAYA)
   last-modified (1572956799514)
 }
+train (t-ql18nqvncjy7j152xe9etczei) {
+  utterance ("[g:Description] (국민건강보험공단)[v:DESTINATIONNAME] 쪽으로 가는 출구를 찾고 있는데 (병점역)[v:STATIONNAME]에서 어디로 나가야 돼")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1572999742311)
+}
 train (t-qndq72n6f3u7q7gfcs08p722y) {
   utterance ("[g:Description] (의왕역)[v:STATIONNAME] (장안마을 주공 아파트)[v:DESTINATIONNAME]")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
@@ -37,6 +42,11 @@ train (t-qop9jgsy4cavan7fihyegy04y) {
   utterance ("[g:Description] (판교역)[v:STATIONNAME]에서 (네이버)[v:DESTINATIONNAME]까지 가는 데 몇 분 걸려")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315936710)
+}
+train (t-qsuw7ljxzd5rzd2bbms126con) {
+  utterance ("[g:Description] (일송정)[v:dr_ssafy.exit.DESTINATIONNAME]으로 갈 생각인데 (금남로5가역)[v:dr_ssafy.exit.STATIONNAME]에서 몇 번 출구로 나가야 돼")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1573006118081)
 }
 train (t-qtpbg7qwv4ikk20sj0ssm2glw) {
   utterance ("[g:Description] (카페베네)[v:DESTINATIONNAME] 갈거야 (하단역)[v:STATIONNAME]에서 출발")
