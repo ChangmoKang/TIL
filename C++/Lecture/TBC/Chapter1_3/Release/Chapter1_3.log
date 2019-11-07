@@ -1,0 +1,8 @@
+﻿  Chapter1_3.cpp
+  Generating code
+  1 of 2 functions (50.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+c:\users\multicampus\desktop\til\c++\lecture\tbc\chapter1_3\chapter1_3.cpp(11): warning C4700: uninitialized local variable 'x' used
+  Finished generating code
+  Chapter1_3.vcxproj -> C:\Users\multicampus\Desktop\TIL\C++\Lecture\TBC\Release\Chapter1_3.exe
