@@ -4,9 +4,9 @@ train (t-10qtbrb5b085aaewtfzk2zcmj) {
   last-modified (1572956974142)
 }
 train (t-11fy8wxdmxnvqh09viezf4xtd) {
-  utterance ("[g:Description] (신토불이 떡볶이)[v:dr_ssafy.exit.DESTINATIONNAME]에 가야 하는데 (아차산역)[v:dr_ssafy.exit.STATIONNAME]에서 출발할 거야")
+  utterance ("[g:Description] (신토불이 떡볶이)[v:DESTINATIONNAME]에 가야 하는데 (아차산역)[v:STATIONNAME]에서 출발할 거야")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1573004136104)
+  last-modified (1573085489563)
 }
 train (t-1b3za29yji7j14xjfk5orf3dw) {
   utterance ("[g:Description] (방배역)[v:STATIONNAME]에서 (방배 1동 주민센터)[v:DESTINATIONNAME]로 가려고 해")
@@ -14,9 +14,9 @@ train (t-1b3za29yji7j14xjfk5orf3dw) {
   last-modified (1572315931740)
 }
 train (t-1k0if3g2m9d3pdok90v20ehiv) {
-  utterance ("[g:Description] (계성 초등학교)[v:dr_ssafy.exit.DESTINATIONNAME]로 가고 싶어 (청라 언덕역)[v:dr_ssafy.exit.STATIONNAME]에서 몇 번 출구로 나가야 돼")
+  utterance ("[g:Description] (계성 초등학교)[v:DESTINATIONNAME]로 가고 싶어 (청라 언덕역)[v:STATIONNAME]에서 몇 번 출구로 나가야 돼")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572996849901)
+  last-modified (1573085489648)
 }
 train (t-1k1qy50tlpkd52zgs1c9oqvxi) {
   utterance ("[g:Description] (개봉역)[v:STATIONNAME]에서 (삼환 로즈빌 아파트)[v:DESTINATIONNAME]")
@@ -29,9 +29,9 @@ train (t-1muztuzwu7ssky5tv6e7kj993) {
   last-modified (1572315931878)
 }
 train (t-1onufimriya0b7k2tgi1cry9d) {
-  utterance ("[g:Description] (수성못역)[v:dr_ssafy.exit.STATIONNAME] (근처)[v:dr_ssafy.exit.SORT:distance]에 있는 (세븐일레븐)[v:dr_ssafy.exit.DESTINATIONNAME]으로 가는 출구 알려줘")
+  utterance ("[g:Description] (수성못역)[v:STATIONNAME] (근처)[v:SORT:distance]에 있는 (세븐일레븐)[v:DESTINATIONNAME]으로 가는 출구 알려줘")
   plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
-  last-modified (1572998392391)
+  last-modified (1573085489869)
 }
 train (t-1oqov6ygoavlykpqgx1n2msrs) {
   utterance ([g:Guide:continue:Guide] 캡슐 사용방법 안내해줘)

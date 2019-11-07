@@ -13,15 +13,20 @@ train (t-l7xybogwy1com4ih4t1fcl2qi) {
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572317855735)
 }
+train (t-l93dgmjtdmcrrnp1hyk2pycpw) {
+  utterance ("[g:Description] (오시리아역)[v:STATIONNAME]에서 (내리 휴먼시아 1단지 아파트)[v:DESTINATIONNAME]")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1573085344324)
+}
 train (t-l9gdkjqizdzw4gjrkvw6tuz9l) {
   utterance ("[g:Description] (역삼 1동 주민센터)[v:DESTINATIONNAME]가 도착지고 (역삼역)[v:STATIONNAME]이 출발지야")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315935810)
 }
 train (t-l9shf9sxcq9ehhngh785m4whl) {
-  utterance ("[g:Description] (잠실4동 주민센터)[v:dr_ssafy.exit.DESTINATIONNAME]로 가려면 (잠실나루역)[v:dr_ssafy.exit.STATIONNAME]에서 몇 번 출구로 나가야 돼")
+  utterance ("[g:Description] (잠실4동 주민센터)[v:DESTINATIONNAME]로 가려면 (잠실나루역)[v:STATIONNAME]에서 몇 번 출구로 나가야 돼")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1573006207539)
+  last-modified (1573085500210)
 }
 train (t-lap3bfd46c26h68tjh2laubyb) {
   utterance ("[g:Description] (왕십리 제2동 주민센터)[v:DESTINATIONNAME]로 가려면 (왕십리역)[v:STATIONNAME]에서 몇 번 출구로 나가야 돼")

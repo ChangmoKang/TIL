@@ -1,7 +1,7 @@
 train (t-s5ab1m55elgx85iw3d38flgep) {
-  utterance ("[g:Description] (노을빛 근린공원)[v:dr_ssafy.exit.DESTINATIONNAME]까지 걸어갈 건데 (인덕원역)[v:dr_ssafy.exit.STATIONNAME]에서 출발할 거야")
+  utterance ("[g:Description] (노을빛 근린공원)[v:DESTINATIONNAME]까지 걸어갈 건데 (인덕원역)[v:STATIONNAME]에서 출발할 거야")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572997609724)
+  last-modified (1573085503303)
 }
 train (t-sa8nmeg056h7tfntw82bji1b2) {
   utterance ("[g:Description] (쪽박 산)[v:DESTINATIONNAME]에 가려고 계획 중인데 (진위역)[v:STATIONNAME]에서 몇 번 출구로 나가야 할까")
@@ -44,7 +44,7 @@ train (t-sxp76y19pydhd1e89sdoyab1q) {
   last-modified (1572413345362)
 }
 train (t-sy0n2qrmaltcadhn810qf4xgf) {
-  utterance ("[g:Description] (빅스비역)[v:dr_ssafy.exit.STATIONNAME]에서 (시리)[v:dr_ssafy.exit.DESTINATIONNAME]로 가는 출구 알려줘")
+  utterance ("[g:Description] (빅스비역)[v:STATIONNAME]에서 (시리)[v:DESTINATIONNAME]로 가는 출구 알려줘")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1573027695361)
+  last-modified (1573085503778)
 }

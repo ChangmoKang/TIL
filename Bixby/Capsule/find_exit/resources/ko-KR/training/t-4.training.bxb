@@ -3,10 +3,15 @@ train (t-41elaemt28s36bnbv6bwc4dz6) {
   plan (Y2BmEE8pii8uTkyr1EutyCzRcw/1dHENDnENYBBGkyjNTEnFrZqJgRGIGYAkIwMDjAYA)
   last-modified (1572956735620)
 }
-train (t-46a8tprpuxol1gxx442dkov8i) {
-  utterance ("[g:Description] (뚜레쥬르)[v:dr_ssafy.exit.DESTINATIONNAME] 갈 건데 (율하 역)[v:dr_ssafy.exit.STATIONNAME] 몇 번 출구로 나가야 할까")
+train (t-44pablkr52cjbnmkzvuhbxsn9) {
+  utterance ("[g:Description] (동대구역)[v:STATIONNAME]에서 (부산지방철도 특별 사법 경찰대)[v:DESTINATIONNAME]")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572967551065)
+  last-modified (1573085477568)
+}
+train (t-46a8tprpuxol1gxx442dkov8i) {
+  utterance ("[g:Description] (뚜레쥬르)[v:DESTINATIONNAME] 갈 건데 (율하 역)[v:STATIONNAME] 몇 번 출구로 나가야 할까")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1573085491083)
 }
 train (t-47kc8ehsltq0rixytxyae46aw) {
   utterance ("[g:Description] (반석역)[v:STATIONNAME]을 출발지로 해서 (대전 반석 초등학교)[v:DESTINATIONNAME]에 가는 방법 좀 알려주겠니")

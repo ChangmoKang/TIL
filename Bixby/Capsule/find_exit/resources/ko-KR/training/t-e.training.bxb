@@ -39,9 +39,9 @@ train (t-ekwmdvi1or1471uly7zz4slih) {
   last-modified (1572391819510)
 }
 train (t-en8n7emwxd3vt7giid3hg321c) {
-  utterance ("[g:Description] (미아역)[v:dr_ssafy.exit.STATIONNAME]에서 (서울 사이버대학교)[v:dr_ssafy.exit.DESTINATIONNAME]로 가는 출구 알려줘")
+  utterance ("[g:Description] (미아역)[v:STATIONNAME]에서 (서울 사이버대학교)[v:DESTINATIONNAME]로 가는 출구 알려줘")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572999103326)
+  last-modified (1573085496932)
 }
 train (t-eoyigjdospb0c01l6yc7shc1c) {
   utterance ("[g:Description] (오토바이 골목)[v:DESTINATIONNAME] 갈 건데 (청라언덕역)[v:STATIONNAME] 몇 번 출구로 가야하는지 알려줘")
@@ -64,9 +64,9 @@ train (t-ewx69tsp6x67bvuzyl3dgk1jp) {
   last-modified (1572404942546)
 }
 train (t-extevkkxdmku5qwnwvd89ilf6) {
-  utterance ([g:dr_ssafy.exit.Guide:continue:Guide] 사용법)
+  utterance ([g:Guide:continue:Guide] 사용법)
   plan (Y2BmEE8pii8uTkyr1EutyCzRcw/1dHENDnENYBBGkyjNTEnFrZqJgRGIGYAkIwMDjAYA)
-  last-modified (1572955716688)
+  last-modified (1573085497123)
 }
 train (t-exv61zudimo0ijn7f7c6nmkab) {
   utterance ("[g:Description] (엘에스 타워)[v:DESTINATIONNAME] 갈 건데 (금정역)[v:STATIONNAME]에서 어떻게 가")

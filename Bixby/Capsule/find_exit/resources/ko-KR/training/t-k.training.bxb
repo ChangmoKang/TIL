@@ -24,9 +24,9 @@ train (t-kenm040tyr8gavykj4py45jy5) {
   last-modified (1572315938628)
 }
 train (t-kerwf6uvj13gb1axca02sx9ao) {
-  utterance ("[g:Description] (사당역)[v:dr_ssafy.exit.STATIONNAME]에서 (낙성대역)[v:dr_ssafy.exit.DESTINATIONNAME] 방향으로 가는 출구 알려줘")
+  utterance ("[g:Description] (사당역)[v:STATIONNAME]에서 (낙성대역)[v:DESTINATIONNAME] 방향으로 가는 출구 알려줘")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572961247967)
+  last-modified (1573085499105)
 }
 train (t-key33cw1pjyhuctekdqg28ile) {
   utterance ("[g:Description] (광운대역)[v:STATIONNAME]에서 가장 (가까운)[v:SORT:distance] (스타벅스)[v:DESTINATIONNAME]")
@@ -34,9 +34,9 @@ train (t-key33cw1pjyhuctekdqg28ile) {
   last-modified (1572317418524)
 }
 train (t-kfxh5jl2da5rqsgoldmnktod5) {
-  utterance ("[g:Description] (송내역)[v:dr_ssafy.exit.STATIONNAME] (근처)[v:dr_ssafy.exit.SORT:distance] (인천지방법원 부천 지원)[v:dr_ssafy.exit.DESTINATIONNAME] 방면 출구")
+  utterance ("[g:Description] (송내역)[v:STATIONNAME] (근처)[v:SORT:distance] (인천지방법원 부천 지원)[v:DESTINATIONNAME] 방면 출구")
   plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
-  last-modified (1572967075940)
+  last-modified (1573085499122)
 }
 train (t-kgsq7jhdqjtkmv78qub68hnpv) {
   utterance ("[g:Description] (녹양역)[v:STATIONNAME]에서 (의정부 종합운동장)[v:DESTINATIONNAME]으로 가는 출구 알려줘")
@@ -44,9 +44,9 @@ train (t-kgsq7jhdqjtkmv78qub68hnpv) {
   last-modified (1572316632483)
 }
 train (t-kile87xmbowqcap8bznge1v21) {
-  utterance ("[g:Description] (중동역)[v:dr_ssafy.exit.STATIONNAME] (삼성전자 서비스 센터)[v:dr_ssafy.exit.DESTINATIONNAME]")
+  utterance ("[g:Description] (중동역)[v:STATIONNAME] (삼성전자 서비스 센터)[v:DESTINATIONNAME]")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1573005625023)
+  last-modified (1573085499185)
 }
 train (t-ku0wz80vfv018dddqef2rfbvv) {
   utterance ("[g:Description] (라메르 산부인과)[v:DESTINATIONNAME]로 가는 (신길역)[v:STATIONNAME] 출구")

@@ -29,9 +29,9 @@ train (t-bh264r8kxg1ndltawe1qkpkt8) {
   last-modified (1572315934463)
 }
 train (t-bmem5i9slpn4aaq1yq2l7aac4) {
-  utterance ("[g:Description] (신안산대학교)[v:dr_ssafy.exit.DESTINATIONNAME] 가는 (초지역)[v:dr_ssafy.exit.STATIONNAME] 출구")
+  utterance ("[g:Description] (신안산대학교)[v:DESTINATIONNAME] 가는 (초지역)[v:STATIONNAME] 출구")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1573003957570)
+  last-modified (1573085495497)
 }
 train (t-btijai7ve06gxecj0p9a04mm3) {
   utterance ("[g:Description] (을지로4가역)[v:STATIONNAME]에서 (정건 벨라지오 오피스텔)[v:DESTINATIONNAME] 가는 출구 알려줘")
@@ -49,7 +49,7 @@ train (t-bvrwfc6fla7inrwkpfsxc09m1) {
   last-modified (1572967192676)
 }
 train (t-byjuw2at5t1o233l1y96bisye) {
-  utterance ("[g:Description] (로데오 거리)[v:dr_ssafy.exit.DESTINATIONNAME]로 가고 싶어 (수원역)[v:dr_ssafy.exit.STATIONNAME]에서")
+  utterance ("[g:Description] (로데오 거리)[v:DESTINATIONNAME]로 가고 싶어 (수원역)[v:STATIONNAME]에서")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572961207859)
+  last-modified (1573085495703)
 }

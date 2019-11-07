@@ -4,9 +4,9 @@ train (t-00bwv6gbo5m2g25d23q0beg0d) {
   last-modified (1572592365175)
 }
 train (t-01ykviwyjbyrepns1xsbb6is3) {
-  utterance ("[g:Description] (화랑 저수지)[v:dr_ssafy.exit.DESTINATIONNAME] 방향 (고잔역)[v:dr_ssafy.exit.STATIONNAME] 출구")
+  utterance ("[g:Description] (화랑 저수지)[v:DESTINATIONNAME] 방향 (고잔역)[v:STATIONNAME] 출구")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572960772412)
+  last-modified (1573085489256)
 }
 train (t-021d5nblovqaum3bqnrzjbzx5) {
   utterance ("[g:Description] (대화역)[v:STATIONNAME] (근처)[v:SORT:distance] (카페)[v:DESTINATIONNAME]")
@@ -39,9 +39,9 @@ train (t-0hwh69ek6gsln7dcfg8igc4sq) {
   last-modified (1572319320281)
 }
 train (t-0uesvuj74a04u98ag7tt4whfq) {
-  utterance ("[g:Description] (신대방사거리역)[v:dr_ssafy.exit.STATIONNAME]에서 (근처)[v:SORT:distance] (공원)[v:dr_ssafy.exit.DESTINATIONNAME]으로 가는 출구 알려줘")
+  utterance ("[g:Description] (신대방사거리역)[v:STATIONNAME]에서 (근처)[v:SORT:distance] (공원)[v:DESTINATIONNAME]으로 가는 출구 알려줘")
   plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
-  last-modified (1573027507969)
+  last-modified (1573085489341)
 }
 train (t-0ws57xo4v6qdjvpjvmw4fnd05) {
   utterance ("[g:Description] (안산역)[v:STATIONNAME] (안산시민시장)[v:DESTINATIONNAME]")

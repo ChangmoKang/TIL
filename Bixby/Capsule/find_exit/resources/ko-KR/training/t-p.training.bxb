@@ -9,9 +9,9 @@ train (t-p1kt4ta9r5jp0rmpbmdwo7sto) {
   last-modified (1572316086148)
 }
 train (t-p3ovfeqtpaun7j1zyn267sr65) {
-  utterance ("[g:Description] (고 터)[v:dr_ssafy.exit.STATIONNAME]에서 (파미에스테이션)[v:dr_ssafy.exit.DESTINATIONNAME]으로 가는 출구 알려줘")
+  utterance ("[g:Description] (고 터)[v:STATIONNAME]에서 (파미에스테이션)[v:DESTINATIONNAME]으로 가는 출구 알려줘")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572967576845)
+  last-modified (1573085501935)
 }
 train (t-p4sayruqa5gfkv2w9zfofnxan) {
   utterance ("[g:Description] (잠실야구장)[v:DESTINATIONNAME]에 도착하려면 (종합운동장역)[v:STATIONNAME]에서 어떻게 나가야하니")

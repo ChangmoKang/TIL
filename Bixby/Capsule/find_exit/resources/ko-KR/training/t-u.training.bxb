@@ -4,9 +4,9 @@ train (t-u1l0ozkzh8ecjei82ekfe86d5) {
   last-modified (1572961875677)
 }
 train (t-u2y6xaosuf7yenroeuphdiidp) {
-  utterance ("[g:Description] (혜화역)[v:dr_ssafy.exit.STATIONNAME] (마로니에 공원)[v:DESTINATIONNAME]으로 가는 출구")
+  utterance ("[g:Description] (혜화역)[v:STATIONNAME] (마로니에 공원)[v:DESTINATIONNAME]으로 가는 출구")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1573005957615)
+  last-modified (1573085504495)
 }
 train (t-u5marae3fqy8o0cur0e4uiv7q) {
   utterance ("[g:Description] (광진구청)[v:DESTINATIONNAME]으로 가는 중인데 (구의역)[v:STATIONNAME]에 도착해서 몇 번 출구로 나가야 돼")
@@ -24,9 +24,9 @@ train (t-uidhaa2m44roadz17ffu2gn14) {
   last-modified (1572415993309)
 }
 train (t-umt2ynp0ajznft97o1siy22qa) {
-  utterance ("[g:Description] (뚜레주르)[v:dr_ssafy.exit.DESTINATIONNAME] 갈 건데 (율하 역)[v:dr_ssafy.exit.STATIONNAME] 몇 번 출구로 나가야 할까")
+  utterance ("[g:Description] (뚜레주르)[v:DESTINATIONNAME] 갈 건데 (율하 역)[v:STATIONNAME] 몇 번 출구로 나가야 할까")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572961398794)
+  last-modified (1573085504633)
 }
 train (t-unfhe7785a7oqbnhs4ozhde3n) {
   utterance ("[g:Description] (성서산업단지역)[v:STATIONNAME]에서 (와룡공원)[v:DESTINATIONNAME]으로 가는 길 가르쳐줘")

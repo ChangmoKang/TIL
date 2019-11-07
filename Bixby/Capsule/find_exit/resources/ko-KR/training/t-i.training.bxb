@@ -14,14 +14,14 @@ train (t-iaw89lt5j95j5bvo00ificxvx) {
   last-modified (1572315942284)
 }
 train (t-ifsoid1pqod9nj3klerspwhrn) {
-  utterance ("[g:Description] (전대 에버랜드역)[v:dr_ssafy.exit.STATIONNAME]에서 (캐러비안베이)[v:dr_ssafy.exit.DESTINATIONNAME]로 갈거야")
+  utterance ("[g:Description] (전대 에버랜드역)[v:STATIONNAME]에서 (캐러비안베이)[v:DESTINATIONNAME]로 갈거야")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1573006242404)
+  last-modified (1573085498558)
 }
 train (t-ilsp804bc0yenhfp03ei2x6mg) {
-  utterance ("[g:Description] (일광역)[v:dr_ssafy.exit.STATIONNAME]에서 출발해서 (부산 테크노파크 해양생물 산업 육성 센터)[v:dr_ssafy.exit.DESTINATIONNAME]까지 가려면 얼마나 걸릴까")
+  utterance ("[g:Description] (일광역)[v:STATIONNAME]에서 출발해서 (부산 테크노파크 해양생물 산업 육성 센터)[v:DESTINATIONNAME]까지 가려면 얼마나 걸릴까")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1573006169097)
+  last-modified (1573085498598)
 }
 train (t-im7aj1vhxfe2lmt759oxxs0o0) {
   utterance ("[g:Description] (마두역)[v:STATIONNAME] 근처에 있는 (일산 호수 공원)[v:DESTINATIONNAME]으로 갈거야")

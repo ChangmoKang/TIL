@@ -14,9 +14,9 @@ train (t-6597qeqawjx5bt19zm5vjw0ox) {
   last-modified (1572592232641)
 }
 train (t-6bgeowe28bcy4x7ei0i982q3o) {
-  utterance ("[g:Description] (하나님의 교회 세계 복음선교 협회)[v:dr_ssafy.exit.DESTINATIONNAME]로 가는 (석계역)[v:dr_ssafy.exit.STATIONNAME] 출구 ")
+  utterance ("[g:Description] (하나님의 교회 세계 복음선교 협회)[v:DESTINATIONNAME]로 가는 (석계역)[v:STATIONNAME] 출구 ")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1573005884246)
+  last-modified (1573085492005)
 }
 train (t-6hhab6hf13tmrs9tl4tmudib4) {
   utterance ("[g:Description] (홍대 예술의 거리)[v:DESTINATIONNAME]에 가려면 (홍대입구역)[v:STATIONNAME]에서 어디로 나가")
@@ -29,9 +29,9 @@ train (t-6kp2a6b687imn793c1og0dczq) {
   last-modified (1572315933178)
 }
 train (t-6p5j131z40gd5lvw654fih1h2) {
-  utterance ("[g:Description] (역삼 1동 주민센터)[v:dr_ssafy.exit.DESTINATIONNAME]가 도착지 고 (역삼역)[v:dr_ssafy.exit.STATIONNAME]이 출발지야")
+  utterance ("[g:Description] (역삼 1동 주민센터)[v:DESTINATIONNAME]가 도착지 고 (역삼역)[v:STATIONNAME]이 출발지야")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1573004355152)
+  last-modified (1573085492119)
 }
 train (t-6rkrj8yprbwbjsmt1xvxm5l21) {
   utterance ("[g:Description] (커피빈)[v:DESTINATIONNAME] 가고 싶어 (장산역)[v:STATIONNAME]에서 걸어갈 수 있어")

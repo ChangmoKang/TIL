@@ -4,9 +4,9 @@ train (t-h4rbb4u36bm3kupfcxggl38yx) {
   last-modified (1572315935301)
 }
 train (t-h7aeyftqhitsnhgaex66l0rtt) {
-  utterance ("[g:Description] (혜화역)[v:dr_ssafy.exit.STATIONNAME]에서 (알라딘 중고 서점)[v:dr_ssafy.exit.DESTINATIONNAME]으로 가려고 해")
+  utterance ("[g:Description] (혜화역)[v:STATIONNAME]에서 (알라딘 중고 서점)[v:DESTINATIONNAME]으로 가려고 해")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1573005987637)
+  last-modified (1573085498162)
 }
 train (t-hg5f7bmpae2uidmg5bmzuw7j4) {
   utterance ("[g:Description] (근처)[v:SORT:distance] (농협)[v:DESTINATIONNAME]으로 갈 건데 (반고개역)[v:STATIONNAME]에서 출발할 거야")

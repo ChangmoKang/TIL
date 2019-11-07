@@ -24,9 +24,9 @@ train (t-nkms74tu7vx3ra2li72ybgszn) {
   last-modified (1572423822697)
 }
 train (t-nl4dfl5dtlbg58il08vhozyp5) {
-  utterance ("[g:Description] (국립중앙의료원)[v:dr_ssafy.exit.DESTINATIONNAME]으로 갈 건데 (을지로4가 역)[v:dr_ssafy.exit.STATIONNAME]에서 몇 번 출구로 가야 해")
+  utterance ("[g:Description] (국립중앙의료원)[v:DESTINATIONNAME]으로 갈 건데 (을지로4가 역)[v:STATIONNAME]에서 몇 번 출구로 가야 해")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572997338909)
+  last-modified (1573085501219)
 }
 train (t-nl737sdu11nmrsbnh4i7qyn7m) {
   utterance ("[g:Description] (행신역)[v:STATIONNAME]에서 (홈플러스)[v:DESTINATIONNAME]까지 걸어갈래")
@@ -44,9 +44,9 @@ train (t-nq4a488autt3j2qjxrf08fqlr) {
   last-modified (1572315941246)
 }
 train (t-nqwsvmoyd6xiyhba0vr9x3ad6) {
-  utterance ("[g:Description] (동대구역)[v:dr_ssafy.exit.STATIONNAME] (근처)[v:dr_ssafy.exit.SORT:distance] (노래방)[v:DESTINATIONNAME] 찾아줘")
+  utterance ("[g:Description] (동대구역)[v:STATIONNAME] (근처)[v:SORT:distance] (노래방)[v:DESTINATIONNAME] 찾아줘")
   plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
-  last-modified (1573007612853)
+  last-modified (1573085501352)
 }
 train (t-nuj4vkj3mtw7gxgqvuys3y9k5) {
   utterance ("[g:Description] (서초역)[v:STATIONNAME]에서 (대법원)[v:DESTINATIONNAME] 가는 출구")

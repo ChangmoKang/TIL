@@ -44,9 +44,9 @@ train (t-qop9jgsy4cavan7fihyegy04y) {
   last-modified (1572315936710)
 }
 train (t-qsuw7ljxzd5rzd2bbms126con) {
-  utterance ("[g:Description] (일송정)[v:dr_ssafy.exit.DESTINATIONNAME]으로 갈 생각인데 (금남로5가역)[v:dr_ssafy.exit.STATIONNAME]에서 몇 번 출구로 나가야 돼")
+  utterance ("[g:Description] (일송정)[v:DESTINATIONNAME]으로 갈 생각인데 (금남로5가역)[v:STATIONNAME]에서 몇 번 출구로 나가야 돼")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1573006118081)
+  last-modified (1573085502788)
 }
 train (t-qtpbg7qwv4ikk20sj0ssm2glw) {
   utterance ("[g:Description] (카페베네)[v:DESTINATIONNAME] 갈거야 (하단역)[v:STATIONNAME]에서 출발")

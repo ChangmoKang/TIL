@@ -15,9 +15,14 @@ module.exports.function = function getDestinationList (station, destinationName,
   const nationalStation = require('./data/nationalStation.js')
   const singleStation = nationalStation[station['regionName']][station['name']]
   
-  const response = kakaoKeywordSearch(destinationName, singleStation['location'], sort)
+  let response = kakaoKeywordSearch(destinationName, singleStation['location'], sort)
+
+  if (!response['documents'].length && destinationName.split(" ").length > 1) {
+    destinationNameSpaceErased = destinationName.split(" ").join("")
+    response = kakaoKeywordSearch(destinationNameSpaceErased, singleStation['location'], sort)
+  }
+
   if (!response['documents'].length) {
-    // return []
     throw fail.checkedError('목적지명 오류', 'NotFoundDestinationName', {})
   }
 
@@ -62,6 +67,5 @@ module.exports.function = function getDestinationList (station, destinationName,
     }
     index += 1
   })
-  console.log(results)
   return results
 }

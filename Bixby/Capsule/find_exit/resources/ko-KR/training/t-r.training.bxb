@@ -4,9 +4,14 @@ train (t-r13kkekv5tlja5v7lwt469wxz) {
   last-modified (1572326143437)
 }
 train (t-r2rb7jiyby1mg3m1dwc38sab2) {
-  utterance ("[g:Description] (카페베네)[v:dr_ssafy.exit.DESTINATIONNAME] 갈거야 (하단 역)[v:dr_ssafy.exit.STATIONNAME]에서 출발")
+  utterance ("[g:Description] (카페베네)[v:DESTINATIONNAME] 갈거야 (하단 역)[v:STATIONNAME]에서 출발")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1573005857103)
+  last-modified (1573085502960)
+}
+train (t-r3pwto2t3frucg51efvob10f5) {
+  utterance ("[g:Guide:continue,r:ChangeGuideStatus] (처음으로)[v:GUIDEMETHOD]")
+  plan (Y2BjEE8pii8uTkyr1EutyCzRcw/1dHENDnENYBBGkyjNTEnFrVoeVcI5IzEvPRWsJ7gksaS0mEESi05f1xAPfxfchrIyMDIwMTAzsABZDFA2M5BmAGMQAPFYgCQDAA==)
+  last-modified (1573101248630)
 }
 train (t-r7f8vdewhuuo13d6p131cdtm5) {
   utterance ("[g:Description] (대구 국제 공항 입구역)[v:STATIONNAME]에서 (근처)[v:SORT:distance] (공원)[v:DESTINATIONNAME]으로 가는 출구 알려줘")

@@ -29,9 +29,9 @@ train (t-g6zhmhrw730k2v71enlxmyoiq) {
   last-modified (1572346718778)
 }
 train (t-gbpcggkqsw0il3ljty1v4qxy5) {
-  utterance ("[g:Description] (마포대교역)[v:dr_ssafy.exit.STATIONNAME]에서 (한강)[v:dr_ssafy.exit.DESTINATIONNAME]으로 가는 출구 알려줘")
+  utterance ("[g:Description] (마포대교역)[v:STATIONNAME]에서 (한강)[v:DESTINATIONNAME]으로 가는 출구 알려줘")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1573027536107)
+  last-modified (1573085497635)
 }
 train (t-gc5skczurfa7eq2rxttsye3su) {
   utterance ("[g:Description] (파리바게트)[v:DESTINATIONNAME] 갈건데 (봉천역)[v:STATIONNAME]에서 몇 번 출구로 나가야 돼")
@@ -69,9 +69,9 @@ train (t-gv6z9nr7vtsq0vd2lecrypjnj) {
   last-modified (1572404725643)
 }
 train (t-gwixa8wdnaakb2znu12umkfqo) {
-  utterance ("[g:Description] (오토바이 골목)[v:dr_ssafy.exit.DESTINATIONNAME] 갈 건데 (청라 언덕역)[v:dr_ssafy.exit.STATIONNAME] 몇 번 출구로 가")
+  utterance ("[g:Description] (오토바이 골목)[v:DESTINATIONNAME] 갈 건데 (청라 언덕역)[v:STATIONNAME] 몇 번 출구로 가")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1573004506094)
+  last-modified (1573085497950)
 }
 train (t-gxs0uh4h8serc9xld61ox4ntd) {
   utterance ("[g:Description] (직산역)[v:STATIONNAME]에서 (서희 스타힐스)[v:DESTINATIONNAME] 쪽으로 나갈 거야")

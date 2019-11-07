@@ -2,7 +2,7 @@ result-view {
   match: URL (this)
   
   message {
-    template ("웹페이지로 연결합니다.")
+    template ("App으로 연결합니다.")
   }
 
   app-launch {

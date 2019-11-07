@@ -1,6 +1,6 @@
 capsule {
   id (dr_ssafy.exit)
-  version (1.2.6)
+  version (1.2.9)
   format (3)
   targets {
     target (bixby-mobile-ko-KR) {enabled (true)}
@@ -26,7 +26,7 @@ capsule {
     user-profile-access
   }
   store-sections {
-    section (Local)
     section (TravelAndTransportation)
+    section (Local)
   }
 }

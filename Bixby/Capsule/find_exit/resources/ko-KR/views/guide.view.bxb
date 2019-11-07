@@ -22,9 +22,15 @@ result-view {
       conversation-driver {
         template ("다음")
       }
+      conversation-driver {
+        template ("마지막으로")
+      }
     } else-if (this == 4) {
       conversation-driver {
         template ("이전")
+      }
+      conversation-driver {
+        template ("처음으로")
       }
     } else {
       conversation-driver {
@@ -32,6 +38,12 @@ result-view {
       }
       conversation-driver {
         template ("다음")
+      }
+      conversation-driver {
+        template ("처음으로")
+      }
+      conversation-driver {
+        template ("마지막으로")
       }
     }
   }

@@ -8,6 +8,11 @@ train (t-81gemeg240ytc1kbhej40a2vl) {
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572347140489)
 }
+train (t-84aalse23zahqy8rd6frzwtj1) {
+  utterance ("[g:Guide:continue,r:dr_ssafy.exit.ChangeGuideStatus] (마지막으로)[v:dr_ssafy.exit.GUIDEMETHOD]")
+  plan (Y2BjEE8pii8uTkyr1EutyCzRcw/1dHENDnENYBBGkyjNTEnFrVoeVcI5IzEvPRWsJ7gksaS0mEESi05f1xAPfxfchrIyMDIwMTAzsABZDFA2M5BmAGMQAPFYgCQDAA==)
+  last-modified (1573101836618)
+}
 train (t-86344h6vbge4owyol6px9rm63) {
   utterance ("[g:Description] (뚜레쥬르)[v:DESTINATIONNAME] 가고 싶은데 (율하역)[v:STATIONNAME] 몇 번 출구로 나가야할까")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
@@ -29,9 +34,9 @@ train (t-8dowxibxx2zpmonao4eq1ts5w) {
   last-modified (1572961328371)
 }
 train (t-8mir6w43e47hf46jsepkp83uj) {
-  utterance ("[g:Description] (삼성역)[v:dr_ssafy.exit.STATIONNAME]에서 (메가박스)[v:dr_ssafy.exit.DESTINATIONNAME]는 어디로 가야 돼")
+  utterance ("[g:Description] (삼성역)[v:STATIONNAME]에서 (메가박스)[v:DESTINATIONNAME]는 어디로 가야 돼")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572968525249)
+  last-modified (1573085493029)
 }
 train (t-8mj4pd6vadxz8bdc4nm3b7qca) {
   utterance ("[g:Description] (일송정)[v:DESTINATIONNAME]으로 갈 생각인데 (금남로5가 역)[v:STATIONNAME]에서 몇 번 출구로 나가야 돼")
@@ -69,9 +74,9 @@ train (t-8y5bnannkcqnucu0jiqpnsell) {
   last-modified (1572315933747)
 }
 train (t-8yuj02ix3p6ctguhajgbx83dd) {
-  utterance ("[g:Description] (종로3가 역)[v:dr_ssafy.exit.STATIONNAME]에서 (CGV)[v:dr_ssafy.exit.DESTINATIONNAME]로 가는 출구")
+  utterance ("[g:Description] (종로3가 역)[v:STATIONNAME]에서 (CGV)[v:DESTINATIONNAME]로 가는 출구")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1573005132880)
+  last-modified (1573085493351)
 }
 train (t-8zukq40qht1ri5z78yx4b7ddh) {
   utterance ([g:Guide:continue] 사용설명서)

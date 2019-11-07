@@ -34,9 +34,9 @@ train (t-miiohrhinpceh33r5e0uonvvq) {
   last-modified (1572317277361)
 }
 train (t-mnjdxw8oty8jawg3mh169eg6x) {
-  utterance ("[g:Description] (LG 전자 서비스 센터)[v:dr_ssafy.exit.DESTINATIONNAME]에 가야 하는데 (연지공원역)[v:dr_ssafy.exit.STATIONNAME]에서 어떻게 나가")
+  utterance ("[g:Description] (LG 전자 서비스 센터)[v:DESTINATIONNAME]에 가야 하는데 (연지공원역)[v:STATIONNAME]에서 어떻게 나가")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572996489748)
+  last-modified (1573085500818)
 }
 train (t-mnt7zyf2pylrs0bhbdagg17rm) {
   utterance ("[g:Description] (초읍동 주민센터)[v:DESTINATIONNAME]로 갈 생각인데 (거제 역)[v:STATIONNAME]에서 어떻게 가")

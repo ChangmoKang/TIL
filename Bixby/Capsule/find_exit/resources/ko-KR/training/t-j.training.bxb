@@ -4,14 +4,14 @@ train (t-j01fs0695ms3gu7np5ov8lhkz) {
   last-modified (1572956587926)
 }
 train (t-j0qvkdsmpw65ekrt5headjt0o) {
-  utterance ("[g:Description] (구리역)[v:dr_ssafy.exit.STATIONNAME]에서 (한양대 병원)[v:dr_ssafy.exit.DESTINATIONNAME]까지 어떻게 가야 해")
+  utterance ("[g:Description] (구리역)[v:STATIONNAME]에서 (한양대 병원)[v:DESTINATIONNAME]까지 어떻게 가야 해")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572997199251)
+  last-modified (1573085499388)
 }
 train (t-j2kjftpmwsmna793qqqgyfl0m) {
-  utterance ("[g:Description] (종로3가 역)[v:dr_ssafy.exit.STATIONNAME]에서 (종로 귀금속거리)[v:dr_ssafy.exit.DESTINATIONNAME] 가는 출구 알려줘")
+  utterance ("[g:Description] (종로3가 역)[v:STATIONNAME]에서 (종로 귀금속거리)[v:DESTINATIONNAME] 가는 출구 알려줘")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572967156867)
+  last-modified (1573085499411)
 }
 train (t-j2s8gj4iojptio4ibo0f6lr1i) {
   utterance ("[g:Description] (동작역)[v:STATIONNAME]에서 (한살림 반포매장)[v:DESTINATIONNAME]으로 가는 출구")
@@ -44,14 +44,14 @@ train (t-jg3l271x4060yr8wcvhby3ga4) {
   last-modified (1572315938862)
 }
 train (t-jgj2b8n2jvgtef7ef0lavv1hl) {
-  utterance ("[g:Description] 출발지는 (사직역)[v:dr_ssafy.exit.STATIONNAME] 도착지는 (사직야구장)[v:DESTINATIONNAME]")
+  utterance ("[g:Description] 출발지는 (사직역)[v:STATIONNAME] 도착지는 (사직야구장)[v:DESTINATIONNAME]")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572958094708)
+  last-modified (1573085499707)
 }
 train (t-jikxur7hmn8ebvrmrzdgjjdln) {
-  utterance ("[g:Description] (남부터미널역)[v:dr_ssafy.exit.STATIONNAME] (근처)[v:dr_ssafy.exit.SORT:distance] (내과 의원)[v:dr_ssafy.exit.DESTINATIONNAME]")
+  utterance ("[g:Description] (남부터미널역)[v:STATIONNAME] (근처)[v:SORT:distance] (내과 의원)[v:DESTINATIONNAME]")
   plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
-  last-modified (1572961133056)
+  last-modified (1573085499786)
 }
 train (t-jjhmfsc8dcj9261vrz6yw2fna) {
   utterance ("[g:Description] (지제역)[v:STATIONNAME]에서 (가까운)[v:SORT:distance] (음식점)[v:DESTINATIONNAME]")
@@ -69,7 +69,7 @@ train (t-jjplpv06152zlbqjiodbo63rh) {
   last-modified (1572317037990)
 }
 train (t-jjzksmjxflz8m0t35masc1k2v) {
-  utterance ("[g:Description] (현대 블루 핸즈)[v:dr_ssafy.exit.DESTINATIONNAME]로 가려고 하는데 (한성대입구역)[v:dr_ssafy.exit.STATIONNAME]에서 몇 번 출구로 나가야 돼 ")
+  utterance ("[g:Description] (현대 블루 핸즈)[v:DESTINATIONNAME]로 가려고 하는데 (한성대입구역)[v:STATIONNAME]에서 몇 번 출구로 나가야 돼 ")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1573005903300)
+  last-modified (1573085499906)
 }

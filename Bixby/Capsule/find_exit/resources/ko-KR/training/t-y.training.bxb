@@ -29,9 +29,9 @@ train (t-y7u9xhbq9ad6sesbnj8dfpyyw) {
   last-modified (1572327831364)
 }
 train (t-ydaiyt3pd4qenix193dsay5vy) {
-  utterance ("[g:Description] (동서대)[v:dr_ssafy.exit.DESTINATIONNAME]로 갈 거고 (냉정역)[v:dr_ssafy.exit.STATIONNAME]에서 출발할래")
+  utterance ("[g:Description] (동서대)[v:DESTINATIONNAME]로 갈 거고 (냉정역)[v:STATIONNAME]에서 출발할래")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572967329088)
+  last-modified (1573085506585)
 }
 train (t-yddtuh25yeb9you2w5o39a3mb) {
   utterance ("[g:Description] (뉴코아 아웃렛)[v:DESTINATIONNAME] 갈 건데 (반포역)[v:STATIONNAME] 출구 좀 알려줘")

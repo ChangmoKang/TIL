@@ -29,9 +29,9 @@ train (t-db45irhssx8dxmb4outswspvw) {
   last-modified (1572315942235)
 }
 train (t-de1u8wrfbehfogd3iowdq0x93) {
-  utterance ("[g:Description] (구로디지털단지역)[v:dr_ssafy.exit.STATIONNAME]에서 (대림 중앙시장)[v:dr_ssafy.exit.DESTINATIONNAME] 갈거야")
+  utterance ("[g:Description] (구로디지털단지역)[v:STATIONNAME]에서 (대림 중앙시장)[v:DESTINATIONNAME] 갈거야")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572997130834)
+  last-modified (1573085495996)
 }
 train (t-dfiawfx6kwfybunza0wuodoc1) {
   utterance ("[g:Description] 도착지는 (CGV)[v:DESTINATIONNAME]고 출발지는 (강남역)[v:STATIONNAME]이야")
@@ -44,9 +44,9 @@ train (t-dfqppzrrgowczxm7o864ea1ws) {
   last-modified (1572325465455)
 }
 train (t-dhvsu9razu3qvzkfcegofwdmf) {
-  utterance ("[g:Description] (시청역)[v:dr_ssafy.exit.STATIONNAME]에서 (시청)[v:dr_ssafy.exit.DESTINATIONNAME]은 어디로 가야 돼")
+  utterance ("[g:Description] (시청역)[v:STATIONNAME]에서 (시청)[v:DESTINATIONNAME]은 어디로 가야 돼")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572968498611)
+  last-modified (1573085496100)
 }
 train (t-dkt74h54r33spwd8ica36zxsh) {
   utterance ("[g:Description] (서울 중구청)[v:DESTINATIONNAME]으로 갈 건데 (을지로4가 역)[v:STATIONNAME]에서 어디로 나가야 돼")
@@ -74,9 +74,9 @@ train (t-dodkou5ifs8wwy8fy17bkxcc5) {
   last-modified (1572593153744)
 }
 train (t-dp4d71wexjsh7qnwklm7on72q) {
-  utterance ("[g:Description] (월계역)[v:dr_ssafy.exit.STATIONNAME]에서 (아시아 퍼시픽 국제 외국인학교)[v:dr_ssafy.exit.DESTINATIONNAME]로 가는 출구")
+  utterance ("[g:Description] (월계역)[v:STATIONNAME]에서 (아시아 퍼시픽 국제 외국인학교)[v:DESTINATIONNAME]로 가는 출구")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1573004741018)
+  last-modified (1573085496327)
 }
 train (t-dv554dep12tfcvcrt0vffjx4o) {
   utterance ("[g:Description] (재현 고등학교)[v:DESTINATIONNAME]로 가려면 (상계역)[v:STATIONNAME]에서 어디로 나가야 돼")

@@ -4,9 +4,9 @@ train (t-z7pj9zrxko6vxm4bp3yowpehz) {
   last-modified (1572315938180)
 }
 train (t-z9u4m10b5db8jka4kzueo18ut) {
-  utterance ("[g:Description] (숙대입구역)[v:dr_ssafy.exit.STATIONNAME]에서 (소망을찾는이 지역아동센터)[v:dr_ssafy.exit.DESTINATIONNAME]로 가는 출구 알려줘")
+  utterance ("[g:Description] (숙대입구역)[v:STATIONNAME]에서 (소망을찾는이 지역아동센터)[v:DESTINATIONNAME]로 가는 출구 알려줘")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572960116567)
+  last-modified (1573085507384)
 }
 train (t-z9xlamyuojy33qdb125u030w7) {
   utterance ("[g:Description] (오이도역)[v:STATIONNAME] (메가박스)[v:DESTINATIONNAME]")
@@ -44,9 +44,9 @@ train (t-zobb5zak08jomjl7pthneda02) {
   last-modified (1572317487397)
 }
 train (t-zpikmugqxa70jhofenxx518yf) {
-  utterance ("[g:Description] (을지로4가 역)[v:dr_ssafy.exit.STATIONNAME]에서 (우래옥)[v:dr_ssafy.exit.DESTINATIONNAME] 갈 거야")
+  utterance ("[g:Description] (을지로4가 역)[v:STATIONNAME]에서 (우래옥)[v:DESTINATIONNAME] 갈 거야")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1573006031009)
+  last-modified (1573085507674)
 }
 train (t-ztka5i6ul9hxwet1zcuo2fq9l) {
   utterance ("[g:Description] (신대방역)[v:STATIONNAME]에서 (신대방삼거리역)[v:DESTINATIONNAME]에 가고 싶어")
@@ -59,7 +59,7 @@ train (t-zx26qpxkrn5hfyjidycxa2g6k) {
   last-modified (1572315938371)
 }
 train (t-zzsexodkiq49prn360af8vcvh) {
-  utterance ("[g:Description] (월평역)[v:dr_ssafy.exit.STATIONNAME]에서 (월평공원)[v:dr_ssafy.exit.DESTINATIONNAME] 가야 돼")
+  utterance ("[g:Description] (월평역)[v:STATIONNAME]에서 (월평공원)[v:DESTINATIONNAME] 가야 돼")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1573004781364)
+  last-modified (1573085507783)
 }

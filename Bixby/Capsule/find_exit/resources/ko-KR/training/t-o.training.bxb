@@ -29,9 +29,9 @@ train (t-ogkgicqn7xqyapv75gfgynytk) {
   last-modified (1572315936382)
 }
 train (t-op23xnc28lgeibe0i1bs6ufzr) {
-  utterance ("[g:Description] (반석역)[v:dr_ssafy.exit.STATIONNAME]에서 (할리스 커피)[v:dr_ssafy.exit.DESTINATIONNAME]로 가는 출구 알려줘")
+  utterance ("[g:Description] (반석역)[v:STATIONNAME]에서 (할리스 커피)[v:DESTINATIONNAME]로 가는 출구 알려줘")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1572999442905)
+  last-modified (1573085501659)
 }
 train (t-oqs99o1q6yvccuhgartq4tozj) {
   utterance ("[g:Description] (잠실역)[v:STATIONNAME]에서 (롯데타워)[v:DESTINATIONNAME] 가는 출구 알려줘")

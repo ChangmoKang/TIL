@@ -112,8 +112,8 @@ module.exports.function = function findExit (result) {
   }).join("")
 
   let naverUrl = 'nmap://route/walk?slat=' + exitLocation.latitude + '&slng=' + exitLocation.longitude + "&sname=" + result.station.name + '&dlat=' + result.destination.location.latitude + '&dlng=' + result.destination.location.longitude + '&dname=' + result.destination.name + '&appname=com.nhn.android.nmap&hl=ko'
-  let kakaoUrl = 'https://map.kakao.com/link/to/' + result['destination']['name'] + ',' + result.destination.location.latitude + ',' + result.destination.location.longitude
-  // let kakaoUrl = 'https://map.kakao.com/link/to/카카오판교오피스,37.402056,127.108212'
+  let kakaoUrl = "daummaps://route?sp=" + exitLocation.latitude + "," + exitLocation.longitude + "&ep=" + result.destination.location.latitude + "," + result.destination.location.longitude + "&by=FOOT"
+
   const description = {
     'station': result['station'],
     'destination': result['destination'],

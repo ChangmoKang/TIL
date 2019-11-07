@@ -1,7 +1,7 @@
 train (t-c27e2lo8j5yo859ekxsnjvw6t) {
-  utterance ("[g:Description] (시청 용인대역)[v:dr_ssafy.exit.STATIONNAME]에서 (근처)[v:dr_ssafy.exit.SORT:distance] (스타벅스)[v:dr_ssafy.exit.DESTINATIONNAME] 가는 출구 알려줘")
+  utterance ("[g:Description] (시청 용인대역)[v:STATIONNAME]에서 (근처)[v:SORT:distance] (스타벅스)[v:DESTINATIONNAME] 가는 출구 알려줘")
   plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
-  last-modified (1573004995107)
+  last-modified (1573085494277)
 }
 train (t-c43ht3t5emd2kb8d9ok3sd5k8) {
   utterance ("[g:Description] (방학역)[v:STATIONNAME] (근처)[v:SORT:distance] (CU)[v:DESTINATIONNAME]")
@@ -39,9 +39,9 @@ train (t-cemtu01lr15ofbhcx5hrgu58p) {
   last-modified (1572409104736)
 }
 train (t-cq7lo5ukgx0hkit5dpz6bh0e0) {
-  utterance ("[g:Description] (종로3가 역)[v:dr_ssafy.exit.STATIONNAME]에서 (탑골공원)[v:dr_ssafy.exit.DESTINATIONNAME] 가는 출구 알려줘")
+  utterance ("[g:Description] (종로3가 역)[v:STATIONNAME]에서 (탑골공원)[v:DESTINATIONNAME] 가는 출구 알려줘")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
-  last-modified (1573005557152)
+  last-modified (1573085494664)
 }
 train (t-csc9qx55u2jfkurh3c5le45hc) {
   utterance ("[g:Description] (경북여고)[v:DESTINATIONNAME]까지 가려면 (명덕역)[v:STATIONNAME]에서 몇 번 출구로 나가야해")
