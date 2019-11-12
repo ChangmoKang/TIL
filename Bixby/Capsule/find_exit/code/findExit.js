@@ -111,7 +111,9 @@ module.exports.function = function findExit (result) {
     return e
   }).join("")
 
+  // https://docs.ncloud.com/ko/naveropenapi_v3/maps/url-scheme/url-scheme.html
   let naverUrl = 'nmap://route/walk?slat=' + exitLocation.latitude + '&slng=' + exitLocation.longitude + "&sname=" + result.station.name + '&dlat=' + result.destination.location.latitude + '&dlng=' + result.destination.location.longitude + '&dname=' + result.destination.name + '&appname=com.nhn.android.nmap&hl=ko'
+  // http://apis.map.kakao.com/android/guide/
   let kakaoUrl = "daummaps://route?sp=" + exitLocation.latitude + "," + exitLocation.longitude + "&ep=" + result.destination.location.latitude + "," + result.destination.location.longitude + "&by=FOOT"
 
   const description = {
