@@ -11,6 +11,6 @@ int main(void)
 	x = 123;  // assignment
 
 	std::cout << x << std::endl;
-	
+
 	return 0;
 }

@@ -1,0 +1,5 @@
+﻿  main.cpp
+c:\users\hans7\cm\repo\til\c++\lecture\tbc\chapter1_6\main.cpp(15): warning C4101: '_apples': unreferenced local variable
+c:\users\hans7\cm\repo\til\c++\lecture\tbc\chapter1_6\main.cpp(13): warning C4101: 'n_apples': unreferenced local variable
+c:\users\hans7\cm\repo\til\c++\lecture\tbc\chapter1_6\main.cpp(14): warning C4101: 'nApples': unreferenced local variable
+  Chapter1_6.vcxproj -> C:\Users\hans7\CM\Repo\TIL\C++\Lecture\TBC\Debug\Chapter1_6.exe
