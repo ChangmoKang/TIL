@@ -48,3 +48,97 @@ Left-value와 Right-value
 
 `using namespace std`를 사용하면 선언한 중괄호 안에서 `std::`를 생략하여 사용할 수 있다.
 
+
+
+## 1-5. 함수
+
+```c++
+#include <iostream>
+using namespace std;
+
+int addTwoNumbers(int a, int b) // 매개변수(Parameters)
+{
+    return a + b; // 리턴 값의 Type과 함수의 Type이 맞아야 한다.
+}
+
+int main(void)
+{
+    cout << addTwoNumbers(2, 4) << endl; // 인자(Arguments)
+    
+    return 0;
+}
+```
+
+* 함수 안에서 함수를 정의(선언)할 수 없다.
+
+
+
+## 1-6. 키워드와 식별자 이름짓기
+
+* 식별자는 숫자로 시작할 수 없고 키워드를 사용하여 이름을 지을 수 없다.
+
+
+
+## 1-7. 지역 범위(Local Scope)
+
+```c++
+int main()
+{
+    int x = 0;
+    
+    {
+        int x = 1;
+    }
+    
+    {
+        int x = 2;
+    }
+}
+```
+
+> 모든 x는 서로 다른 메모리 공간을 갖는다.
+
+
+
+```c++
+int main()
+{
+    int x = 0;
+    
+    {
+        x = 1;
+    }
+    
+    cout << x << endl; // 1
+}
+```
+
+> 중괄호 안에서 할당이 가능하다.
+
+
+
+```c++
+//Homework
+#include <iostream>
+
+using namespace std;
+
+void doSomething(int x)
+{
+	x = 123;
+	cout << x << " " << &x << endl; // 1
+}
+
+int main()
+{
+	int x = 0;
+
+	cout << x << " " << &x << endl; // 2
+	doSomething(x);
+	cout << x << " " << &x << endl; // 3
+
+	return 0;
+}
+```
+
+> 2와 3은 같은 메모리를 가리킨다.
