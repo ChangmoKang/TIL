@@ -10,9 +10,9 @@ void getNumber() // 시작은 대문자로, 동사+명사, 이름이 길어질 경우 주석을 이용한
 
 int main()
 {
-	int n_apples;
-	int nApples;
-	int _apples;
+	int n_apples = 1;
+	int nApples = 2;
+	int _apples = 3;
 
 	getNumber();
 	return 0;
