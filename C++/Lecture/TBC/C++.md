@@ -169,3 +169,190 @@ int main(void)
 }
 ```
 
+
+
+## 1-9. 기본적인 서식 맞추기
+
+> indenting
+
+```c++
+#include "stdafx.h"
+#include <iostream>
+
+using namespace std;
+
+
+int add(int x, int y)
+{
+	return x + y;
+}
+
+
+int main()
+{
+	cout << "Hello, World" << 
+		"Hi, World" << endl; 
+
+	int my_v			 = 1;
+	int x				 = 4;
+	int num_apples		 = 123;
+
+	return 0;
+}
+```
+
+
+
+## 1-10.  선언과 정의의 분리
+
+> Declaration, Definition
+
+```c++
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	cout << add(1, 2) << endl;
+	return 0;
+}
+
+
+// definition
+int add(int a, int b)
+{
+	return a + b;
+}
+
+int multiply(int a, int b)
+{
+	return a * b;
+}
+
+int subtract(int a, int b)
+{
+	return a - b;
+}
+```
+
+> 이렇게 하면  main에서 add 함수를 알 수가 없어서 build가 되지 않는다
+
+
+
+```c++
+#include <iostream>
+
+using namespace std;
+
+// forward declaration
+int add(int a, int b);
+int multiply(int a, int b);
+int subtract(int a, int b);
+
+
+int main()
+{
+	cout << add(1, 2) << endl;
+	return 0;
+}
+
+
+// definition
+int add(int a, int b)
+{
+	return a + b;
+}
+
+int multiply(int a, int b)
+{
+	return a * b;
+}
+
+int subtract(int a, int b)
+{
+	return a - b;
+}
+```
+
+> 함수의 앞 부분만 위에 적어서 선언을 해주면 잘 동작한다
+
+
+
+## 1-11. 헤더 파일 만들기
+
+> Header
+
+
+
+## 1-12.  헤더 가드
+
+> Header Guards
+
+`#pragma once`
+
+많은 헤더를 작성하고 main에서 include할 때 헤더가 중복되서 include 되지 않도록 하는 것
+
+
+
+## 1-13.  명칭 공간(namespace)
+
+```c++
+#include <iostream>
+
+using namespace std;
+
+namespace mySpace1
+{
+	namespace innerSpace
+	{
+		int my_function()
+		{
+			return 0;
+		}
+	}
+
+	int doSomething(int a, int b)
+	{
+		return a + b;
+	}
+}
+
+namespace mySpace2
+{
+	int doSomething(int a, int b)
+	{
+		return a * b;
+	}
+}
+
+int main(void)
+{
+	using namespace mySpace1;
+
+	//mySpace1::innerSpace::my_function();
+	cout << doSomething(3, 5) << endl; // 8
+	cout << mySpace2::doSomething(3, 5) << endl; // 15
+	return 0;
+}
+```
+
+
+
+## 1-14. 전처리기(preprocessor)
+
+```c++
+#include <iostream>
+
+using namespace std;
+
+#define MY_NUMBER 123
+
+int main()
+{
+	cout << MY_NUMBER << endl;
+
+	return 0;
+}
+```
+
