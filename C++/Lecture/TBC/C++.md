@@ -711,3 +711,457 @@ int main()
 }
 ```
 
+
+
+## 3-1. 연산자 우선순위와 결합법칙
+
+> <https://en.wikipedia.org/wiki/Operators_in_C_and_C%2B%2B>
+
+```c++
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+	// 상식대로 *부터 계산한다
+	int x1 = 4 + 2 * 3;
+
+	// 왼쪽에서 먼저 계산한다. associativity(left-to-right인지 right-to-left인지)
+	int x2 = 4 * 3 / 2;
+
+	// ^은 제곱이 아니다. 제곱을 하려면 cmath를 불러와서 pow를 사용하자
+	int x3 = pow(2, 3);
+	cout << x3 << endl;
+}
+```
+
+
+
+## 3-2. 산술 연산자(Arithmetic Operators)
+
+```c++
+#include <iostream>
+
+int main()
+{
+	using namespace std;
+
+	int x = 7;
+	int y = 4;
+	int z1 = x + y;
+	int z2 = x - y;
+	int z3 = x * y;
+	int z4 = x / y;
+	int z5 = x % y; // 나머지 연산자
+
+	cout << x / y << endl; // 1
+	cout << float(x) / y << endl; // 1.75
+	cout << x / float(y) << endl; // 1.75
+	cout << float(x) / float(y) << endl; // 1.75
+
+	cout << -5 / 2 << endl; // -2.5지만 소수점을 버리기 때문에 -2가 출력됨
+	cout << -5 % 2 << endl; // 나머지 연산자 앞에 양수면 양의 결과 음수이면 음의 결과가 나온다.
+
+	int z = x;
+	z += y; // z = z + y;
+	z -= y; // z = z - y;
+	z *= y; // z = z * y;
+	z /= y; // z = z / y;
+	z %= y; // z = z % y;
+
+	return 0;
+}
+```
+
+
+
+## 3-3. 증감 연산자
+
+```c++
+#include <iostream>
+
+
+int main()
+{
+	using namespace std;
+
+	int x = 5;
+	int y1 = ++x; // x가 1이 증가하고 y1에 assign된다.
+	cout << y1 << endl;
+	cout << x << endl;
+
+	int y2 = x++; // y2에 먼저 x가 assign되고 x가 증가한다.
+	cout << y2 << endl;
+	cout << x << endl;
+
+}
+```
+
+
+
+## 3-4. sizeof, 쉼표 연산자, 조건(부) 연산자
+
+* `sizeof`는 함수가 아니라 연산자이다.
+
+```c++
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	// sizeof operator
+	// sizeof는 함수가 아니라 operator이다.
+	float v;
+	cout << sizeof(float) << endl;
+	cout << sizeof(v) << endl;
+
+
+	// comma operator
+	int x = 3;
+	int y = 10;
+
+	// ++x;
+	// ++y;
+	// int z = y; 이 세단계를 압축한 것이 아래의 코드
+	int z = (++x, ++y);
+
+	int a = 1, b = 10;
+	int c;
+	
+	// ,가 =보다 우선순위가 낮기 때문에 c = a가 실행된다.
+	c = a, b;
+	// (c = a), b;
+
+	cout << c << endl;
+
+
+	// conditional operator(arithmetic if)
+	bool onSale = true;
+
+	// 어떤 값을 const로 하고 싶은데 조건을 걸고 싶으면 삼항 연산자를 사용한다.
+	const int price = (onSale == true) ? 10 : 100;
+	/*if (onSale)
+		price = 10;
+	else
+		price = 100;*/
+	
+
+	int xx = 5;
+	cout << ((xx % 2 == 0) ? "even" : "odd") << endl;
+	//cout << (xx % 2 == 0) ? "even" : "odd" << endl; 얘는 왜 오류가 날까? 매우 높은 확률로 우선순위 때문에(삼항 연산자는 16순위)
+
+	return 0;
+}
+```
+
+
+
+## 3-5. 관계 연산자
+
+```c++
+#include <iostream>
+
+int main()
+{
+	using namespace std;
+
+	int x, y;
+	cin >> x >> y;
+	cout << "Your input values are : " << x << " " << y << endl;
+
+	if (x == y)
+		cout << "equal" << endl;
+	if (x != y)
+		cout << "Not equal" << endl;
+	if (x > y)
+		cout << "x is greater than y" << endl;
+	if (x < y)
+		cout << "x is less than y" << endl;
+	if (x >= y)
+		cout << "x is greater than y or equal to y" << endl;
+	if (x <= y)
+		cout << "x is less than y or equal to y" << endl;
+
+
+	double d1(100 - 99.99);	// 0.01
+	double d2(10 - 9.99);	// 0.01
+
+
+	if (d1 == d2)
+		cout << "equal" << endl;
+	else
+	{
+		cout << "Not equal" << endl;
+		if (d1 > d2)
+			cout << "d1 > d2" << endl;
+		else
+			cout << "d1 < d2" << endl;
+	}
+
+	cout << d1 << endl;
+	cout << d2 << endl;
+	cout << abs(d1 - d2) << endl;
+
+	const double epsilon = 1e-10;
+
+	if (abs(d1 - d2) < epsilon)
+		cout << "Approximately equal" << endl;
+	else
+		cout << "Not equal" << endl;
+
+	return 0;
+}
+```
+
+
+
+## 3-6. 논리 연산자
+
+```c++
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	// logical Not !x
+	bool x = true;
+	cout << !x << endl;
+
+	// logical And
+	bool a = true;
+	bool b = true;
+	cout << (a && b) << endl;
+
+	// logical OR
+	bool w1 = true;
+	bool w2 = false;
+	cout << (w1 || w2) << endl;
+
+	// short circuit evaluation
+	int x1 = 1;
+	int x2 = 2;
+	if (x1 == 1 && x2++ == 2) // x1 == 1이 부분이 틀리면 뒤는 보지도 않는다.
+	{
+		// do sth
+	}
+	cout << x2 << endl;
+
+	// De Morgan's Law
+	// !(x && y) == !x || !y
+
+	// XOR
+	// C++에는 XOR 따로 없다.
+	// if (x != y) ... 
+
+	// AND 연산자가 OR 연산자보다 우선순위가 높다.
+	return 0;
+}
+```
+
+
+
+## 3-7. 이진수
+
+```c++
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	/*
+
+	148 (decimal to binary)
+
+	148 / 2 = 74 >> 0
+	72	/ 2 = 37 >> 0
+	37	/ 2 = 18 >> 1
+	18	/ 2 = 9 >> 0
+	9	/ 2 = 4 >> 1
+	4	/ 2 = 2 >> 0
+	2	/ 2 = 1 >> 0
+	1	/ 2 = 1 >> 1
+
+	1001 0100
+
+	*/
+
+
+	/*
+	
+	-5 (decimal to binary)(unsigned)
+	0000 0101
+	complement
+	1111 1010
+	+ 1
+	1111 1011 >> -5
+	
+	if signed
+	1000 0101 >> -5
+
+
+
+	*/
+
+	/*
+	
+	1001 1110 (binary to decimal)(signed)
+	complement
+	0110 0001
+	+1
+	0110 0010 >> 98인데 원래 음수였으니 -98
+
+	*/
+
+
+	return 0;
+}
+```
+
+
+
+## 3-8.  비트단위 연산자
+
+```c++
+#include <iostream>
+#include <bitset>
+
+int main()
+{
+	using namespace std;
+
+	// 비드단위 연산자의 종류
+	// << left shift
+	// >> right shift
+	// ~
+	// &
+	// |
+	// ^
+	
+	unsigned int a = 3;
+	cout << bitset<4>(a) << endl;
+
+	// <<을 한다는 것은 2의 제곱수를 곱하는 것과 같다.
+	unsigned int b = 3 << 2;
+	cout << bitset<4>(b) << " " << b << endl;
+
+	// >>은 2의 마이너스 제곱수를 곱하는 것과 같다.
+	unsigned int c = 1024 >> 4;
+	cout << bitset<8>(c) << " " << c << endl;
+
+	unsigned int d = 1024;
+	cout << bitset<16>(d) << endl;
+	cout << bitset<16>(~d) << " " << (~d) << endl; // 1024의 보수가 출력됨
+
+
+	unsigned int x1 = 0b1100;
+	unsigned int x2 = 0b0110;
+
+	cout << bitset<4>(x1 & x2) << endl; // bitwise AND
+	cout << bitset<4>(x1 | x2) << endl; // bitwise OR
+	cout << bitset<4>(x1 ^ x2) << endl; // bitwise XOR
+
+	cout << (0b0110 >> 2) << endl;
+	cout << (5 & 12) << endl;
+	cout << (5 | 12) << endl;
+	cout << (5 ^ 12) << endl;
+
+	return 0;
+}
+```
+
+
+
+## 3-9. 비트 플래그, 비트 마스크
+
+```c++
+#include <iostream>
+#include <bitset>
+
+using namespace std;
+
+int main()
+{
+	// BIT FLAG
+	const unsigned char opt0 = 1 << 0;
+	const unsigned char opt1 = 1 << 1;
+	const unsigned char opt2 = 1 << 2;
+	const unsigned char opt3 = 1 << 3;
+
+	cout << bitset<8>(opt0) << endl;
+	cout << bitset<8>(opt1) << endl;
+	cout << bitset<8>(opt2) << endl;
+	cout << bitset<8>(opt3) << endl;
+
+
+	// 아이템이 8개 있는데 있는지 없는지 구분할 경우
+	unsigned char items_flag = 0;
+
+	cout << "No item " << bitset<8>(items_flag) << endl;
+
+	//item0 on
+	items_flag |= opt0;
+	cout << "Item0 obtained " << bitset<8>(items_flag) << endl;
+
+	//item3 on
+	items_flag |= opt3;
+	cout << "Item3 obtained " << bitset<8>(items_flag) << endl;
+
+	//item3 lost
+	items_flag &= ~opt3;
+	cout << "Item3 lost " << bitset<8>(items_flag) << endl;
+
+	//has item1?
+	if (items_flag & opt1) { cout << "Has item1" << endl; }
+
+	//obtain item 2, 3
+	items_flag |= (opt2 | opt3);
+	cout << "item2, 3 obtained" << bitset<8>(items_flag) << endl;
+
+	// 상태를 바꿔줄 때 >> XOR 사용
+	if ((items_flag & opt2) && !(items_flag & opt1))
+	{
+		items_flag ^= (opt1 | opt2);
+		/*items_flag ^= opt2;
+		items_flag ^= opt1;*/
+	}
+
+	cout << bitset<8>(items_flag) << endl;
+
+
+	// BIT MASK
+
+	const unsigned int red_mask = 0xFF0000;
+	const unsigned int green_mask = 0x00FF00;
+	const unsigned int blue_mask = 0x0000FF;
+
+	cout << bitset<32>(red_mask) << endl;
+	cout << bitset<32>(green_mask) << endl;
+	cout << bitset<32>(blue_mask) << endl;
+
+
+	unsigned int pixel_color = 0xDAA520; // (218, 165, 32)
+	cout << bitset<32>(pixel_color) << endl;
+
+
+	unsigned char red, green, blue;
+
+	// >> 연산자가 & 연산자보다 우선순위가 높다
+	red = (pixel_color & red_mask) >> 16;
+	green = (pixel_color & green_mask) >> 8;
+	blue = pixel_color & blue_mask;
+
+	// red, green, blue를 char로 선언하면 blue밖에 원하는 값이 안나옴 이유는 char가 1바이트이기 때문에
+	cout << bitset<8>(red) << " " << int(red) << endl;
+	cout << bitset<8>(green) << " " << int(green) << endl;
+	cout << bitset<8>(blue) << " " << int(blue) << endl;
+
+
+	return 0;
+}
+```
+
