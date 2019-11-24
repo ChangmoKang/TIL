@@ -4,6 +4,12 @@
 
 
 
+출처: 교수님의 따라하며 배우는 C++ 강의
+
+<https://www.youtube.com/playlist?list=PLNfg4W25Tapw5Yx4yuExHNybBIUk68aNz>
+
+<https://www.inflearn.com/course/following-c-plus>
+
 ## 1-1. 프로그램의 구조
 
 * 표현식과 명령문의 차이는 뭘까?
@@ -1221,3 +1227,8 @@ int main()
 
 ```
 
+
+
+## 4_2. 전역 변수, 정적 변수, 내부연결, 외부연결
+
+> 이후 정리
