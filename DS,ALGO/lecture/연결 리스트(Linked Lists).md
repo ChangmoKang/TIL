@@ -65,12 +65,12 @@ class LinkedList:
        return result
    ```
 
-3. 특정 원소 참조 (k번째)
+3. 특정 원소 참조 (pos번째)
 
    ```python
    def get_at(self, pos):
        if pos < 0 or pos > self.node_count:
-           return None
+          	raise IndexError
        
        i = 0
        curr = self.head
@@ -146,6 +146,7 @@ class LinkedList:
        if L.tail:
            self.tail = L.tail
        self.node_count += L.node_count
+       return True
    ```
 
    <img src=".\assets\LinkedListConcatenate.png"></img>
@@ -246,13 +247,19 @@ class DoublyLinkedList:
 
    > 단방향 Linked List와 비교하면 while의 조건만 다르다.
 
-3. 특정 원소 참조 (k번째)
+3. 특정 원소 참조 (pos번째)
 
    ```python
    def get_at(self, pos):
        if pos < 0 or pos > self.node_count:
-           return None
-       
+           raise IndexError
+   
+       # if pos > self.node_count // 2:
+       #     i = self.node_count + 1
+       #     curr = self.tail
+       #     while i > pos:
+       #         curr = curr.prev
+       #         i -= 1    
        if pos > self.node_count // 2:
            i = 0
            curr = self.tail
@@ -277,8 +284,8 @@ class DoublyLinkedList:
    ```python
    def insert_before(self, next, new_node):
        prev = next.prev
-       new_node.next = next
        new_node.prev = prev
+       new_node.next = next
        prev.next = new_node
        next.prev = new_node
        self.node_count += 1
@@ -352,6 +359,16 @@ class DoublyLinkedList:
        cat.prev = con
        self.tail = L.tail
        self.node_count += L.node_count
+       return True
    ```
 
-   
+
+## 마치며
+
+* LinkedList는 왜 마지막에 빈 Node를 넣어 규칙성을 유지하지 않았나?
+
+  > 빈 Node를 만들어 그 Node를 tail로 잡았다면 tail에서 뒤를 볼 수 없기 때문에 tail이 의미가 없어진다.
+
+* 첫번째 Node의 Index를 0으로 잡고하면 안되는건가?
+
+  >
