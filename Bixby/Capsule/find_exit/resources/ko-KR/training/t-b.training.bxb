@@ -23,10 +23,20 @@ train (t-be20s16e2q44qlvi2y20pksp7) {
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572497555044)
 }
+train (t-bg6jrw9uqdhuup0b9bnx2y9tl) {
+  utterance ("[g:Description] (강남역)[v:dr_ssafy.exit.STATIONNAME] (삼성전자 서초 사옥)[v:dr_ssafy.exit.DESTINATIONNAME]")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1574663187434)
+}
 train (t-bh264r8kxg1ndltawe1qkpkt8) {
   utterance ("[g:Description] (낙성대역)[v:STATIONNAME]에서 (도서관)[v:DESTINATIONNAME] 가는 출구 알려줘")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315934463)
+}
+train (t-bhqhry0xnjup48nse4k7trkpg) {
+  utterance ("[g:Description] (딜리버리 히어로)[v:DESTINATIONNAME] 갈 건데 (서초역)[v:STATIONNAME]에서 어디로 나가")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1574662789443)
 }
 train (t-bmem5i9slpn4aaq1yq2l7aac4) {
   utterance ("[g:Description] (신안산대학교)[v:DESTINATIONNAME] 가는 (초지역)[v:STATIONNAME] 출구")

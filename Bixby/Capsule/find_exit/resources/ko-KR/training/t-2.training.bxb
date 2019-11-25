@@ -78,3 +78,8 @@ train (t-2wssx4n1lv47sq7dff6va5sr5) {
   plan (XY/RCoIwFIb/SrO6jAoqgp7Ad5BaIZiCW9chumAgFm5BvX1zFLUxDtv5PvYfDiZYVu1FyuL6CvlTqHDPZdmKuxK3BgtbHURTEf3AzOY5l49aYWvTI1c6S4mm6LISIRU2zihCWZxGLM7SNDoRTG1Ns5xh7jBl0rB2MK95qb7S2Yiy34iVrc6U5Em2Mx5j9NDHAB58DBFgpAk+rDsdC3QPU/i7PVO+/oE3)
   last-modified (1573085491002)
 }
+train (t-2y7jukb78m74gea9fbqofxvu9) {
+  utterance ("[g:Description] (서초역)[v:dr_ssafy.exit.STATIONNAME]에서 (딜리버리 히어로)[v:dr_ssafy.exit.DESTINATIONNAME]로 갈 건데 몇 번 출구로 나가")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1574662717183)
+}

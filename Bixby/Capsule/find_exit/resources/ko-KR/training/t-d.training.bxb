@@ -78,6 +78,11 @@ train (t-dp4d71wexjsh7qnwklm7on72q) {
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1573085496327)
 }
+train (t-dpqx2rsdb94jabw7h9rxhtat1) {
+  utterance ("[g:Description] (서초역)[v:dr_ssafy.exit.STATIONNAME] (딜리버리 히어로)[v:dr_ssafy.exit.DESTINATIONNAME]")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1574662682018)
+}
 train (t-dv554dep12tfcvcrt0vffjx4o) {
   utterance ("[g:Description] (재현 고등학교)[v:DESTINATIONNAME]로 가려면 (상계역)[v:STATIONNAME]에서 어디로 나가야 돼")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)

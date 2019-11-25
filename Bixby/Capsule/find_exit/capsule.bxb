@@ -16,11 +16,16 @@ capsule {
     support-halt-effect-in-computed-inputs
     use-input-views-for-selection-list-detail
   }
+  store-countries {
+    only {
+      allow (KO)
+    }
+  }
   capsule-imports {
-    import (viv.common) {as (common) version (3.32.18)}
-    import (viv.entity) {as (entity) version (3.21.0)}
-    import (viv.time) {as (time) version (3.0.3)}
-    import (viv.geo) {as (geo) version (9.21.0)}
+    import (viv.common) {as (common) version (4.0.0)}
+    import (viv.entity) {as (entity) version (4.0.1)}
+    import (viv.time) {as (time) version-from (entity)}
+    import (viv.geo) {as (geo) version (9.23.0)}
   }
   permissions {
     user-profile-access
