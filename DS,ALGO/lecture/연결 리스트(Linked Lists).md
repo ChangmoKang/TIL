@@ -129,7 +129,7 @@ class LinkedList:
 
    ```python
    def pop_at(self, pos):
-       if pos < 1 and pos > self.node_count:
+       if pos < 1 or pos > self.node_count:
            raise IndexError
        
        prev = self.get_at(pos - 1)
