@@ -18,11 +18,11 @@ Programmers - 어서와! 자료구조와 알고리즘은 처음이지?
 
 * Stack underflow
 
-  <img src=".\assets\StackUnderflow.png"></img>
+  <img src=".\assets\StackUnderflow.PNG"></img>
 
 * Stack overflow
 
-  <img src=".\assets\StackOverflow.png">
+  <img src=".\assets\StackOverflow.PNG">
 
 
 
