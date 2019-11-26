@@ -12,13 +12,13 @@ Programmers - 어서와! 자료구조와 알고리즘은 처음이지?
 
 * Node
 
-  <img src=".\assets\Node.png"></img>
+  <img src=".\assets\Node.PNG"></img>
 
   > Node는 Data와 Link로 구성되어 있다.
 
 * LinkedList
 
-  <img src=".\assets\LinkedList.png"></img>
+  <img src=".\assets\LinkedList.PNG"></img>
 
   > LinkedList는 head, tail, node_count로 구성되어 있다.
 
@@ -105,7 +105,7 @@ class LinkedList:
        return self.insert_after(prev, new_node)
    ```
 
-   <img src=".\assets\LinkedListInsertAfter.png"></img>
+   <img src=".\assets\LinkedListInsertAfter.PNG"></img>
 
 5. 원소 삭제
 
@@ -136,7 +136,7 @@ class LinkedList:
        return self.pop_after(prev)
    ```
 
-   <img src=".\assets\LinkedListPopAfter.png"></img>
+   <img src=".\assets\LinkedListPopAfter.PNG"></img>
 
 6. 두 리스트 합치기
 
@@ -149,7 +149,7 @@ class LinkedList:
        return True
    ```
 
-   <img src=".\assets\LinkedListConcatenate.png"></img>
+   <img src=".\assets\LinkedListConcatenate.PNG"></img>
 
 
 
@@ -185,7 +185,7 @@ class LinkedList:
 
 * LinkedList
 
-  <img src=".\assets\DLinkedList.png"></img>
+  <img src=".\assets\DLinkedList.PNG"></img>
 
   > LinkedList는 head, tail, node_count로 구성되어 있다.
 
