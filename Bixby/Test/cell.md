@@ -10,7 +10,7 @@ card와 area는 `slot1`, `slot2`, `slot3` 총 3개의 slot을 가지고 있다.
 
 ## cell-area
 
-![area](./asset/cell/cell-area.png)
+![area](./asset/cell/cell-area.PNG)
 
 ```bixby
 cell-area {
@@ -39,7 +39,7 @@ cell-area {
 
 ## cell-card
 
-![card](./asset/cell/cell-card.png)
+![card](./asset/cell/cell-card.PNG)
 
 ```bixby
 cell-card {
@@ -69,6 +69,6 @@ cell-card {
 
 ## 비교
 
-![cell](./asset/cell/cell.png)
+![cell](./asset/cell/cell.PNG)
 
 > card는 배경이 있는 것을 알 수 있다.

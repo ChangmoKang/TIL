@@ -8,7 +8,7 @@
 
 ### Bixby 서비스 아키텍처
 
-![빅스비 서비스 아키텍처](./asset/2-1/1.png)
+![빅스비 서비스 아키텍처](./asset/2-1/1.PNG)
 
 1. Client : 사용자 발화 >> 빅스비 서버로 전달
 2. ASR : 위의 발화를 문자로 변환
@@ -25,13 +25,13 @@
 
 #### Plan Graph 예시
 
-![Plan 예시](./asset/2-1/2.png)
+![Plan 예시](./asset/2-1/2.PNG)
 
 
 
 ### Bixby Capsule 구조
 
-![Capsule 구조](./asset/2-1/4.png)
+![Capsule 구조](./asset/2-1/4.PNG)
 
 1. 모델링: 값과 그 값을 활용할 동작을 정의
    * Concept: 사용자의 발화를 인식하고 리턴할 때 필요한 값
@@ -42,7 +42,7 @@
    * Dialog: 사용자에게 되묻거나 결과를 응답해주는 응답문 작성
 4. 트레이닝: Capsule이 잘 동작하도록 다양한 경우의 발화를 Training 하는 것
 
-![Capsule구조 예시](./asset/2-1/5.png)
+![Capsule구조 예시](./asset/2-1/5.PNG)
 
 
 
@@ -129,9 +129,9 @@ action(1) {
 
 ### Model
 
-![Primitive](./asset/3-1/2.png)
+![Primitive](./asset/3-1/2.PNG)
 
-![Structure](./asset/3-1/3.png)
+![Structure](./asset/3-1/3.PNG)
 
 
 
@@ -139,7 +139,7 @@ action(1) {
 
 ### Validation
 
-![Validation](./asset/3-2/1.png)
+![Validation](./asset/3-2/1.PNG)
 
 * Input block 안에 넣어서 사용
 
@@ -147,7 +147,7 @@ action(1) {
 
 ### Relaxation
 
-![Relaxation](./asset/3-2/2.png)
+![Relaxation](./asset/3-2/2.PNG)
 
 * Validation과 유사하지만 Output에서 사용된다는 점만 다르다.
 
@@ -155,13 +155,13 @@ action(1) {
 
 ### Throws
 
-![Throws](./asset/3-2/3.png)
+![Throws](./asset/3-2/3.PNG)
 
 
 
 ### Defalut init
 
-![Defalut init](./asset/3-2/4.png)
+![Defalut init](./asset/3-2/4.PNG)
 
 * 위의 코드에서 phoneInfo가 없을 경우 ShowPhoneList액션을 실행하라는 의미
 
@@ -169,7 +169,7 @@ action(1) {
 
 ### Evaluate
 
-![Defalut init](./asset/3-2/5.png)
+![Defalut init](./asset/3-2/5.PNG)
 
 *  일반적으로 action에서 output을 만들기 위한 JS코드가 필요함
 * 하지만, action의 입력값을 그대로 전달하는 간단한 로직의 경우 Evaluate를 사용함.
@@ -179,7 +179,7 @@ action(1) {
 
 ### Input group
 
-![Defalut init](./asset/3-2/6.png)
+![Defalut init](./asset/3-2/6.PNG)
 
 
 
@@ -260,7 +260,7 @@ action(1) {
 
 ### 개요
 
-![Bixby Capsule 개요](./asset/5-1/1.png)
+![Bixby Capsule 개요](./asset/5-1/1.PNG)
 
 
 
@@ -268,19 +268,19 @@ action(1) {
 
 #### 종류
 
-![Bixby Capsule 개요](./asset/5-1/2.png)
+![Bixby Capsule 개요](./asset/5-1/2.PNG)
 
 
 
 #### 구성요소
 
-![Bixby Capsule 개요](./asset/5-1/3.png)
+![Bixby Capsule 개요](./asset/5-1/3.PNG)
 
 
 
 #### 예시
 
-![Bixby Capsule 개요](./asset/5-1/4.png)
+![Bixby Capsule 개요](./asset/5-1/4.PNG)
 
 * Dialog는 message와 // Layout은 render와 // Follow-Up은 Conversation-driver와 관련있다.
 
@@ -296,7 +296,7 @@ action(1) {
 
 #### Enum
 
-![enum](./asset/7-2/1.png)
+![enum](./asset/7-2/1.PNG)
 
 * 범위가 한정된 closed type의 컨셉
 * 반드시 Vocab이 필요
@@ -305,69 +305,69 @@ action(1) {
 
 #### Name
 
-![name](./asset/7-2/2.png)
+![name](./asset/7-2/2.PNG)
 
 
 
 #### Text
 
-![text](./asset/7-2/3.png)
+![text](./asset/7-2/3.PNG)
 
 
 
 #### 정리
 
-![type](./asset/7-2/4.png)
+![type](./asset/7-2/4.PNG)
 
 
 
 ### Vocab이란
 
-![vocab](./asset/7-2/5.png)
+![vocab](./asset/7-2/5.PNG)
 
 
 
-![how_to_create_vocab](./asset/7-2/6.png)
+![how_to_create_vocab](./asset/7-2/6.PNG)
 
 * enum의 경우 vocab이 필수!
 
 
 
-![boolean](./asset/7-2/7.png)
+![boolean](./asset/7-2/7.PNG)
 
 
 
-![name](./asset/7-2/8.png)
+![name](./asset/7-2/8.PNG)
 
 
 
-![etc](./asset/7-2/9.png)
+![etc](./asset/7-2/9.PNG)
 
 
 
 ### 제약사항
 
-![](./asset/7-2/10.png)
+![](./asset/7-2/10.PNG)
 
 
 
 ## 자연어 학습하기
 
-![basic](./asset/7-3/1.png)
+![basic](./asset/7-3/1.PNG)
 
 
 
-![](./asset/7-3/2.png)
+![](./asset/7-3/2.PNG)
 
 
 
-![](./asset/7-3/3.png)
+![](./asset/7-3/3.PNG)
 
 
 
-![](./asset/7-3/4.png)
+![](./asset/7-3/4.PNG)
 
 
 
-![](./asset/7-3/5.png)
+![](./asset/7-3/5.PNG)
 

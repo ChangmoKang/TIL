@@ -8,14 +8,14 @@ title-area의 halign은 Start, Center, End 총 3가지 속성을 가질 수 있�
 
 ## halign (Start)
 
-![Start](./asset/halign/Start.png)
+![Start](./asset/halign/Start.PNG)
 
 
 
 ## halign (Center)
 
-![Center](./asset/halign/Center.png)
+![Center](./asset/halign/Center.PNG)
 
 ## halign (End)
 
-![End](./asset/halign/End.png)
+![End](./asset/halign/End.PNG)
