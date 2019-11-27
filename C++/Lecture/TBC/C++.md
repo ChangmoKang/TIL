@@ -1232,3 +1232,39 @@ int main()
 ## 4_2. 전역 변수, 정적 변수, 내부연결, 외부연결
 
 > 이후 정리
+
+
+
+## 4_3. Using문과 모호성
+
+```c++
+#include <iostream>
+
+namespace a
+{
+	int my_var(10);
+}
+
+namespace b
+{
+	int my_var(20);
+}
+
+int main()
+{
+	using namespace std;
+
+	/*
+	using std::cout;
+	using std::endl;
+	cout << "Hello World" << endl;
+	*/
+
+	using namespace a;
+	using namespace b;
+
+	// cout << my_var << endl; // a와 b에 모두 my_var가 있기 때문에 Ambigous함
+	cout << a::my_var << endl;
+}
+```
+
