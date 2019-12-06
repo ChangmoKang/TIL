@@ -67,8 +67,6 @@ module.exports.function = function getDestinationList (station, destinationName,
     }
     index += 1
   })
-  if (sort == 'distance') {
-    return results[0]
-  }
+
   return results
 }

@@ -58,10 +58,10 @@ module.exports = function selectStation (stationName, userLocation) {
 
   if (correctResults.length !== 0) {
     correctResults = transformDistance(correctResults)
-    return correctResults[0]
+    return correctResults
   } else if (similarResults.length !== 0) {
     similarResults = transformDistance(similarResults)
-    return similarResults[0]
+    return similarResults
   } else {
     throw fail.checkedError('역사명 오류', 'NotFoundStationName', {})
   }
