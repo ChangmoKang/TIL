@@ -1,31 +1,21 @@
 capsule {
   id (dr_ssafy.exit)
-  version (1.2.13)
+  version (1.2.14)
   format (3)
   targets {
     target (bixby-mobile-ko-KR) {enabled (true)}
     target (bixby-mobile-en-US) {enabled (false)}
   }
-  runtime-flags {
-    allow-dialogs-on-detail-pages
-    concepts-inherit-super-type-features
-    modern-default-view-behavior
-    modern-prompt-rejection
-    no-fallback-to-result-collections
-    no-filtering-with-validation
-    support-halt-effect-in-computed-inputs
-    use-input-views-for-selection-list-detail
-  }
+  runtime-version (3)
   store-countries {
     only {
       allow (KR)
     }
   }
   capsule-imports {
-    import (viv.common) {as (common) version (4.0.0)}
-    import (viv.entity) {as (entity) version (4.0.1)}
-    import (viv.time) {as (time) version-from (entity)}
-    import (viv.geo) {as (geo) version (9.23.0)}
+    import (viv.common) {as (common) version (4.0.3)}
+    import (viv.entity) {as (entity) version (4.0.14)}
+    import (viv.geo) {as (geo) version-from (entity)}
   }
   permissions {
     user-profile-access

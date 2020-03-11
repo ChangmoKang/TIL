@@ -12,4 +12,9 @@ capsule-info {
     keyword (빠른출구)
     keyword (빠른 출구)
   }
+  requested-permissions {
+    permission (user-profile-access) {
+      justification (Your location will be used to find exit)
+    }
+  }
 }
