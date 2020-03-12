@@ -1,0 +1,11 @@
+result-view {
+  match: URL (this)
+  
+  message {
+    template ("App으로 연결합니다.")
+  }
+
+  app-launch {
+    payload-uri("#{value(this)}")
+  }
+}

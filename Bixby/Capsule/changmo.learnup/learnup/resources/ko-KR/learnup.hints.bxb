@@ -1,0 +1,10 @@
+hints {
+  // uncategorized {
+  //   hint (With Example Capsule, perform an action)
+  // }
+  uncategorized {
+    hint (런 업에서 랜덤 재생)
+    hint (런 업에서 아무거나 재생)
+    hint (런 업에서 아무거나 틀어줘)
+  }
+}

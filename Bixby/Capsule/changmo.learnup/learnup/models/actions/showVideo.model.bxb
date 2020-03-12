@@ -1,0 +1,11 @@
+action (showVideo) {
+  description (video action)
+  type (Search)
+  collect {
+    input (method) {
+      type (METHOD)
+      min (Required) max (One)
+    }
+  }
+  output (Result)
+}

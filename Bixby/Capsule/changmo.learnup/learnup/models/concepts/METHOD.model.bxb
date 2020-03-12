@@ -1,0 +1,4 @@
+enum (METHOD) {
+  description (어떤 기능을 사용할지 고름)
+  symbol (랜덤)
+}

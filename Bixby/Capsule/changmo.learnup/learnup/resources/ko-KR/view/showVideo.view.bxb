@@ -1,0 +1,36 @@
+result-view {
+  match: Result (this)
+
+  message {
+    choose (Random) {
+      template ("런업의 #{value(this.index)}번째 영상입니다.")
+      template ("#{value(this.title)}")
+    }
+  }
+
+  render {
+    layout {
+      section {
+        content {
+          paragraph {
+            style (Detail_M)
+            value ("#{value(this.title)}")
+          }
+          video {
+            youtube {
+              video-id ("#{value(this.token)}")
+            }
+          }
+          attribution-link {
+            label {
+              template ("Open Youtube")
+            }
+            url {
+              template ("#{value(this.url)}")
+            }
+          }
+        }
+      }
+    }
+  }
+}

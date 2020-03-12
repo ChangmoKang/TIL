@@ -1,0 +1,15 @@
+capsule-info {
+  display-name (LearnUp)
+  developer-name (CM)
+  description ("Youtube 런업 채널의 영상을 랜덤으로 보여드립니다.\nBixby 음성인식관련 이슈로 런. 업. 한 글자씩 발음해주셔야 제대로 인식합니다ㅠㅠ\n필요한 기능이 있으시다면 아래에 댓글을 남겨주세요.\n\n2020-03-12 0.1.0 첫 배포")
+  dispatch-name (런 업)
+  icon-asset (/images/main.jpg)
+  search-keywords {
+    keyword (런업)
+    keyword (learnup)
+  }
+  dispatch-aliases {
+    alias (런업)
+    alias (러너)
+  }
+}
