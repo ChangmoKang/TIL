@@ -1,5 +1,5 @@
 train (t-qnxlsdae9becx70yr90fjaryq) {
-  utterance ("[g:showVideo] (아무거나)[v:METHOD:랜덤] 재생")
+  utterance ("[g:changmo.learnup.showVideo] (아무거나)[v:METHOD:랜덤] 재생")
   plan (Y2BmEEvOSMxLz83Xy0lNLMorLdALSi0uzSlhkEQXL87ILw/LTEnNx9Ti6xri4e/CwMTACMQMQJKRAQSgfAA=)
-  last-modified (1584001131901)
+  last-modified (1584112324647)
 }
