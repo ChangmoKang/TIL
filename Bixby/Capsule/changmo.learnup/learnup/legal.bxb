@@ -1,0 +1,8 @@
+legal {
+  country-documents {
+    store-country(KR)
+    privacy-policy {
+      url(https://docs.google.com/spreadsheets/d/17IyqeYB8sw2UwHQpONr-aRX4xmCToEmdFw3xt7rQygo/edit?usp=sharing)
+    }
+  }
+}
