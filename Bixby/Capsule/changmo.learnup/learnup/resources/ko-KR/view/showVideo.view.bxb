@@ -12,10 +12,6 @@ result-view {
     layout {
       section {
         content {
-          paragraph {
-            style (Detail_M)
-            value ("#{value(this.title)}")
-          }
           video {
             youtube {
               video-id ("#{value(this.token)}")
@@ -23,7 +19,7 @@ result-view {
           }
           attribution-link {
             label {
-              template ("Open Youtube")
+              template ("Open with browser or YouTube")
             }
             url {
               template ("#{value(this.url)}")

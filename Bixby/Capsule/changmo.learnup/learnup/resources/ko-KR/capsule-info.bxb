@@ -1,14 +1,16 @@
 capsule-info {
-  display-name (LearnUp)
+  display-name (런업(LXXXV))
   developer-name (CM)
-  description ("Bixby 음성인식 관련 이슈로 런. 업. 한 글자씩 발음해주셔야 제대로 인식합니다😥(4월 중순에 해결될 것으로 예상됩니다.)\n\n현재는 Youtube 런업 채널의 영상을 랜덤으로 보여드리고 기능을 더 추가할 예정입니다.\n필요한 기능이 있으시다면 아래에 댓글을 남겨주세요.")
-  dispatch-name (런 업)
+  description ("현재는 Youtube 런업 채널의 영상을 랜덤으로 보여드리고 기능을 더 추가할 예정입니다.\n필요한 기능이 있으시다면 아래에 댓글을 남겨주세요.")
+  dispatch-name (런업)
   icon-asset (/images/main.jpg)
   search-keywords {
     keyword (런업)
+    keyword (런 업)
+    keyword (LXXXV)
     keyword (learnup)
   }
   dispatch-aliases {
-    alias (런업)
+    alias (런 업)
   }
 }

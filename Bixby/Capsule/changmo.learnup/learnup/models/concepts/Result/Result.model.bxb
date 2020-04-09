@@ -10,7 +10,7 @@ structure (Result) {
   }
   property (thumbnail) {
     type (THUMBNAIL)
-    min (Required) max (One)
+    min (Optional) max (One)
   }
   property (token) {
     type (TOKEN)
