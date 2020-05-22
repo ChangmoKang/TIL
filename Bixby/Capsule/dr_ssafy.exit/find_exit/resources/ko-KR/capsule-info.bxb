@@ -12,6 +12,7 @@ capsule-info {
     keyword (빠른출구)
     keyword (빠른 출구)
   }
+  privacy-policy-url (https://docs.google.com/spreadsheets/d/16gc_4yCc9kMO2Y608mu2bczgdco9iRgr1VPCkMtyQIY/edit?usp=sharing)
   requested-permissions {
     permission (user-profile-access) {
       justification (Your location will be used to find exit)
