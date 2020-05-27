@@ -17171,7 +17171,7 @@ module.exports = {
 			"lines": [
 				"경의중앙선"
 			],
-			"alias": []
+			"alias": ["임진강 역"]
 		},
 		"문산역": {
 			"location": [

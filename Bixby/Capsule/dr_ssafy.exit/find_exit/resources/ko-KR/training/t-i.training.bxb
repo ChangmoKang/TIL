@@ -1,3 +1,8 @@
+train (t-i212ykfak0rve1pwm4qpcah0k) {
+  utterance ("[g:Description] (임진강역)[v:dr_ssafy.exit.STATIONNAME]에서 (공원)[v:dr_ssafy.exit.DESTINATIONNAME]으로 가는 출구 알려줘")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1590552667192)
+}
 train (t-i2r89sdus50mlbzid0zgsq02u) {
   utterance ([g:Guide:continue] 쓰는 법 좀 알려줄래)
   plan (Y2BmEE8pii8uTkyr1EutyCzRcw/1dHENDnENYBBGkyjNTEnFrZqJgRGIGYAkIwMDjAYA)

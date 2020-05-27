@@ -159,6 +159,14 @@ layout-macro-def (L-showResult) {
               }
             }
           }
+          // attribution-link {
+          //   label {
+          //     template ("네이버맵으로 연결")
+          //   }
+          //   url {
+          //     template ("#{value(description.urls.url[0])}")
+          //   }
+          // }
           cell-card {
             on-click {
               intent {

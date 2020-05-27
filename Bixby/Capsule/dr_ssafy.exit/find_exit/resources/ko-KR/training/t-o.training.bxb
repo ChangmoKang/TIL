@@ -28,6 +28,11 @@ train (t-ogkgicqn7xqyapv75gfgynytk) {
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
   last-modified (1572315936382)
 }
+train (t-ol9mr1uf8u386l19sny1qr3tm) {
+  utterance ("[g:Description] (임진강역)[v:STATIONNAME]에서 (교회)[v:DESTINATIONNAME]")
+  plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
+  last-modified (1590552536883)
+}
 train (t-op23xnc28lgeibe0i1bs6ufzr) {
   utterance ("[g:Description] (반석역)[v:STATIONNAME]에서 (할리스 커피)[v:DESTINATIONNAME]로 가는 출구 알려줘")
   plan (XY/RCoIwFIb/0rK6jAoqgp7Ad5BaIZiCW9chumAgFu4E9fZNKWoyDtv5vvEfDiZYFvVF6+z68uVTkb+XOq/VndStwsJWB1UVzDwws3kq9aMkbG16lGSySFVZkxUpTdh0RjEuwjgQYRLHwYlhamuepALzDqM2DesOlqXM6Ss7G3HxG7Gy1ZmzNEp2rccYPfThwMUAQ3gYGYIPa07DPNOjLfzdjinX/Mcb)
