@@ -41,6 +41,7 @@ print(quads) # [1, 16, 81, 256, 625]
 ## Closure
 
 ```python
+# tag라는 free variable을 바인딩하는 예제
 def outer_func(tag):
     tag = tag
 
@@ -56,8 +57,6 @@ p_func = outer_func('p')
 h1_func('h1태그의 안입니다.')  # <h1>h1태그의 안입니다.</h1>
 p_func('p태그의 안입니다.')  # <p>p태그의 안입니다.</p>
 ```
-
-
 
 
 
