@@ -18,3 +18,11 @@
    인터페이스는 그 인터페이스를 사용하는 클라이언트를 기준으로 분리해야 한다.
 5. DIP(Dependency Inversion Principle) : 의존 역전 원칙
    고수준 모듈은 저수준 모듈의 구현에 의존해서는 안된다.
+
+
+
+##### reference
+
+[Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming)
+
+[Interview_Question_for_Beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner/tree/master/Development_common_sense#object-oriented-programming)
